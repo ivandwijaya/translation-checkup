@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>POE translations — CSV preview</title>
+<style>
+  :root{
+    --bg:#0d1117; --panel:#161b22; --border:#30363d; --text:#e6edf3;
+    --muted:#8b949e; --accent:#2f81f7; --key:#7ee787; --hover:#1f2630;
+  }
+  @media (prefers-color-scheme: light){
+    :root{ --bg:#ffffff; --panel:#f6f8fa; --border:#d0d7de; --text:#1f2328;
+      --muted:#636c76; --accent:#0969da; --key:#0a7d33; --hover:#eef1f4; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    background:var(--bg);color:var(--text)}
+  header{padding:16px 20px;border-bottom:1px solid var(--border);position:sticky;top:0;background:var(--bg);z-index:5}
+  h1{margin:0 0 4px;font-size:18px}
+  .sub{color:var(--muted);font-size:13px}
+  .controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:12px}
+  input[type=search]{flex:1;min-width:220px;padding:8px 12px;border:1px solid var(--border);border-radius:8px;
+    background:var(--panel);color:var(--text);font-size:14px}
+  select,button{padding:8px 10px;border:1px solid var(--border);border-radius:8px;background:var(--panel);color:var(--text);cursor:pointer}
+  button:hover,select:hover{background:var(--hover)}
+  .count{color:var(--muted);font-size:13px;white-space:nowrap}
+  main{padding:0 20px 40px}
+  table{width:100%;border-collapse:collapse;table-layout:fixed}
+  th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--border);vertical-align:top;word-break:break-word}
+  th{position:sticky;top:0;background:var(--panel);font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted)}
+  td.k{width:38%;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;color:var(--key);font-size:12.5px}
+  td.v{white-space:pre-wrap;font-size:13.5px}
+  tr:hover td{background:var(--hover)}
+  mark{background:rgba(47,129,247,.35);color:inherit;border-radius:2px}
+  .pager{display:flex;gap:8px;align-items:center;justify-content:center;margin:16px 0;flex-wrap:wrap}
+  .status{text-align:center;color:var(--muted);padding:40px}
+  .idx{color:var(--muted);font-size:12px;width:56px}
+</style>
+</head>
+<body>
+<header>
+  <h1>POE translations</h1>
+  <div class="sub">Preview of <code>poe.csv</code> — Android + iOS combined string keys.</div>
+  <div class="controls">
+    <input id="q" type="search" placeholder="Search key or value…" autocomplete="off">
+    <select id="scope">
+      <option value="both">Key + value</option>
+      <option value="key">Key only</option>
+      <option value="value">Value only</option>
+    </select>
+    <select id="platform">
+      <option value="all">All platforms</option>
+      <option value="andpoe.">Android (andpoe.)</option>
+      <option value="iospoe.">iOS (iospoe.)</option>
+    </select>
+    <select id="pagesize">
+      <option value="100">100 / page</option>
+      <option value="250">250 / page</option>
+      <option value="500">500 / page</option>
+    </select>
+    <span class="count" id="count"></span>
+  </div>
+</header>
+<main>
+  <div id="status" class="status">Loading poe.csv…</div>
+  <table id="table" hidden>
+    <thead><tr><th class="idx">#</th><th>Key</th><th>Value</th></tr></thead>
+    <tbody id="tbody"></tbody>
+  </table>
+  <div class="pager" id="pager" hidden></div>
+</main>
+<script>
+// --- RFC 4180 CSV parser (handles quoted fields, embedded commas/quotes/newlines) ---
+function parseCSV(text){
+  const rows=[]; let row=[], field='', i=0, inq=false;
+  const n=text.length;
+  while(i<n){
+    const c=text[i];
+    if(inq){
+      if(c==='"'){ if(text[i+1]==='"'){field+='"';i+=2;continue;} inq=false;i++;continue; }
+      field+=c;i++;continue;
+    }
+    if(c==='"'){inq=true;i++;continue;}
+    if(c===','){row.push(field);field='';i++;continue;}
+    if(c==='\r'){i++;continue;}
+    if(c==='\n'){row.push(field);rows.push(row);row=[];field='';i++;continue;}
+    field+=c;i++;
+  }
+  if(field.length||row.length){row.push(field);rows.push(row);}
+  return rows;
+}
+const esc=s=>s.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+function hl(s,q){
+  if(!q) return esc(s);
+  const idx=s.toLowerCase().indexOf(q);
+  if(idx<0) return esc(s);
+  return esc(s.slice(0,idx))+'<mark>'+esc(s.slice(idx,idx+q.length))+'</mark>'+esc(s.slice(idx+q.length));
+}
+
+let all=[], filtered=[], page=0;
+const $=id=>document.getElementById(id);
+
+fetch('poe.csv').then(r=>{if(!r.ok)throw new Error(r.status);return r.text();}).then(txt=>{
+  const rows=parseCSV(txt);
+  rows.shift(); // header
+  all=rows.filter(r=>r.length>=2).map(r=>({k:r[0],v:r[1]}));
+  $('status').hidden=true; $('table').hidden=false; $('pager').hidden=false;
+  apply();
+}).catch(e=>{ $('status').textContent='Could not load poe.csv ('+e.message+'). Serve over http(s), not file://.'; });
+
+function apply(){
+  const q=$('q').value.trim().toLowerCase();
+  const scope=$('scope').value, plat=$('platform').value;
+  filtered=all.filter(r=>{
+    if(plat!=='all' && !r.k.startsWith(plat)) return false;
+    if(!q) return true;
+    const inK=r.k.toLowerCase().includes(q), inV=r.v.toLowerCase().includes(q);
+    return scope==='key'?inK:scope==='value'?inV:(inK||inV);
+  });
+  page=0; render();
+}
+function render(){
+  const size=+$('pagesize').value;
+  const pages=Math.max(1,Math.ceil(filtered.length/size));
+  if(page>=pages)page=pages-1;
+  const q=$('q').value.trim().toLowerCase(), scope=$('scope').value;
+  const start=page*size, slice=filtered.slice(start,start+size);
+  $('tbody').innerHTML=slice.map((r,i)=>{
+    const kq=(scope!=='value')?q:'', vq=(scope!=='key')?q:'';
+    return `<tr><td class="idx">${start+i+1}</td><td class="k">${hl(r.k,kq)}</td><td class="v">${hl(r.v,vq)}</td></tr>`;
+  }).join('');
+  $('count').textContent=filtered.length.toLocaleString()+' / '+all.length.toLocaleString()+' rows';
+  const P=$('pager');
+  P.innerHTML='';
+  const mk=(label,pg,dis)=>{const b=document.createElement('button');b.textContent=label;b.disabled=dis;
+    b.onclick=()=>{page=pg;render();window.scrollTo(0,0);};return b;};
+  P.appendChild(mk('« First',0,page===0));
+  P.appendChild(mk('‹ Prev',page-1,page===0));
+  const info=document.createElement('span');info.className='count';info.textContent=`Page ${page+1} of ${pages}`;P.appendChild(info);
+  P.appendChild(mk('Next ›',page+1,page>=pages-1));
+  P.appendChild(mk('Last »',pages-1,page>=pages-1));
+}
+let t;$('q').addEventListener('input',()=>{clearTimeout(t);t=setTimeout(apply,150);});
+$('scope').onchange=apply; $('platform').onchange=apply; $('pagesize').onchange=()=>{page=0;render();};
+</script>
+</body>
+</html>

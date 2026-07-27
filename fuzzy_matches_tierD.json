@@ -1,0 +1,3052 @@
+[
+  {
+    "score": 0.799,
+    "key_sim": 0.598,
+    "val_sim": 1.0,
+    "android": "andpoe.text_my_cards_success_remove_card_message",
+    "ios": "iospoe.my-cards.landing.card-removed.success-message",
+    "android_val": "**** {0} has been removed from your card list.",
+    "ios_val": "{0} has been removed from your card list.",
+    "value_identical": false
+  },
+  {
+    "score": 0.798,
+    "key_sim": 0.597,
+    "val_sim": 1.0,
+    "android": "andpoe.flight_preflight_resolution_center_reschedule_card_title",
+    "ios": "iospoe.flight.preflight.reschedule.title",
+    "android_val": "Reschedule",
+    "ios_val": "RESCHEDULE",
+    "value_identical": false
+  },
+  {
+    "score": 0.798,
+    "key_sim": 0.596,
+    "val_sim": 1.0,
+    "android": "andpoe.credit_kyc_address_detail_option_page_title_postal",
+    "ios": "iospoe.paylater.kyc-address-form-page-v2.address-detail-option-page.title.postal-code.label",
+    "android_val": "Select postal code in {0}",
+    "ios_val": "Select postal code in",
+    "value_identical": false
+  },
+  {
+    "score": 0.798,
+    "key_sim": 0.595,
+    "val_sim": 1.0,
+    "android": "andpoe.text_flight_departleg_button_change",
+    "ios": "iospoe.flight.meal.button.change-meal",
+    "android_val": "Change",
+    "ios_val": "CHANGE",
+    "value_identical": false
+  },
+  {
+    "score": 0.797,
+    "key_sim": 0.593,
+    "val_sim": 1.0,
+    "android": "andpoe.text_shuttle_location_map_picker_title",
+    "ios": "iospoe.shuttle_location_picker_select_via_map_header",
+    "android_val": "Select via Map",
+    "ios_val": "Select via map",
+    "value_identical": false
+  },
+  {
+    "score": 0.796,
+    "key_sim": 0.592,
+    "val_sim": 1.0,
+    "android": "andpoe.text_credit_payment_proof_uploaded",
+    "ios": "iospoe.payment.upload-proof.button.uploaded.title",
+    "android_val": "Payment Proof Uploaded",
+    "ios_val": "Payment proof uploaded",
+    "value_identical": false
+  },
+  {
+    "score": 0.796,
+    "key_sim": 0.591,
+    "val_sim": 1.0,
+    "android": "andpoe.text_common_edit",
+    "ios": "iospoe.common.button.normalTitle.edit",
+    "android_val": "EDIT",
+    "ios_val": "Edit",
+    "value_identical": false
+  },
+  {
+    "score": 0.795,
+    "key_sim": 0.59,
+    "val_sim": 1.0,
+    "android": "andpoe.text_rental_review_error_review",
+    "ios": "iospoe.vehicle-rental.rental-submission.error.review-text.label",
+    "android_val": "Please write at least 60 characters",
+    "ios_val": "Please write at least 60 characters.",
+    "value_identical": false
+  },
+  {
+    "score": 0.794,
+    "key_sim": 0.587,
+    "val_sim": 1.0,
+    "android": "andpoe.text_payment_submit_proof_dialog_title",
+    "ios": "iospoe.payment.multiple-proof.button.submit",
+    "android_val": "Submit Payment Proofs?",
+    "ios_val": "Submit Payment Proofs",
+    "value_identical": false
+  },
+  {
+    "score": 0.793,
+    "key_sim": 0.586,
+    "val_sim": 1.0,
+    "android": "andpoe.flight_preflight_resolution_center_refund_card_title",
+    "ios": "iospoe.flight.preflight.refund.title",
+    "android_val": "Refund",
+    "ios_val": "REFUND",
+    "value_identical": false
+  },
+  {
+    "score": 0.791,
+    "key_sim": 0.583,
+    "val_sim": 1.0,
+    "android": "andpoe.payment_installment_tenure_radio_group_banner_text",
+    "ios": "iospoe.payment.installment.banner.title",
+    "android_val": "Thinking of a more convenient payment for your trip? Pay it in <b>monthly installments.</b>",
+    "ios_val": "Thinking of a more convenient payment for your trip? Pay it in <b>monthly installments</b>.",
+    "value_identical": false
+  },
+  {
+    "score": 0.79,
+    "key_sim": 0.58,
+    "val_sim": 1.0,
+    "android": "andpoe.text_rental_wod_see_reviews",
+    "ios": "iospoe.rental.product-detail.see-%@-reviews",
+    "android_val": "See Reviews",
+    "ios_val": "See {0} Reviews",
+    "value_identical": false
+  },
+  {
+    "score": 0.79,
+    "key_sim": 0.579,
+    "val_sim": 1.0,
+    "android": "andpoe.text_flight_seat_class_title",
+    "ios": "iospoe.flight.home.placeholder.seat-class",
+    "android_val": "Seat Class",
+    "ios_val": "Seat class",
+    "value_identical": false
+  },
+  {
+    "score": 0.789,
+    "key_sim": 0.578,
+    "val_sim": 1.0,
+    "android": "andpoe.text_payment_coupon_action_apply",
+    "ios": "iospoe.payment.add-coupon-popup.button.apply",
+    "android_val": "APPLY",
+    "ios_val": "Apply",
+    "value_identical": false
+  },
+  {
+    "score": 0.789,
+    "key_sim": 0.577,
+    "val_sim": 1.0,
+    "android": "andpoe.shuttle_label_from_airport",
+    "ios": "iospoe.shuttle-booking-product-detail.label.from-airport",
+    "android_val": "From (airport)",
+    "ios_val": "From Airport",
+    "value_identical": false
+  },
+  {
+    "score": 0.788,
+    "key_sim": 0.577,
+    "val_sim": 1.0,
+    "android": "andpoe.text_flight_price_highlighter_gap_percentage",
+    "ios": "iospoe.flight_result_label_gap_percentage_%@",
+    "android_val": "{0}% discount",
+    "ios_val": "{0} discount",
+    "value_identical": false
+  },
+  {
+    "score": 0.787,
+    "key_sim": 0.573,
+    "val_sim": 1.0,
+    "android": "andpoe.experience_recent_search_categorical_nearby",
+    "ios": "iospoe.experience.recent-search.title.near-me",
+    "android_val": "{0} Near Me",
+    "ios_val": "Near Me",
+    "value_identical": false
+  },
+  {
+    "score": 0.785,
+    "key_sim": 0.571,
+    "val_sim": 1.0,
+    "android": "andpoe.rental_detail_tab_car_info",
+    "ios": "iospoe.rental.product-detail.tab-bar-car-provider",
+    "android_val": "Car info",
+    "ios_val": "Car Info",
+    "value_identical": false
+  },
+  {
+    "score": 0.785,
+    "key_sim": 0.571,
+    "val_sim": 1.0,
+    "android": "andpoe.text_postbooking_payment_review_title",
+    "ios": "iospoe.package_payment_review_title",
+    "android_val": "Booking Details",
+    "ios_val": "Booking details",
+    "value_identical": false
+  },
+  {
+    "score": 0.785,
+    "key_sim": 0.569,
+    "val_sim": 1.0,
+    "android": "andpoe.flight_eticket_passenger_details_tray_title",
+    "ios": "iospoe.flight_ticket_revamped_passenger_details_tray_header_text",
+    "android_val": "Passenger Details",
+    "ios_val": "Passenger details",
+    "value_identical": false
+  },
+  {
+    "score": 0.783,
+    "key_sim": 0.567,
+    "val_sim": 1.0,
+    "android": "andpoe.experience_common_see_more",
+    "ios": "iospoe.experience.destination-page.button.see-more",
+    "android_val": "SEE MORE",
+    "ios_val": "See More",
+    "value_identical": false
+  },
+  {
+    "score": 0.783,
+    "key_sim": 0.567,
+    "val_sim": 1.0,
+    "android": "andpoe.refund_landing_history_title_more",
+    "ios": "iospoe.general-refund.landing-panding.history-card.label.%@-+%ld-more",
+    "android_val": ", +{0} more",
+    "ios_val": "{0} +{1} more",
+    "value_identical": false
+  },
+  {
+    "score": 0.783,
+    "key_sim": 0.566,
+    "val_sim": 1.0,
+    "android": "andpoe.text_payment_apply_coupon",
+    "ios": "iospoe.payment.add-coupon-popup.button.apply",
+    "android_val": "APPLY",
+    "ios_val": "Apply",
+    "value_identical": false
+  },
+  {
+    "score": 0.783,
+    "key_sim": 0.565,
+    "val_sim": 1.0,
+    "android": "andpoe.text_shuttle_pick_up_time_title",
+    "ios": "iospoe.shuttle.booking-add-on.label.pick-up-time-%@",
+    "android_val": "Pick-up Time",
+    "ios_val": "Pick-up time: {0}",
+    "value_identical": false
+  },
+  {
+    "score": 0.782,
+    "key_sim": 0.563,
+    "val_sim": 1.0,
+    "android": "andpoe.text_shuttle_flight_booking_addon_change",
+    "ios": "iospoe.shuttle-booking.label.change-seat",
+    "android_val": "Change",
+    "ios_val": "CHANGE",
+    "value_identical": false
+  },
+  {
+    "score": 0.779,
+    "key_sim": 0.557,
+    "val_sim": 1.0,
+    "android": "andpoe.payment_upload_proof_tray_picker_gallery_button",
+    "ios": "iospoe.payment.upload-document.label.gallery",
+    "android_val": "Choose from gallery",
+    "ios_val": "Choose from Gallery",
+    "value_identical": false
+  },
+  {
+    "score": 0.779,
+    "key_sim": 0.557,
+    "val_sim": 1.0,
+    "android": "andpoe.text_reschedule_selection_separate_info",
+    "ios": "iospoe.reschedule.flight.label.separate-request-info",
+    "android_val": "Must be rescheduled separately.",
+    "ios_val": "Must be rescheduled separately",
+    "value_identical": false
+  },
+  {
+    "score": 0.777,
+    "key_sim": 0.553,
+    "val_sim": 1.0,
+    "android": "andpoe.text_shuttle_flight_booking_addon_pick_up_time_with_date",
+    "ios": "iospoe.shuttle.booking-add-on.label.pick-up-time-%@",
+    "android_val": "Pick-up time: {0} ({1})",
+    "ios_val": "Pick-up time: {0}",
+    "value_identical": false
+  },
+  {
+    "score": 0.776,
+    "key_sim": 0.552,
+    "val_sim": 1.0,
+    "android": "andpoe.payment_split_allocation_tray_total_price",
+    "ios": "iospoe.payment.credit-simulation.label.total-price",
+    "android_val": "Total price",
+    "ios_val": "Total Price",
+    "value_identical": false
+  },
+  {
+    "score": 0.776,
+    "key_sim": 0.552,
+    "val_sim": 1.0,
+    "android": "andpoe.rental_detail_reschedule_policy_title",
+    "ios": "iospoe.Reschedule Policy",
+    "android_val": "Reschedule policy",
+    "ios_val": "Reschedule Policy",
+    "value_identical": false
+  },
+  {
+    "score": 0.776,
+    "key_sim": 0.552,
+    "val_sim": 1.0,
+    "android": "andpoe.text_rental_detail_partially_refundable",
+    "ios": "iospoe.flight-detail.label.refundStatus-partially-refundable",
+    "android_val": "Partially Refundable",
+    "ios_val": "Partially refundable",
+    "value_identical": false
+  },
+  {
+    "score": 0.775,
+    "key_sim": 0.549,
+    "val_sim": 1.0,
+    "android": "andpoe.text_my_cards_landing_desc",
+    "ios": "iospoe.my-cards.landing.card-list.subtitle",
+    "android_val": "You can set a card as primary for easy access.",
+    "ios_val": "You can set a card as primary for easy access",
+    "value_identical": false
+  },
+  {
+    "score": 0.774,
+    "key_sim": 0.549,
+    "val_sim": 1.0,
+    "android": "andpoe.text_learn_more",
+    "ios": "iospoe.direct-debit.learn-more.button",
+    "android_val": "Learn more",
+    "ios_val": "Learn More",
+    "value_identical": false
+  },
+  {
+    "score": 0.773,
+    "key_sim": 0.547,
+    "val_sim": 1.0,
+    "android": "andpoe.text_accommodation_description_read_more",
+    "ios": "iospoe.Read More",
+    "android_val": "READ MORE",
+    "ios_val": "Read more",
+    "value_identical": false
+  },
+  {
+    "score": 0.771,
+    "key_sim": 0.542,
+    "val_sim": 1.0,
+    "android": "andpoe.text_rental_inventory_see_reviews",
+    "ios": "iospoe.rental.product-detail.see-%@-reviews",
+    "android_val": "SEE REVIEWS",
+    "ios_val": "See {0} Reviews",
+    "value_identical": false
+  },
+  {
+    "score": 0.771,
+    "key_sim": 0.542,
+    "val_sim": 1.0,
+    "android": "andpoe.text_rental_without_driver",
+    "ios": "iospoe.vehicle-rental.home.tab-title-label.without-driver",
+    "android_val": "Without Driver",
+    "ios_val": "Without driver",
+    "value_identical": false
+  },
+  {
+    "score": 0.768,
+    "key_sim": 0.537,
+    "val_sim": 1.0,
+    "android": "andpoe.text_shuttle_instant_booking_select_terminal_error_try_again",
+    "ios": "iospoe.shuttle.terminal-tray.button.try-again",
+    "android_val": "Try again",
+    "ios_val": "Try Again",
+    "value_identical": false
+  },
+  {
+    "score": 0.767,
+    "key_sim": 0.533,
+    "val_sim": 1.0,
+    "android": "andpoe.text_explore_learn_more_button",
+    "ios": "iospoe.direct-debit.learn-more.button",
+    "android_val": "Learn more",
+    "ios_val": "Learn More",
+    "value_identical": false
+  },
+  {
+    "score": 0.767,
+    "key_sim": 0.533,
+    "val_sim": 1.0,
+    "android": "andpoe.text_free_baggage",
+    "ios": "iospoe.Baggage %@ - %@",
+    "android_val": "Baggage",
+    "ios_val": "Baggage {0} - {1}",
+    "value_identical": false
+  },
+  {
+    "score": 0.767,
+    "key_sim": 0.533,
+    "val_sim": 1.0,
+    "android": "andpoe.text_rental_submit_review",
+    "ios": "iospoe.vehicle-rental.review-submission.submit-button.title.label",
+    "android_val": "Submit review",
+    "ios_val": "Submit Review",
+    "value_identical": false
+  },
+  {
+    "score": 0.766,
+    "key_sim": 0.532,
+    "val_sim": 1.0,
+    "android": "andpoe.badge_info_new",
+    "ios": "iospoe.finserv.badge.new",
+    "android_val": "New!",
+    "ios_val": "NEW",
+    "value_identical": false
+  },
+  {
+    "score": 0.766,
+    "key_sim": 0.532,
+    "val_sim": 1.0,
+    "android": "andpoe.text_flight_refund_policy_partially_refundable",
+    "ios": "iospoe.flight-detail.label.refundStatus-partially-refundable",
+    "android_val": "Partially Refundable",
+    "ios_val": "Partially refundable",
+    "value_identical": false
+  },
+  {
+    "score": 0.764,
+    "key_sim": 0.529,
+    "val_sim": 1.0,
+    "android": "andpoe.text_flight_summary_page_inventory_card_return",
+    "ios": "iospoe.flight_booking_summary_card_return_identifier",
+    "android_val": "Return",
+    "ios_val": "Return:",
+    "value_identical": false
+  },
+  {
+    "score": 0.764,
+    "key_sim": 0.529,
+    "val_sim": 1.0,
+    "android": "andpoe.text_flight_terminal",
+    "ios": "iospoe.Terminal %@",
+    "android_val": "Terminal",
+    "ios_val": "Terminal {0}",
+    "value_identical": false
+  },
+  {
+    "score": 0.764,
+    "key_sim": 0.529,
+    "val_sim": 1.0,
+    "android": "andpoe.text_hotel_order_review",
+    "ios": "iospoe.hotel.booking-review.title",
+    "android_val": "Review Booking",
+    "ios_val": "Booking Review",
+    "value_identical": false
+  },
+  {
+    "score": 0.764,
+    "key_sim": 0.529,
+    "val_sim": 1.0,
+    "android": "andpoe.text_rental_with_driver",
+    "ios": "iospoe.vehicle-rental.home.tab-title-label.with-driver",
+    "android_val": "With Driver",
+    "ios_val": "With driver",
+    "value_identical": false
+  },
+  {
+    "score": 0.763,
+    "key_sim": 0.526,
+    "val_sim": 1.0,
+    "android": "andpoe.rental_detail_refund_policy_title",
+    "ios": "iospoe.Refund Policy",
+    "android_val": "Refund policy",
+    "ios_val": "Refund Policy",
+    "value_identical": false
+  },
+  {
+    "score": 0.763,
+    "key_sim": 0.525,
+    "val_sim": 1.0,
+    "android": "andpoe.flight_detail_additional_baggage_less_options",
+    "ios": "iospoe.flight_detail_enrich_baggage_info_see_less_button_text",
+    "android_val": "See Less",
+    "ios_val": "See less",
+    "value_identical": false
+  },
+  {
+    "score": 0.762,
+    "key_sim": 0.524,
+    "val_sim": 1.0,
+    "android": "andpoe.paylater_va_payment_result_loading_subtitle",
+    "ios": "iospoe.payment.webview.label.loading-subtitle",
+    "android_val": "Please wait a moment.",
+    "ios_val": "Please wait a moment",
+    "value_identical": false
+  },
+  {
+    "score": 0.761,
+    "key_sim": 0.521,
+    "val_sim": 1.0,
+    "android": "andpoe.payment_split_progress_cancel_booking_popup_title",
+    "ios": "iospoe.payment.back-popup.button.cancel-this-booking",
+    "android_val": "Cancel this booking?",
+    "ios_val": "Cancel this booking",
+    "value_identical": false
+  },
+  {
+    "score": 0.761,
+    "key_sim": 0.521,
+    "val_sim": 1.0,
+    "android": "andpoe.text_common_see_detail",
+    "ios": "iospoe.package_common_see_details_label",
+    "android_val": "See Details",
+    "ios_val": "See details",
+    "value_identical": false
+  },
+  {
+    "score": 0.76,
+    "key_sim": 0.521,
+    "val_sim": 1.0,
+    "android": "andpoe.error_message_body_no_internet_connection",
+    "ios": "iospoe.shuttle.product-details.label.message-error-internet-connection",
+    "android_val": "Please check your internet connection and try again",
+    "ios_val": "Please check your internet connection and try again.",
+    "value_identical": false
+  },
+  {
+    "score": 0.76,
+    "key_sim": 0.521,
+    "val_sim": 1.0,
+    "android": "andpoe.rental_detail_modal_title",
+    "ios": "iospoe.vehicle-rental.detail-trip.title",
+    "android_val": "Rental details",
+    "ios_val": "Rental Details",
+    "value_identical": false
+  },
+  {
+    "score": 0.76,
+    "key_sim": 0.521,
+    "val_sim": 1.0,
+    "android": "andpoe.text_payment_webview_error_popup_button",
+    "ios": "iospoe.payment.webview.popup.back-pressed.main-button",
+    "android_val": "Back to Payment Page",
+    "ios_val": "Back to payment page",
+    "value_identical": false
+  },
+  {
+    "score": 0.76,
+    "key_sim": 0.521,
+    "val_sim": 1.0,
+    "android": "andpoe.use_another_bank_account",
+    "ios": "iospoe.payment-refund.saved-bank-account-page.use-another-bank-account",
+    "android_val": "Use another bank account",
+    "ios_val": "Use Another Bank Account",
+    "value_identical": false
+  },
+  {
+    "score": 0.76,
+    "key_sim": 0.52,
+    "val_sim": 1.0,
+    "android": "andpoe.experience_travel_pass_summary_product_names_more",
+    "ios": "iospoe.experience_travel_pass_pdp_curation_more_description",
+    "android_val": "{0} more",
+    "ios_val": "+ {0} more",
+    "value_identical": false
+  },
+  {
+    "score": 0.759,
+    "key_sim": 0.517,
+    "val_sim": 1.0,
+    "android": "andpoe.rental_detail_footer_total_price_label",
+    "ios": "iospoe.car.product-detail.price-info.label.total-rental-price",
+    "android_val": "Total price",
+    "ios_val": "Total Price",
+    "value_identical": false
+  },
+  {
+    "score": 0.758,
+    "key_sim": 0.517,
+    "val_sim": 1.0,
+    "android": "andpoe.text_trip_booking_form_price_details",
+    "ios": "iospoe.cruise_booking_review_price_details_title",
+    "android_val": "Price Details",
+    "ios_val": "Price details",
+    "value_identical": false
+  },
+  {
+    "score": 0.756,
+    "key_sim": 0.512,
+    "val_sim": 1.0,
+    "android": "andpoe.text_common_booking_id_colon_arg",
+    "ios": "iospoe.common.label.subtitle.booking-id-%@",
+    "android_val": "Booking ID: {0}",
+    "ios_val": "Booking ID {0}",
+    "value_identical": false
+  },
+  {
+    "score": 0.755,
+    "key_sim": 0.51,
+    "val_sim": 1.0,
+    "android": "andpoe.shuttle_label_to_airport",
+    "ios": "iospoe.shuttle-booking-product-detail.label.to-airport",
+    "android_val": "To (airport)",
+    "ios_val": "To Airport",
+    "value_identical": false
+  },
+  {
+    "score": 0.754,
+    "key_sim": 0.507,
+    "val_sim": 1.0,
+    "android": "andpoe.airport_transfer_payment_review_detail_from_label",
+    "ios": "iospoe.payment.transfer-tray.label.from",
+    "android_val": "From {0}",
+    "ios_val": "From",
+    "value_identical": false
+  },
+  {
+    "score": 0.753,
+    "key_sim": 0.507,
+    "val_sim": 1.0,
+    "android": "andpoe.flight_tdm_error_id_copied",
+    "ios": "iospoe.flight-reschedule.error-page.snack-bar.error-id-copied",
+    "android_val": "You have successfully copied the Error ID.",
+    "ios_val": "You have successfully copied the Error ID",
+    "value_identical": false
+  },
+  {
+    "score": 0.75,
+    "key_sim": 0.5,
+    "val_sim": 1.0,
+    "android": "andpoe.text_common_detail",
+    "ios": "iospoe.DETAIL",
+    "android_val": "Details",
+    "ios_val": "DETAILS",
+    "value_identical": false
+  },
+  {
+    "score": 0.75,
+    "key_sim": 0.5,
+    "val_sim": 1.0,
+    "android": "andpoe.text_itinerary_help_booking_id",
+    "ios": "iospoe.Booking ID %@",
+    "android_val": "Booking ID",
+    "ios_val": "Booking ID {0}",
+    "value_identical": false
+  },
+  {
+    "score": 0.75,
+    "key_sim": 0.499,
+    "val_sim": 1.0,
+    "android": "andpoe.payment_selection_option_digital_money_on_verif_subtitle",
+    "ios": "iospoe.payment.main.option.digitalmoney.onverification-subtitle",
+    "android_val": "Give it a few minutes before you retry.",
+    "ios_val": "Give it a few minutes before you retry",
+    "value_identical": false
+  },
+  {
+    "score": 0.749,
+    "key_sim": 0.498,
+    "val_sim": 1.0,
+    "android": "andpoe.credit_hybrid_form_step_two_total_work_experience_required",
+    "ios": "iospoe.paylater.hybrid-form-step-two.job-status-required.label",
+    "android_val": "Please select to continue.",
+    "ios_val": "Please select to continue",
+    "value_identical": false
+  },
+  {
+    "score": 0.749,
+    "key_sim": 0.498,
+    "val_sim": 1.0,
+    "android": "andpoe.text_shuttle_contact_number",
+    "ios": "iospoe.shuttle-passenger-contact.placeholder.phone-number-placeholder",
+    "android_val": "Mobile Number",
+    "ios_val": "Mobile number",
+    "value_identical": false
+  },
+  {
+    "score": 0.748,
+    "key_sim": 0.496,
+    "val_sim": 1.0,
+    "android": "andpoe.error_message_maintenance_title",
+    "ios": "iospoe.common.error.view.server-maintenance.title",
+    "android_val": "We''ll Be Right Back!",
+    "ios_val": "We''ll be right back!",
+    "value_identical": false
+  },
+  {
+    "score": 0.748,
+    "key_sim": 0.496,
+    "val_sim": 1.0,
+    "android": "andpoe.rental_detail_supplier_by",
+    "ios": "iospoe.car.ticket.detail-rental.label.supplied-by-%@",
+    "android_val": "By",
+    "ios_val": "by {0}",
+    "value_identical": false
+  },
+  {
+    "score": 0.748,
+    "key_sim": 0.496,
+    "val_sim": 1.0,
+    "android": "andpoe.tpay_cc_network_list_tray_title",
+    "ios": "iospoe.tpay.add-card.network-logos.tray.title",
+    "android_val": "Available Card Networks",
+    "ios_val": "Available Card networks",
+    "value_identical": false
+  },
+  {
+    "score": 0.747,
+    "key_sim": 0.494,
+    "val_sim": 1.0,
+    "android": "andpoe.text_flight_tray_title_mini_filter_airlines",
+    "ios": "iospoe.%d text_flight_integrated_quick_filter_multiple_airlines",
+    "android_val": "Airlines",
+    "ios_val": "{0} airlines",
+    "value_identical": false
+  },
+  {
+    "score": 0.746,
+    "key_sim": 0.492,
+    "val_sim": 1.0,
+    "android": "andpoe.airport_transfer_booking_product_summary_from_label",
+    "ios": "iospoe.shuttle-booking-summary.label.from",
+    "android_val": "From {0}",
+    "ios_val": "From",
+    "value_identical": false
+  },
+  {
+    "score": 0.745,
+    "key_sim": 0.491,
+    "val_sim": 1.0,
+    "android": "andpoe.text_shuttle_error_destination",
+    "ios": "iospoe.shuttle.home.label.destination-location-error-notification",
+    "android_val": "Please select your destination",
+    "ios_val": "Please select your destination.",
+    "value_identical": false
+  },
+  {
+    "score": 0.745,
+    "key_sim": 0.489,
+    "val_sim": 1.0,
+    "android": "andpoe.rental_prebooking_pickup_confirmation_pickup_location",
+    "ios": "iospoe.rental_search_form_pickup_location_title",
+    "android_val": "Pick-up location",
+    "ios_val": "Pick-up Location",
+    "value_identical": false
+  },
+  {
+    "score": 0.744,
+    "key_sim": 0.489,
+    "val_sim": 1.0,
+    "android": "andpoe.text_flight_outbound_power_and_usb",
+    "ios": "iospoe.flight.rich-flight-info.label.power-or-usb",
+    "android_val": "Power & USB port",
+    "ios_val": "Power / USB port",
+    "value_identical": false
+  },
+  {
+    "score": 0.744,
+    "key_sim": 0.489,
+    "val_sim": 1.0,
+    "android": "andpoe.text_flight_round_trip_price_intro_2_button",
+    "ios": "iospoe.flight.round-trip-info.button.finish-popup",
+    "android_val": "OK, Got it",
+    "ios_val": "Ok, Got it",
+    "value_identical": false
+  },
+  {
+    "score": 0.744,
+    "key_sim": 0.488,
+    "val_sim": 1.0,
+    "android": "andpoe.text_rental_manage_rental_back_to_set_location",
+    "ios": "iospoe.rentalWD.manage-booking.set-location.location-title",
+    "android_val": "Pick-up & Drop-off Location",
+    "ios_val": "Pick-up & drop-off location",
+    "value_identical": false
+  },
+  {
+    "score": 0.743,
+    "key_sim": 0.486,
+    "val_sim": 1.0,
+    "android": "andpoe.experience_common_change",
+    "ios": "iospoe.common.button.normalTitle.change",
+    "android_val": "CHANGE",
+    "ios_val": "Change",
+    "value_identical": false
+  },
+  {
+    "score": 0.743,
+    "key_sim": 0.486,
+    "val_sim": 1.0,
+    "android": "andpoe.experience_recent_search_categorical_with_location_entry_label",
+    "ios": "iospoe.experience.recent-search.title.in",
+    "android_val": "{0} in {1}",
+    "ios_val": "in",
+    "value_identical": false
+  },
+  {
+    "score": 0.742,
+    "key_sim": 0.485,
+    "val_sim": 1.0,
+    "android": "andpoe.rental_label_rental_duration_days",
+    "ios": "iospoe.rental_search_form_rental_duration_value",
+    "android_val": "Rental duration: {0} days",
+    "ios_val": "Rental Duration: {0} Days",
+    "value_identical": false
+  },
+  {
+    "score": 0.742,
+    "key_sim": 0.485,
+    "val_sim": 1.0,
+    "android": "andpoe.text_hotel_voucher_booking_id",
+    "ios": "iospoe.Traveloka Booking ID #%@",
+    "android_val": "Traveloka Booking ID",
+    "ios_val": "Traveloka Booking ID {0}",
+    "value_identical": false
+  },
+  {
+    "score": 0.742,
+    "key_sim": 0.484,
+    "val_sim": 1.0,
+    "android": "andpoe.text_rental_manage_rental_tier_price_includes",
+    "ios": "iospoe.rentalWD.manage-booking.add-on.price-includes-%@",
+    "android_val": "Price includes {0}, {1}",
+    "ios_val": "Price Includes {0}",
+    "value_identical": false
+  },
+  {
+    "score": 0.742,
+    "key_sim": 0.483,
+    "val_sim": 1.0,
+    "android": "andpoe.flight_bookingancillaries_passenger_adult_emptyname",
+    "ios": "iospoe.flight-refund.passenger.type.adult",
+    "android_val": "Adult {0}",
+    "ios_val": "Adult",
+    "value_identical": false
+  },
+  {
+    "score": 0.742,
+    "key_sim": 0.483,
+    "val_sim": 1.0,
+    "android": "andpoe.flight_bookingancillaries_passenger_child_emptyname",
+    "ios": "iospoe.flight-refund.passenger.type.child",
+    "android_val": "Child {0}",
+    "ios_val": "Child",
+    "value_identical": false
+  },
+  {
+    "score": 0.741,
+    "key_sim": 0.482,
+    "val_sim": 1.0,
+    "android": "andpoe.text_rental_total",
+    "ios": "iospoe.Total",
+    "android_val": "total",
+    "ios_val": "Total",
+    "value_identical": false
+  },
+  {
+    "score": 0.741,
+    "key_sim": 0.481,
+    "val_sim": 1.0,
+    "android": "andpoe.button_accommodation_cancel_booking",
+    "ios": "iospoe.manage-booking.label.manage-cancel-title",
+    "android_val": "Cancel booking",
+    "ios_val": "Cancel Booking",
+    "value_identical": false
+  },
+  {
+    "score": 0.74,
+    "key_sim": 0.48,
+    "val_sim": 1.0,
+    "android": "andpoe.ptp_tab_book_for_now",
+    "ios": "iospoe.ptp_search_form_tab_now_title",
+    "android_val": "Book for Now",
+    "ios_val": "Book For Now",
+    "value_identical": false
+  },
+  {
+    "score": 0.74,
+    "key_sim": 0.48,
+    "val_sim": 1.0,
+    "android": "andpoe.rental_detail_refund_reschedule_policy_tray_title",
+    "ios": "iospoe.car.product-detail.label.title.refund-&-reschedule",
+    "android_val": "Refund & reschedule policy",
+    "ios_val": "Refund & Reschedule Policy",
+    "value_identical": false
+  },
+  {
+    "score": 0.74,
+    "key_sim": 0.479,
+    "val_sim": 1.0,
+    "android": "andpoe.kyc_liveness_upload_state_btn_retake",
+    "ios": "iospoe.travelokapay.kyc-upload.label.retake-%@",
+    "android_val": "Retake",
+    "ios_val": "Retake {0}",
+    "value_identical": false
+  },
+  {
+    "score": 0.739,
+    "key_sim": 0.477,
+    "val_sim": 1.0,
+    "android": "andpoe.text_common_duration_hour",
+    "ios": "iospoe.flight.common.time-hour-label",
+    "android_val": "{0}h",
+    "ios_val": "{0}h ",
+    "value_identical": false
+  },
+  {
+    "score": 0.739,
+    "key_sim": 0.477,
+    "val_sim": 1.0,
+    "android": "andpoe.text_post_booking_seat_submit_loading_title",
+    "ios": "iospoe.booking-list.label.loading-title",
+    "android_val": "Please Wait",
+    "ios_val": "Please wait",
+    "value_identical": false
+  },
+  {
+    "score": 0.738,
+    "key_sim": 0.477,
+    "val_sim": 1.0,
+    "android": "andpoe.text_rental_review_error_rating",
+    "ios": "iospoe.vehicle-rental.rental-submission.error.rating-category.label",
+    "android_val": "Please give your ratings",
+    "ios_val": "Please give your ratings.",
+    "value_identical": false
+  },
+  {
+    "score": 0.738,
+    "key_sim": 0.476,
+    "val_sim": 1.0,
+    "android": "andpoe.navigation_menu_price_alert",
+    "ios": "iospoe.price-alert.label.title",
+    "android_val": "PRICE ALERTS",
+    "ios_val": "Price Alerts",
+    "value_identical": false
+  },
+  {
+    "score": 0.738,
+    "key_sim": 0.476,
+    "val_sim": 1.0,
+    "android": "andpoe.text_shuttle_flight_booking_addon_remove_button",
+    "ios": "iospoe.flight.pre-booking.buybackGuarantee.remove-label",
+    "android_val": "Remove",
+    "ios_val": "REMOVE",
+    "value_identical": false
+  },
+  {
+    "score": 0.738,
+    "key_sim": 0.475,
+    "val_sim": 1.0,
+    "android": "andpoe.text_itinerary_calendar_hotel_title",
+    "ios": "iospoe.hotel.add-to-calendar.event-title %@ %@",
+    "android_val": "Stay at {0}",
+    "ios_val": "Stay at {0} {1}",
+    "value_identical": false
+  },
+  {
+    "score": 0.737,
+    "key_sim": 0.474,
+    "val_sim": 1.0,
+    "android": "andpoe.text_rental_filter_dialog_reset",
+    "ios": "iospoe.shuttle.filter.button.reset",
+    "android_val": "RESET",
+    "ios_val": "Reset",
+    "value_identical": false
+  },
+  {
+    "score": 0.737,
+    "key_sim": 0.474,
+    "val_sim": 1.0,
+    "android": "andpoe.text_shuttle_error_origin_destination",
+    "ios": "iospoe.shuttle.home.label.destination-same-as-origin-error-notification",
+    "android_val": "Your origin and destination must be different",
+    "ios_val": "Your origin and destination must be different.",
+    "value_identical": false
+  },
+  {
+    "score": 0.736,
+    "key_sim": 0.472,
+    "val_sim": 1.0,
+    "android": "andpoe.flight_autocomplete_no_results_for",
+    "ios": "iospoe.flight.open-search-autocomplete.empty-state.no-result-for-%@-title",
+    "android_val": "We couldn''t find \"{0}\"",
+    "ios_val": "We couldn’t find “{0}”",
+    "value_identical": false
+  },
+  {
+    "score": 0.736,
+    "key_sim": 0.472,
+    "val_sim": 1.0,
+    "android": "andpoe.text_fill_in_details",
+    "ios": "iospoe.flight-refund.bread-crumb.fill-in-details.title",
+    "android_val": "Fill in details",
+    "ios_val": "Fill In Details",
+    "value_identical": false
+  },
+  {
+    "score": 0.735,
+    "key_sim": 0.471,
+    "val_sim": 1.0,
+    "android": "andpoe.text_common_duration_day",
+    "ios": "iospoe.flight.common.time-day-label",
+    "android_val": "{0}d",
+    "ios_val": "{0}d ",
+    "value_identical": false
+  },
+  {
+    "score": 0.735,
+    "key_sim": 0.47,
+    "val_sim": 1.0,
+    "android": "andpoe.flight_summary_error_update_ticket_option_with_different_name_description",
+    "ios": "iospoe.flight.summary-selection-page.label.error-update-message-different-initial-%@-%@-%@-%@",
+    "android_val": "We''re sorry, there''s an issue in our system. You can try again later or proceed with {0} and {1}.",
+    "ios_val": "We''re sorry, there''s an issue in our system. You can try again later or proceed with {0} {1} and {2} {3}.",
+    "value_identical": false
+  },
+  {
+    "score": 0.735,
+    "key_sim": 0.47,
+    "val_sim": 1.0,
+    "android": "andpoe.text_pay_now_title",
+    "ios": "iospoe.payment.common.button.pay-now",
+    "android_val": "Pay Now",
+    "ios_val": "Pay now",
+    "value_identical": false
+  },
+  {
+    "score": 0.734,
+    "key_sim": 0.469,
+    "val_sim": 1.0,
+    "android": "andpoe.text_payment_shuttle_review_title_from",
+    "ios": "iospoe.payment.transfer-tray.label.from",
+    "android_val": "From {0}",
+    "ios_val": "From",
+    "value_identical": false
+  },
+  {
+    "score": 0.734,
+    "key_sim": 0.468,
+    "val_sim": 1.0,
+    "android": "andpoe.error_email_invalid",
+    "ios": "iospoe.ptp.traveler-details.label.error-email-invalid-format",
+    "android_val": "Invalid email format",
+    "ios_val": "Invalid email format.",
+    "value_identical": false
+  },
+  {
+    "score": 0.734,
+    "key_sim": 0.468,
+    "val_sim": 1.0,
+    "android": "andpoe.text_flight_multicity_booking_detail_title",
+    "ios": "iospoe.flight.detail.button.flight-button",
+    "android_val": "Flight {0}",
+    "ios_val": "Flight",
+    "value_identical": false
+  },
+  {
+    "score": 0.732,
+    "key_sim": 0.465,
+    "val_sim": 1.0,
+    "android": "andpoe.flight_eticket_product_details_see_details",
+    "ios": "iospoe.flight-check-in-form.label.see-details",
+    "android_val": "See details",
+    "ios_val": "See Details",
+    "value_identical": false
+  },
+  {
+    "score": 0.732,
+    "key_sim": 0.464,
+    "val_sim": 1.0,
+    "android": "andpoe.booking_traveler_picker_add_new",
+    "ios": "iospoe.flight_booking_traveler_widget_v2_list_passenger_add_new_button_label",
+    "android_val": "Add new {0}",
+    "ios_val": "+Add new",
+    "value_identical": false
+  },
+  {
+    "score": 0.732,
+    "key_sim": 0.464,
+    "val_sim": 1.0,
+    "android": "andpoe.experience_sort_by",
+    "ios": "iospoe.common.label.sort-by-title",
+    "android_val": "Sort by",
+    "ios_val": "SORT BY",
+    "value_identical": false
+  },
+  {
+    "score": 0.731,
+    "key_sim": 0.462,
+    "val_sim": 1.0,
+    "android": "andpoe.text_shuttle_flight_info_arrival_time",
+    "ios": "iospoe.shuttle.product-detail.label.arrival-time-at",
+    "android_val": "Flight arrival: {0}",
+    "ios_val": "Flight arrival:",
+    "value_identical": false
+  },
+  {
+    "score": 0.73,
+    "key_sim": 0.461,
+    "val_sim": 1.0,
+    "android": "andpoe.accom_hotel_rating_section_see_all_photos",
+    "ios": "iospoe.See All Photos",
+    "android_val": "See All Photos",
+    "ios_val": "See all photos",
+    "value_identical": false
+  },
+  {
+    "score": 0.73,
+    "key_sim": 0.46,
+    "val_sim": 1.0,
+    "android": "andpoe.accom_hotel_overview_policy_check_out",
+    "ios": "iospoe.shuttle.upcoming-hotel.label.check-out",
+    "android_val": "Check out",
+    "ios_val": "Check-out",
+    "value_identical": false
+  },
+  {
+    "score": 0.73,
+    "key_sim": 0.46,
+    "val_sim": 1.0,
+    "android": "andpoe.text_common_done",
+    "ios": "iospoe.Done",
+    "android_val": "DONE",
+    "ios_val": "Done",
+    "value_identical": false
+  },
+  {
+    "score": 0.73,
+    "key_sim": 0.46,
+    "val_sim": 1.0,
+    "android": "andpoe.text_common_info",
+    "ios": "iospoe.INFO",
+    "android_val": "Info",
+    "ios_val": "INFO",
+    "value_identical": false
+  },
+  {
+    "score": 0.73,
+    "key_sim": 0.459,
+    "val_sim": 1.0,
+    "android": "andpoe.flight_eticket_passenger_details_see_details",
+    "ios": "iospoe.flight-check-in-form.label.see-details",
+    "android_val": "See details",
+    "ios_val": "See Details",
+    "value_identical": false
+  },
+  {
+    "score": 0.73,
+    "key_sim": 0.459,
+    "val_sim": 1.0,
+    "android": "andpoe.flight_special_fare_prebooking_button_change",
+    "ios": "iospoe.flight.meal.button.change-meal",
+    "android_val": "Change",
+    "ios_val": "CHANGE",
+    "value_identical": false
+  },
+  {
+    "score": 0.729,
+    "key_sim": 0.459,
+    "val_sim": 1.0,
+    "android": "andpoe.flight_promo_banner_more_info_cta",
+    "ios": "iospoe.flight.promo-banner-tray.card.action-button.label.tap-to-learn-more",
+    "android_val": "Learn More",
+    "ios_val": "Learn more",
+    "value_identical": false
+  },
+  {
+    "score": 0.729,
+    "key_sim": 0.459,
+    "val_sim": 1.0,
+    "android": "andpoe.flight_summary_error_update_ticket_option_with_same_name_description",
+    "ios": "iospoe.flight.summary-selection-page.label.error-update-message-same-initial-%@",
+    "android_val": "We''re sorry, there''s an issue in our system. You can try again later or proceed with {0}",
+    "ios_val": "We''re sorry, there''s an issue in our system. You can try again later or proceed with {0}.",
+    "value_identical": false
+  },
+  {
+    "score": 0.729,
+    "key_sim": 0.458,
+    "val_sim": 1.0,
+    "android": "andpoe.flight_reschedule_passenger_selection_title",
+    "ios": "iospoe.Passenger to Reschedule",
+    "android_val": "Select Passenger(s)",
+    "ios_val": "Select passenger(s)",
+    "value_identical": false
+  },
+  {
+    "score": 0.729,
+    "key_sim": 0.457,
+    "val_sim": 1.0,
+    "android": "andpoe.text_hotel_reschedule_not_applicable",
+    "ios": "iospoe.flight-reschedule.label.reschedule-not-available",
+    "android_val": "Reschedule Not Available",
+    "ios_val": "RESCHEDULE NOT AVAILABLE",
+    "value_identical": false
+  },
+  {
+    "score": 0.729,
+    "key_sim": 0.457,
+    "val_sim": 1.0,
+    "android": "andpoe.text_reschedule_info_not_rescheduleable",
+    "ios": "iospoe.flight-reschedule.label.reschedule-not-available",
+    "android_val": "Reschedule Not Available",
+    "ios_val": "RESCHEDULE NOT AVAILABLE",
+    "value_identical": false
+  },
+  {
+    "score": 0.728,
+    "key_sim": 0.457,
+    "val_sim": 1.0,
+    "android": "andpoe.flight_reschedule_landing_page_flight_list_policy_button",
+    "ios": "iospoe.flight-review-refund-reschedule.label.policy",
+    "android_val": "POLICY",
+    "ios_val": "Policy",
+    "value_identical": false
+  },
+  {
+    "score": 0.728,
+    "key_sim": 0.457,
+    "val_sim": 1.0,
+    "android": "andpoe.text_flight_duration_short_minute",
+    "ios": "iospoe.flight-filter.label.minute",
+    "android_val": "{0}m",
+    "ios_val": "m",
+    "value_identical": false
+  },
+  {
+    "score": 0.728,
+    "key_sim": 0.455,
+    "val_sim": 1.0,
+    "android": "andpoe.accom_hotel_overview_policy_check_in",
+    "ios": "iospoe.shuttle.upcoming-hotel.label.check-in",
+    "android_val": "Check in",
+    "ios_val": "Check-in",
+    "value_identical": false
+  },
+  {
+    "score": 0.728,
+    "key_sim": 0.455,
+    "val_sim": 1.0,
+    "android": "andpoe.text_common_learn_more",
+    "ios": "iospoe.direct-debit.learn-more.button",
+    "android_val": "LEARN MORE",
+    "ios_val": "Learn More",
+    "value_identical": false
+  },
+  {
+    "score": 0.728,
+    "key_sim": 0.455,
+    "val_sim": 1.0,
+    "android": "andpoe.text_rental_hour",
+    "ios": "iospoe.car.customize.rental-time.label.hour",
+    "android_val": "Hour",
+    "ios_val": "hour",
+    "value_identical": false
+  },
+  {
+    "score": 0.727,
+    "key_sim": 0.455,
+    "val_sim": 1.0,
+    "android": "andpoe.text_experience_voucher_see_product_details",
+    "ios": "iospoe.experience_view_details",
+    "android_val": "SEE DETAILS",
+    "ios_val": "See Details",
+    "value_identical": false
+  },
+  {
+    "score": 0.727,
+    "key_sim": 0.455,
+    "val_sim": 1.0,
+    "android": "andpoe.text_reschedule_policy_not_reschedulable",
+    "ios": "iospoe.flight-reschedule.label.reschedule-not-available",
+    "android_val": "Reschedule Not Available",
+    "ios_val": "RESCHEDULE NOT AVAILABLE",
+    "value_identical": false
+  },
+  {
+    "score": 0.726,
+    "key_sim": 0.453,
+    "val_sim": 1.0,
+    "android": "andpoe.payment_time_expired",
+    "ios": "iospoe.payment.guideline-widget.expired-title.label",
+    "android_val": "Payment time expired",
+    "ios_val": "Payment Time Expired",
+    "value_identical": false
+  },
+  {
+    "score": 0.726,
+    "key_sim": 0.453,
+    "val_sim": 1.0,
+    "android": "andpoe.text_experience_booking_change_visitor_confirmation_description",
+    "ios": "iospoe.experience.booking.label.visitor-detail-popup.message-%@",
+    "android_val": "By adding yourself to the list, you will be replacing {0}. Do you still want to proceed?\n",
+    "ios_val": "By adding yourself to the list, you will be replacing {0}. Do you still want to proceed?",
+    "value_identical": false
+  },
+  {
+    "score": 0.726,
+    "key_sim": 0.452,
+    "val_sim": 1.0,
+    "android": "andpoe.text_payment_edit",
+    "ios": "iospoe.Edit",
+    "android_val": "Edit",
+    "ios_val": "EDIT",
+    "value_identical": false
+  },
+  {
+    "score": 0.726,
+    "key_sim": 0.451,
+    "val_sim": 1.0,
+    "android": "andpoe.text_flight_arrival",
+    "ios": "iospoe.flight_filter_chip_arrival_airport",
+    "android_val": "Arrival",
+    "ios_val": "Arrival: {0}",
+    "value_identical": false
+  },
+  {
+    "score": 0.726,
+    "key_sim": 0.451,
+    "val_sim": 1.0,
+    "android": "andpoe.text_reschedule_info_not_reschedulable",
+    "ios": "iospoe.flight-reschedule.label.reschedule-not-available",
+    "android_val": "Reschedule Not Available",
+    "ios_val": "RESCHEDULE NOT AVAILABLE",
+    "value_identical": false
+  },
+  {
+    "score": 0.725,
+    "key_sim": 0.45,
+    "val_sim": 1.0,
+    "android": "andpoe.bank_account_number",
+    "ios": "iospoe.payment-refund.active-bank-account-page.account-number.title",
+    "android_val": "Account number",
+    "ios_val": "Account Number",
+    "value_identical": false
+  },
+  {
+    "score": 0.725,
+    "key_sim": 0.45,
+    "val_sim": 1.0,
+    "android": "andpoe.text_accommodation_room_detail_tab_cancellation_policy",
+    "ios": "iospoe.common.label.cancellation-policy",
+    "android_val": "Cancellation policy",
+    "ios_val": "Cancellation Policy",
+    "value_identical": false
+  },
+  {
+    "score": 0.724,
+    "key_sim": 0.448,
+    "val_sim": 1.0,
+    "android": "andpoe.accom_voucher_booking_id_title",
+    "ios": "iospoe.Traveloka Booking ID #%@",
+    "android_val": "Traveloka Booking ID",
+    "ios_val": "Traveloka Booking ID {0}",
+    "value_identical": false
+  },
+  {
+    "score": 0.724,
+    "key_sim": 0.448,
+    "val_sim": 1.0,
+    "android": "andpoe.airport_transfer_payment_review_detail_to_label",
+    "ios": "iospoe.payment.transfer-tray.label.to",
+    "android_val": "To {0}",
+    "ios_val": "To",
+    "value_identical": false
+  },
+  {
+    "score": 0.724,
+    "key_sim": 0.447,
+    "val_sim": 1.0,
+    "android": "andpoe.text_price_alert_direct_flights_only",
+    "ios": "iospoe.pricealert_revamp_flight_preference_label_direct_flights_only",
+    "android_val": "Only Direct Flights",
+    "ios_val": "Only direct flights",
+    "value_identical": false
+  },
+  {
+    "score": 0.723,
+    "key_sim": 0.447,
+    "val_sim": 1.0,
+    "android": "andpoe.airport_transfer_booking_product_summary_to_label",
+    "ios": "iospoe.shuttle-booking-summary.label.to",
+    "android_val": "To {0}",
+    "ios_val": "To",
+    "value_identical": false
+  },
+  {
+    "score": 0.723,
+    "key_sim": 0.447,
+    "val_sim": 1.0,
+    "android": "andpoe.text_refund_info_partially_refundable",
+    "ios": "iospoe.flight-detail.label.refundStatus-partially-refundable",
+    "android_val": "Partially Refundable",
+    "ios_val": "Partially refundable",
+    "value_identical": false
+  },
+  {
+    "score": 0.723,
+    "key_sim": 0.447,
+    "val_sim": 1.0,
+    "android": "andpoe.text_rental_pick_up_time",
+    "ios": "iospoe.shuttle.booking-add-on.label.pick-up-time-%@",
+    "android_val": "Pick-up Time",
+    "ios_val": "Pick-up time: {0}",
+    "value_identical": false
+  },
+  {
+    "score": 0.723,
+    "key_sim": 0.446,
+    "val_sim": 1.0,
+    "android": "andpoe.accommodation_hcq_text_see_less_button",
+    "ios": "iospoe.package_customization_page_accommodation_see_less_room_button_label",
+    "android_val": "See Less",
+    "ios_val": "See less",
+    "value_identical": false
+  },
+  {
+    "score": 0.722,
+    "key_sim": 0.443,
+    "val_sim": 1.0,
+    "android": "andpoe.text_flight_result_break_smart_combo_banner_button",
+    "ios": "iospoe.package_flight_customization_show_smart_combo_button",
+    "android_val": "See Flights",
+    "ios_val": "See flights",
+    "value_identical": false
+  },
+  {
+    "score": 0.721,
+    "key_sim": 0.442,
+    "val_sim": 1.0,
+    "android": "andpoe.text_accommodation_room_detail_section_see_less",
+    "ios": "iospoe.package_customization_page_accommodation_see_less_room_button_label",
+    "android_val": "See Less",
+    "ios_val": "See less",
+    "value_identical": false
+  },
+  {
+    "score": 0.721,
+    "key_sim": 0.442,
+    "val_sim": 1.0,
+    "android": "andpoe.text_accommodation_room_detail_section_see_more",
+    "ios": "iospoe.package_customization_page_accommodation_see_more_room_button_label",
+    "android_val": "See More",
+    "ios_val": "See more",
+    "value_identical": false
+  },
+  {
+    "score": 0.721,
+    "key_sim": 0.442,
+    "val_sim": 1.0,
+    "android": "andpoe.text_credit_ktp_review_page_date_of_birth_text_field_label",
+    "ios": "iospoe.package_payment_review_page_traveler_birth_date_title",
+    "android_val": "Date of Birth",
+    "ios_val": "Date of birth",
+    "value_identical": false
+  },
+  {
+    "score": 0.72,
+    "key_sim": 0.441,
+    "val_sim": 1.0,
+    "android": "andpoe.text_refund_policy_partially_refundable",
+    "ios": "iospoe.flight-detail.label.refundStatus-partially-refundable",
+    "android_val": "Partially Refundable",
+    "ios_val": "Partially refundable",
+    "value_identical": false
+  },
+  {
+    "score": 0.72,
+    "key_sim": 0.439,
+    "val_sim": 1.0,
+    "android": "andpoe.text_itinerary_help_link_send_message",
+    "ios": "iospoe.itinerary.contact-us.section-send-message.title.send-message",
+    "android_val": "SEND MESSAGE",
+    "ios_val": "Send Message",
+    "value_identical": false
+  },
+  {
+    "score": 0.719,
+    "key_sim": 0.438,
+    "val_sim": 1.0,
+    "android": "andpoe.instant_debit_expiry_date_field_description",
+    "ios": "iospoe.direct-debit.registration.expiry-date.info-text",
+    "android_val": "Enter your debit card''s expiry date",
+    "ios_val": "Enter your debit card''s expiry date.",
+    "value_identical": false
+  },
+  {
+    "score": 0.719,
+    "key_sim": 0.438,
+    "val_sim": 1.0,
+    "android": "andpoe.text_booking_price_list",
+    "ios": "iospoe.cruise_booking_review_price_details_title",
+    "android_val": "Price Details",
+    "ios_val": "Price details",
+    "value_identical": false
+  },
+  {
+    "score": 0.719,
+    "key_sim": 0.438,
+    "val_sim": 1.0,
+    "android": "andpoe.text_shuttle_use_current_location_label",
+    "ios": "iospoe.experience_home_header_current_location_label",
+    "android_val": "Your current location",
+    "ios_val": "Your Current Location",
+    "value_identical": false
+  },
+  {
+    "score": 0.718,
+    "key_sim": 0.436,
+    "val_sim": 1.0,
+    "android": "andpoe.text_flight_filter_dialog_travel_duration_slider_selected_range",
+    "ios": "iospoe.flight_filter_tray_duration_hour",
+    "android_val": "{0}h - {1}h",
+    "ios_val": "{0}h",
+    "value_identical": false
+  },
+  {
+    "score": 0.718,
+    "key_sim": 0.436,
+    "val_sim": 1.0,
+    "android": "andpoe.text_reschedule_per_pax",
+    "ios": "iospoe.package_common_per_pax",
+    "android_val": "/{0} pax",
+    "ios_val": "/pax",
+    "value_identical": false
+  },
+  {
+    "score": 0.717,
+    "key_sim": 0.435,
+    "val_sim": 1.0,
+    "android": "andpoe.text_seat_selection_ticket_seat_label",
+    "ios": "iospoe.flight.flight-ticket-passenger.label.seat-%@-%@",
+    "android_val": "Seat {0}",
+    "ios_val": "Seat {0}{1}",
+    "value_identical": false
+  },
+  {
+    "score": 0.717,
+    "key_sim": 0.433,
+    "val_sim": 1.0,
+    "android": "andpoe.text_common_pax",
+    "ios": "iospoe.%@/%@pax",
+    "android_val": "pax",
+    "ios_val": "{0}/{1} pax",
+    "value_identical": false
+  },
+  {
+    "score": 0.716,
+    "key_sim": 0.432,
+    "val_sim": 1.0,
+    "android": "andpoe.experience_geoless_empty_state_sold_out_all_category_message",
+    "ios": "iospoe.experience.search-result.free-text-search-sold-out-all-%@",
+    "android_val": "Our apologies, we could not find results for “{0}”. Why not search using other keywords to see if there''s something you like?",
+    "ios_val": "Our apologies, we could not find results for \"{0}\". Why not search using other keywords to see if there''s something you like?",
+    "value_identical": false
+  },
+  {
+    "score": 0.716,
+    "key_sim": 0.432,
+    "val_sim": 1.0,
+    "android": "andpoe.text_rental_policy_partially_refundable",
+    "ios": "iospoe.flight-detail.label.refundStatus-partially-refundable",
+    "android_val": "Partially Refundable",
+    "ios_val": "Partially refundable",
+    "value_identical": false
+  },
+  {
+    "score": 0.715,
+    "key_sim": 0.43,
+    "val_sim": 1.0,
+    "android": "andpoe.ptp_title_select_pickup_date_time",
+    "ios": "iospoe.rental_search_form_pickup_date_time_placeholder",
+    "android_val": "Select Pick-up Date and Time",
+    "ios_val": "Select pick-up date and time",
+    "value_identical": false
+  },
+  {
+    "score": 0.715,
+    "key_sim": 0.43,
+    "val_sim": 1.0,
+    "android": "andpoe.rental_detail_customize_rental_area_description_see_more",
+    "ios": "iospoe.rental.product-detail.see-detail",
+    "android_val": "See more",
+    "ios_val": "See More",
+    "value_identical": false
+  },
+  {
+    "score": 0.714,
+    "key_sim": 0.429,
+    "val_sim": 1.0,
+    "android": "andpoe.rental_prebooking_pickup_label",
+    "ios": "iospoe.rental_search_form_pickup_location_title",
+    "android_val": "Pick-up location",
+    "ios_val": "Pick-up Location",
+    "value_identical": false
+  },
+  {
+    "score": 0.714,
+    "key_sim": 0.429,
+    "val_sim": 1.0,
+    "android": "andpoe.text_flight_search_form_calendar_select_date",
+    "ios": "iospoe.flight-calendar.label.title-label",
+    "android_val": "Select Date",
+    "ios_val": "Select date",
+    "value_identical": false
+  },
+  {
+    "score": 0.714,
+    "key_sim": 0.428,
+    "val_sim": 1.0,
+    "android": "andpoe.payment_webview_callback_polling_message",
+    "ios": "iospoe.payment.webview.label.loading-subtitle",
+    "android_val": "Please wait a moment.",
+    "ios_val": "Please wait a moment",
+    "value_identical": false
+  },
+  {
+    "score": 0.714,
+    "key_sim": 0.427,
+    "val_sim": 1.0,
+    "android": "andpoe.text_you_pay",
+    "ios": "iospoe.flight.international.detail-you-pay",
+    "android_val": "You Pay",
+    "ios_val": "You pay",
+    "value_identical": false
+  },
+  {
+    "score": 0.713,
+    "key_sim": 0.427,
+    "val_sim": 1.0,
+    "android": "andpoe.text_flight_company_receipt_email_address",
+    "ios": "iospoe.common.label.email-address",
+    "android_val": "Email Address",
+    "ios_val": "Email address",
+    "value_identical": false
+  },
+  {
+    "score": 0.713,
+    "key_sim": 0.425,
+    "val_sim": 1.0,
+    "android": "andpoe.text_flight_status_departure",
+    "ios": "iospoe.flight_filter_chip_departure_airport",
+    "android_val": "DEPARTURE",
+    "ios_val": "Departure: {0}",
+    "value_identical": false
+  },
+  {
+    "score": 0.712,
+    "key_sim": 0.423,
+    "val_sim": 1.0,
+    "android": "andpoe.text_uom_kg",
+    "ios": "iospoe.%@ kg",
+    "android_val": "kg",
+    "ios_val": "{0} kg",
+    "value_identical": false
+  },
+  {
+    "score": 0.711,
+    "key_sim": 0.422,
+    "val_sim": 1.0,
+    "android": "andpoe.text_flight_recent_search_item_pax_and_seat_class",
+    "ios": "iospoe.trip.flight-hotel.search.label./ pax",
+    "android_val": "{0} pax • {1}",
+    "ios_val": "/pax",
+    "value_identical": false
+  },
+  {
+    "score": 0.711,
+    "key_sim": 0.422,
+    "val_sim": 1.0,
+    "android": "andpoe.text_rental_voucher_toolbar_title_arg",
+    "ios": "iospoe.vehicle-rental.voucher.card.in",
+    "android_val": "{0} in {1}",
+    "ios_val": "in",
+    "value_identical": false
+  },
+  {
+    "score": 0.71,
+    "key_sim": 0.421,
+    "val_sim": 1.0,
+    "android": "andpoe.flight_preflight_update_on",
+    "ios": "iospoe.flight.preflight.landing-page.last-updated-%@",
+    "android_val": "Last updated: {0}, {1}",
+    "ios_val": "Last updated: {0}",
+    "value_identical": false
+  },
+  {
+    "score": 0.71,
+    "key_sim": 0.42,
+    "val_sim": 1.0,
+    "android": "andpoe.text_accommodation_guest_review_see_less_tag",
+    "ios": "iospoe.cruise_booking_review_see_less_passanger_button",
+    "android_val": "SEE LESS",
+    "ios_val": "See less",
+    "value_identical": false
+  },
+  {
+    "score": 0.709,
+    "key_sim": 0.419,
+    "val_sim": 1.0,
+    "android": "andpoe.text_shuttle_seat_label",
+    "ios": "iospoe.Seat %@ - %@",
+    "android_val": "Seat",
+    "ios_val": "Seat {0} – {1}",
+    "value_identical": false
+  },
+  {
+    "score": 0.709,
+    "key_sim": 0.418,
+    "val_sim": 1.0,
+    "android": "andpoe.rental_detail_whats_covered_title",
+    "ios": "iospoe.rental.product-detail.included-excluded-title",
+    "android_val": "Rental info",
+    "ios_val": "Rental Info",
+    "value_identical": false
+  },
+  {
+    "score": 0.709,
+    "key_sim": 0.418,
+    "val_sim": 1.0,
+    "android": "andpoe.text_flight_facility_new_show_less",
+    "ios": "iospoe.flight.open-search-search-result-list.button.show-less",
+    "android_val": "See less",
+    "ios_val": "See Less",
+    "value_identical": false
+  },
+  {
+    "score": 0.709,
+    "key_sim": 0.417,
+    "val_sim": 1.0,
+    "android": "andpoe.text_shuttle_search_form_instant_booking_switch_warning_title",
+    "ios": "iospoe.shuttle.search-form.label.title-popup-info",
+    "android_val": "Pick-up Now Not Available",
+    "ios_val": "Pick Up Now Not Available",
+    "value_identical": false
+  },
+  {
+    "score": 0.708,
+    "key_sim": 0.417,
+    "val_sim": 1.0,
+    "android": "andpoe.text_payment_ocp_processing_booking_loading_title",
+    "ios": "iospoe.flight_booking_payment_loading_v2_title_default",
+    "android_val": "Processing Your Booking",
+    "ios_val": "Processing your booking",
+    "value_identical": false
+  },
+  {
+    "score": 0.708,
+    "key_sim": 0.417,
+    "val_sim": 1.0,
+    "android": "andpoe.text_rental_calendar_title",
+    "ios": "iospoe.flight-calendar.label.title-label",
+    "android_val": "Select Date",
+    "ios_val": "Select date",
+    "value_identical": false
+  },
+  {
+    "score": 0.708,
+    "key_sim": 0.416,
+    "val_sim": 1.0,
+    "android": "andpoe.text_payment_upload_proof_widget_title_error",
+    "ios": "iospoe.payment.multiple-proof.label.retake-title",
+    "android_val": "Retake Proof {0}",
+    "ios_val": "Retake Proof",
+    "value_identical": false
+  },
+  {
+    "score": 0.708,
+    "key_sim": 0.416,
+    "val_sim": 1.0,
+    "android": "andpoe.text_refund_account_number_text_box_hint",
+    "ios": "iospoe.payment-refund.active-bank-account-page.account-number.title",
+    "android_val": "Account number",
+    "ios_val": "Account Number",
+    "value_identical": false
+  },
+  {
+    "score": 0.708,
+    "key_sim": 0.415,
+    "val_sim": 1.0,
+    "android": "andpoe.accomm_unit_details",
+    "ios": "iospoe.details",
+    "android_val": "{0} Details",
+    "ios_val": "details",
+    "value_identical": false
+  },
+  {
+    "score": 0.707,
+    "key_sim": 0.415,
+    "val_sim": 1.0,
+    "android": "andpoe.accom_bosrn_snackbar_ok_title",
+    "ios": "iospoe.car.customize.label.snackbar-button-ok",
+    "android_val": "OK!",
+    "ios_val": "OK",
+    "value_identical": false
+  },
+  {
+    "score": 0.707,
+    "key_sim": 0.414,
+    "val_sim": 1.0,
+    "android": "andpoe.text_hotel_near_me",
+    "ios": "iospoe.experience.recent-search.title.near-me",
+    "android_val": "Near me",
+    "ios_val": "Near Me",
+    "value_identical": false
+  },
+  {
+    "score": 0.707,
+    "key_sim": 0.414,
+    "val_sim": 1.0,
+    "android": "andpoe.text_message_center_no_internet_connection_snack_bar",
+    "ios": "iospoe.ptp.post-issuance-tracker.label.no-internet-connection.title",
+    "android_val": "No Internet connection found",
+    "ios_val": "No Internet Connection Found",
+    "value_identical": false
+  },
+  {
+    "score": 0.707,
+    "key_sim": 0.413,
+    "val_sim": 1.0,
+    "android": "andpoe.bank_account_holders_name",
+    "ios": "iospoe.payment-refund.active-bank-account-page.account-holder-name.title",
+    "android_val": "Account holder''s name",
+    "ios_val": "Account Holder''s Name",
+    "value_identical": false
+  },
+  {
+    "score": 0.707,
+    "key_sim": 0.413,
+    "val_sim": 1.0,
+    "android": "andpoe.text_flight_status_arrival",
+    "ios": "iospoe.flight_filter_chip_arrival_airport",
+    "android_val": "ARRIVAL",
+    "ios_val": "Arrival: {0}",
+    "value_identical": false
+  },
+  {
+    "score": 0.706,
+    "key_sim": 0.413,
+    "val_sim": 1.0,
+    "android": "andpoe.experience_product_detail_header_by",
+    "ios": "iospoe.rental.product-detail.provider-name-%@",
+    "android_val": "By",
+    "ios_val": "by {0}",
+    "value_identical": false
+  },
+  {
+    "score": 0.706,
+    "key_sim": 0.412,
+    "val_sim": 1.0,
+    "android": "andpoe.rental_detail_flight_number_flight_title",
+    "ios": "iospoe.shuttle-product-detail-form.placeholder.flight-number-optional",
+    "android_val": "Flight Number (optional)",
+    "ios_val": "Flight number (optional)",
+    "value_identical": false
+  },
+  {
+    "score": 0.706,
+    "key_sim": 0.412,
+    "val_sim": 1.0,
+    "android": "andpoe.rental_detail_page_no_internet_connection_title",
+    "ios": "iospoe.flight-refund.confirmation.label.popup-title-no-internet-connection",
+    "android_val": "No internet connection",
+    "ios_val": "No Internet Connection",
+    "value_identical": false
+  },
+  {
+    "score": 0.706,
+    "key_sim": 0.412,
+    "val_sim": 1.0,
+    "android": "andpoe.text_credit_reject_dialog_button_return",
+    "ios": "iospoe.travelokapay.reject-popup.button.return-tpay",
+    "android_val": "Back to TravelokaPay",
+    "ios_val": "Back to travelokaPay",
+    "value_identical": false
+  },
+  {
+    "score": 0.706,
+    "key_sim": 0.411,
+    "val_sim": 1.0,
+    "android": "andpoe.text_hotel_send_receipt_title",
+    "ios": "iospoe.payment.staggered.payment-plan.send-receipt",
+    "android_val": "Send Receipt",
+    "ios_val": "Send receipt",
+    "value_identical": false
+  },
+  {
+    "score": 0.705,
+    "key_sim": 0.41,
+    "val_sim": 1.0,
+    "android": "andpoe.couldnt_load_the_details",
+    "ios": "iospoe.payment.common.could-not-load-details.title",
+    "android_val": "Couldn''t load the details",
+    "ios_val": "Couldn’t load the details",
+    "value_identical": false
+  },
+  {
+    "score": 0.705,
+    "key_sim": 0.409,
+    "val_sim": 1.0,
+    "android": "andpoe.text_tpay_payment_new",
+    "ios": "iospoe.payment.transfer-tray.badge.new",
+    "android_val": "NEW",
+    "ios_val": "New",
+    "value_identical": false
+  },
+  {
+    "score": 0.704,
+    "key_sim": 0.409,
+    "val_sim": 1.0,
+    "android": "andpoe.text_hotel_change_search",
+    "ios": "iospoe.flight.multi-city.search.button.change.search",
+    "android_val": "Change Search",
+    "ios_val": "Change search",
+    "value_identical": false
+  },
+  {
+    "score": 0.704,
+    "key_sim": 0.409,
+    "val_sim": 1.0,
+    "android": "andpoe.text_loyalty_points",
+    "ios": "iospoe.hotel.%ld-points",
+    "android_val": "Points",
+    "ios_val": "{0} Points",
+    "value_identical": false
+  },
+  {
+    "score": 0.704,
+    "key_sim": 0.407,
+    "val_sim": 1.0,
+    "android": "andpoe.text_point_to_point_ticket_trip_detail_scheduled",
+    "ios": "iospoe.ptp.trip-detail.label.schedule-%@",
+    "android_val": "Pick-up:",
+    "ios_val": "Pick-up: {0}",
+    "value_identical": false
+  },
+  {
+    "score": 0.703,
+    "key_sim": 0.406,
+    "val_sim": 1.0,
+    "android": "andpoe.rental_prebooking_book_now_button",
+    "ios": "iospoe.car.onboarding.label.book-now",
+    "android_val": "Book now",
+    "ios_val": "Book Now",
+    "value_identical": false
+  },
+  {
+    "score": 0.703,
+    "key_sim": 0.405,
+    "val_sim": 1.0,
+    "android": "andpoe.payment_qr_generate_layout_amount",
+    "ios": "iospoe.payment.main.label.amount-to-pay",
+    "android_val": "Amount to Pay:",
+    "ios_val": "Amount to pay",
+    "value_identical": false
+  },
+  {
+    "score": 0.702,
+    "key_sim": 0.405,
+    "val_sim": 1.0,
+    "android": "andpoe.text_price_alert_price_change_status_no_change",
+    "ios": "iospoe.pricealert_revamp_homepage_label_no_change",
+    "android_val": "Prices haven’t changed",
+    "ios_val": "Prices haven''t changed",
+    "value_identical": false
+  },
+  {
+    "score": 0.702,
+    "key_sim": 0.405,
+    "val_sim": 1.0,
+    "android": "andpoe.text_rental_check_zone_area_detail_already_included",
+    "ios": "iospoe.rental.product-detail.in-town-included",
+    "android_val": "Free",
+    "ios_val": "(Free)",
+    "value_identical": false
+  },
+  {
+    "score": 0.702,
+    "key_sim": 0.404,
+    "val_sim": 1.0,
+    "android": "andpoe.flight_installment_search_result_coachmark_cta_ok_got_it",
+    "ios": "iospoe.flight.search-result.flight-time-not-valid.popup-ok-button",
+    "android_val": "OK, Got it",
+    "ios_val": "OK, Got It!",
+    "value_identical": false
+  },
+  {
+    "score": 0.702,
+    "key_sim": 0.404,
+    "val_sim": 1.0,
+    "android": "andpoe.text_hotel_processing_your_booking",
+    "ios": "iospoe.shuttle.search-result.label.title-processing-booking",
+    "android_val": "Processing your booking...",
+    "ios_val": "Processing your booking",
+    "value_identical": false
+  },
+  {
+    "score": 0.702,
+    "key_sim": 0.403,
+    "val_sim": 1.0,
+    "android": "andpoe.refund_camera_review_tray_retake_title",
+    "ios": "iospoe.paylater.styx.review-ktp.retake.button",
+    "android_val": "Retake photo?",
+    "ios_val": "Retake photo",
+    "value_identical": false
+  },
+  {
+    "score": 0.702,
+    "key_sim": 0.403,
+    "val_sim": 1.0,
+    "android": "andpoe.text_seat_selection_more_info",
+    "ios": "iospoe.car.onboarding.label.more-info",
+    "android_val": "MORE INFO",
+    "ios_val": "More Info",
+    "value_identical": false
+  },
+  {
+    "score": 0.701,
+    "key_sim": 0.401,
+    "val_sim": 1.0,
+    "android": "andpoe.text_credit_no_connection_error_title",
+    "ios": "iospoe.paylater.error.notification.connection-problem.title.text",
+    "android_val": "Connection Problem",
+    "ios_val": "Connection problem",
+    "value_identical": false
+  },
+  {
+    "score": 0.7,
+    "key_sim": 0.401,
+    "val_sim": 1.0,
+    "android": "andpoe.text_rental_selector_no_preference",
+    "ios": "iospoe.flight.booking-seat-selection.label.no-preference",
+    "android_val": "No preference",
+    "ios_val": "No Preference",
+    "value_identical": false
+  },
+  {
+    "score": 0.7,
+    "key_sim": 0.4,
+    "val_sim": 1.0,
+    "android": "andpoe.text_itinerary_round_trip_subtitle",
+    "ios": "iospoe.flight.hangar.label.round-trip",
+    "android_val": "Round-trip",
+    "ios_val": "Round-trip?",
+    "value_identical": false
+  },
+  {
+    "score": 0.7,
+    "key_sim": 0.4,
+    "val_sim": 1.0,
+    "android": "andpoe.text_shuttle_flight_info_departure_time",
+    "ios": "iospoe.Departure Flight",
+    "android_val": "Flight departure: {0}",
+    "ios_val": "Departure Flight",
+    "value_identical": false
+  },
+  {
+    "score": 0.785,
+    "key_sim": 0.576,
+    "val_sim": 0.994,
+    "android": "andpoe.text_credit_camera_ktp_page_timeout_description",
+    "ios": "iospoe.paylater.label.veritas-lens.ktp-camera-page.timeout-description",
+    "android_val": "Your time is up and we couldn''t get the data.\\nDo you need extra time to try again?",
+    "ios_val": "Your time is up and we couldn’t get the data. Do you need extra time to try again?",
+    "value_identical": false
+  },
+  {
+    "score": 0.755,
+    "key_sim": 0.519,
+    "val_sim": 0.992,
+    "android": "andpoe.text_shuttle_seat_selection_widget_flexi_notes",
+    "ios": "iospoe.shuttle-booking.label.flexi-description-seat-selection",
+    "android_val": "Flexi Ticket holders will get their seat number at the station.",
+    "ios_val": "Flexi Ticket holders will get their seat numbers at the station.",
+    "value_identical": false
+  },
+  {
+    "score": 0.765,
+    "key_sim": 0.543,
+    "val_sim": 0.986,
+    "android": "andpoe.text_credit_quick_approval_mother_maiden_name_error_message",
+    "ios": "iospoe.paylater.quick-approval.error-helper.mother-maiden-name-invalid-length.label",
+    "android_val": "Name must be between 3 – 160 characters",
+    "ios_val": "Name must be between 3 – 60 characters",
+    "value_identical": false
+  },
+  {
+    "score": 0.692,
+    "key_sim": 0.4,
+    "val_sim": 0.984,
+    "android": "andpoe.reschedule_booking_confirmation_description",
+    "ios": "iospoe.reschedule.flight.booking-form-popup.submit-basic-reschedule-description",
+    "android_val": "<![CDATA[Make sure your details are correct and tap <b>Yes</b> to submit your reschedule request. We will notify you through email or push notification on your Traveloka App once the price is confirmed]]>",
+    "ios_val": "Make sure your details are correct and tap <b>Yes</b> to submit your reschedule request. We will notify you through email or push notification on your Traveloka App once the price is confirmed",
+    "value_identical": false
+  },
+  {
+    "score": 0.743,
+    "key_sim": 0.507,
+    "val_sim": 0.978,
+    "android": "andpoe.refund_no_history_description",
+    "ios": "iospoe.payment-refund.history.label.subtitle-have-no-refund",
+    "android_val": "You have never made any refund request for this item. To request a refund, go to <b>Refund Info</b>.",
+    "ios_val": "You have never made any refund request for this item. To request a refund, go to Refund Info.",
+    "value_identical": false
+  },
+  {
+    "score": 0.764,
+    "key_sim": 0.553,
+    "val_sim": 0.976,
+    "android": "andpoe.text_credit_quick_approval_office_address_length_error",
+    "ios": "iospoe.paylater.quick-approval.map_component.address_length_error.message",
+    "android_val": "Address must be between 20 – 120 characters",
+    "ios_val": "Address must be between 20 – 160 characters",
+    "value_identical": false
+  },
+  {
+    "score": 0.7,
+    "key_sim": 0.429,
+    "val_sim": 0.971,
+    "android": "andpoe.text_accommodation_reschedule_rrs_form_confirmation_tray_reschedule_detail",
+    "ios": "iospoe.trip.std-booking-form.title.Reschedule Detail",
+    "android_val": "Reschedule Detail",
+    "ios_val": "Reschedule Details",
+    "value_identical": false
+  },
+  {
+    "score": 0.708,
+    "key_sim": 0.451,
+    "val_sim": 0.966,
+    "android": "andpoe.text_flight_outbound_meal",
+    "ios": "iospoe.flight-filter.label.has-meal",
+    "android_val": "In-flight meals",
+    "ios_val": "In-flight meal",
+    "value_identical": false
+  },
+  {
+    "score": 0.691,
+    "key_sim": 0.416,
+    "val_sim": 0.966,
+    "android": "andpoe.text_remove_account_desc",
+    "ios": "iospoe.travelokapay.digital-wallet.detail.remove-account.description-%@",
+    "android_val": "If you remove this account, you will need to enter your mobile number every time you''d like to pay with {0}.",
+    "ios_val": "If you remove this account, you will need to enter your phone number every time you''d like to pay with {0}.",
+    "value_identical": false
+  },
+  {
+    "score": 0.692,
+    "key_sim": 0.421,
+    "val_sim": 0.963,
+    "android": "andpoe.text_shuttle_hide_schedules_button",
+    "ios": "iospoe.shuttle.search-result.button.hide-schedule",
+    "android_val": "Hide schedules",
+    "ios_val": "Hide schedule",
+    "value_identical": false
+  },
+  {
+    "score": 0.778,
+    "key_sim": 0.596,
+    "val_sim": 0.961,
+    "android": "andpoe.text_flight_share_flight_message_round_trip",
+    "ios": "iospoe.flight.share-link.message-roundtrip-%@-%@-%@-%@",
+    "android_val": "Check out these round-trip flights on Traveloka:\\n{0} ↔️ {1},\\nDeparting at {2},\\nReturning at {3}.\\n",
+    "ios_val": "Check out these round-trip flights on Traveloka:\n{0} ↔️ {1},\nDeparting at {2},\nReturning at {3}.",
+    "value_identical": false
+  },
+  {
+    "score": 0.706,
+    "key_sim": 0.451,
+    "val_sim": 0.96,
+    "android": "andpoe.text_flight_search_result_tap_and_hold_coachmark_message",
+    "ios": "iospoe.flight_result_coachmark_share_flight",
+    "android_val": "<![CDATA[<strong>Tap & Hold</strong> on each flight to share, save, or check the details.]]>",
+    "ios_val": "<strong>Tap & Hold</strong> on each flight to share, save, or check the details.",
+    "value_identical": false
+  },
+  {
+    "score": 0.683,
+    "key_sim": 0.407,
+    "val_sim": 0.959,
+    "android": "andpoe.text_payment_installment_widget_tray_error",
+    "ios": "iospoe.payment.bank-selection-tray.error-title",
+    "android_val": "We couldn''t load the installment options right now. Tap refresh to try again.",
+    "ios_val": "We couldn''t load the installment plans right now. Tap refresh to try again.",
+    "value_identical": false
+  },
+  {
+    "score": 0.696,
+    "key_sim": 0.435,
+    "val_sim": 0.958,
+    "android": "andpoe.text_rental_review_login_description",
+    "ios": "iospoe.vehicle-rental.login-submission.desc.label",
+    "android_val": "<![CDATA[You need to be logged in to give rating and review. It’s one tap away!]]>",
+    "ios_val": "You need to be logged in to give rating and review. It’s one tap away!",
+    "value_identical": false
+  },
+  {
+    "score": 0.71,
+    "key_sim": 0.467,
+    "val_sim": 0.954,
+    "android": "andpoe.flight_open_search_autocomplete_clear_dialog_subtitle",
+    "ios": "iospoe.flight.open-search-autocomplete.label.delete-all-confirmation-popup-description",
+    "android_val": "<![CDATA[If you choose <b>Clear</b>, all of your selections will be removed.]]>",
+    "ios_val": "If you choose <b>Clear</b>, all of your selections will be removed.",
+    "value_identical": false
+  },
+  {
+    "score": 0.696,
+    "key_sim": 0.438,
+    "val_sim": 0.954,
+    "android": "andpoe.payment_installment_snackbar_autoselected",
+    "ios": "iospoe.payment.installment-auto-change.label%ld%@",
+    "android_val": "We changed your installment plan to {0} because your transaction is less than {1}.",
+    "ios_val": "We changed your installment plan to {0} months because your transaction is less than {1}.",
+    "value_identical": false
+  },
+  {
+    "score": 0.699,
+    "key_sim": 0.444,
+    "val_sim": 0.953,
+    "android": "andpoe.text_rental_booking_special_request_dialog_hint",
+    "ios": "iospoe.vehicle-rental.addon.special-request.placeholder",
+    "android_val": "Odd or even license plates, car charger, car seat, etc.",
+    "ios_val": "Odd or even license plates, car charger, baby car seat, etc.",
+    "value_identical": false
+  },
+  {
+    "score": 0.719,
+    "key_sim": 0.489,
+    "val_sim": 0.948,
+    "android": "andpoe.update_bank_account_popup_description",
+    "ios": "iospoe.payment.refund-balance.popup.update-bank-account.message",
+    "android_val": "Your bank account must match the currency used (<strong>{0}</strong>). Once you submit the new bank account, your previous bank account will be removed.",
+    "ios_val": "Your bank account must match the currency used (<b>{0}</b>). Once you submit the new bank account, your previous bank account will be removed.",
+    "value_identical": false
+  },
+  {
+    "score": 0.679,
+    "key_sim": 0.423,
+    "val_sim": 0.935,
+    "android": "andpoe.text_flight_gds_other_smart_combo_cashback_content",
+    "ios": "iospoe.flight-search-result.label.show-non-smart-combo-with-cashback-%@",
+    "android_val": "You can see flight options other than Smart Combo, and there is a possibility that you will receive a <bold>surplus of {0}</bold>",
+    "ios_val": "You can see flight options other than Smart Combo, and there is a possibility that you will receive a <strong>surplus of {0}</strong>",
+    "value_identical": false
+  },
+  {
+    "score": 0.677,
+    "key_sim": 0.42,
+    "val_sim": 0.933,
+    "android": "andpoe.text_credit_no_connection_error_description",
+    "ios": "iospoe.paylater.error.notification.connection-problem.description.text",
+    "android_val": "Looks like you’re disconnected. Please check your internet connection then try again to activate.",
+    "ios_val": "Looks like you’re disconnected. Please check your internet connection then try again.",
+    "value_identical": false
+  },
+  {
+    "score": 0.737,
+    "key_sim": 0.543,
+    "val_sim": 0.931,
+    "android": "andpoe.flight_upselldetail_text_price_desc",
+    "ios": "iospoe.flight_prebooking_label_price_desc",
+    "android_val": "Inclusive of all taxes and fees",
+    "ios_val": "Inclusive of taxes and fees",
+    "value_identical": false
+  },
+  {
+    "score": 0.691,
+    "key_sim": 0.47,
+    "val_sim": 0.912,
+    "android": "andpoe.shuttle_error_select_destination",
+    "ios": "iospoe.shuttle.home.label.destination-location-error-notification",
+    "android_val": "Please select a destination",
+    "ios_val": "Please select your destination.",
+    "value_identical": false
+  },
+  {
+    "score": 0.688,
+    "key_sim": 0.467,
+    "val_sim": 0.909,
+    "android": "andpoe.text_rental_lead_traveler_error",
+    "ios": "iospoe.rental.booking-form.label.lead-traveler-default-title",
+    "android_val": "Please fill in Car Rental traveler details.",
+    "ios_val": "Fill in Car Rental traveler details",
+    "value_identical": false
+  },
+  {
+    "score": 0.656,
+    "key_sim": 0.403,
+    "val_sim": 0.909,
+    "android": "andpoe.text_flight_transit_move_baggage_recheckin",
+    "ios": "iospoe.Move-Baggage-Info",
+    "android_val": "You need to check in again and transfer your baggage manually",
+    "ios_val": "You need to transfer baggage manually and check-in again",
+    "value_identical": false
+  },
+  {
+    "score": 0.719,
+    "key_sim": 0.532,
+    "val_sim": 0.906,
+    "android": "andpoe.text_rental_requirement_tnc",
+    "ios": "iospoe.rental.booking-requirement.label.tnc-full-context",
+    "android_val": "<![CDATA[By tapping Done below, I agree to Traveloka''s Car Rental <a href=\"\"> Terms & Conditions</a>.]]>",
+    "ios_val": "By tapping Done below, I agree to Traveloka’s Car Rental Terms & Conditions.",
+    "value_identical": false
+  },
+  {
+    "score": 0.708,
+    "key_sim": 0.513,
+    "val_sim": 0.902,
+    "android": "andpoe.credit_data_update_request_otp_desc",
+    "ios": "iospoe.paylater.label.data-update-capability-otp-request-email-%@",
+    "android_val": "We will send a verification code to your {0} on {1}",
+    "ios_val": "We will send a verification code to <b>{0}</b>",
+    "value_identical": false
+  },
+  {
+    "score": 0.7,
+    "key_sim": 0.5,
+    "val_sim": 0.9,
+    "android": "andpoe.text_credit_quick_approval_office_info_length_error",
+    "ios": "iospoe.paylater.quick-approval.map_component.additional_info_length_error.message",
+    "android_val": "Max. 160 characters",
+    "ios_val": "Maximum 160 characters",
+    "value_identical": false
+  },
+  {
+    "score": 0.688,
+    "key_sim": 0.477,
+    "val_sim": 0.9,
+    "android": "andpoe.text_credit_quick_approval_office_name_length_error",
+    "ios": "iospoe.paylater.quick-approval.error-helper.mother-maiden-name-invalid-length.label",
+    "android_val": "Company name must be between 3 – 60 characters",
+    "ios_val": "Name must be between 3 – 60 characters",
+    "value_identical": false
+  },
+  {
+    "score": 0.668,
+    "key_sim": 0.436,
+    "val_sim": 0.9,
+    "android": "andpoe.text_rental_customize_all_in_one_title",
+    "ios": "iospoe.car.customize.aio-card.button.add-in-town-all-in-one-+",
+    "android_val": "In-town All in One",
+    "ios_val": "Add In-town All in One",
+    "value_identical": false
+  },
+  {
+    "score": 0.702,
+    "key_sim": 0.508,
+    "val_sim": 0.895,
+    "android": "andpoe.text_rental_customize_out_of_town_usage_label",
+    "ios": "iospoe.car.customize.oot-card.button.add-out-of-town-usage-+",
+    "android_val": "Out-of-town Usage",
+    "ios_val": "Add Out-of-town Usage",
+    "value_identical": false
+  },
+  {
+    "score": 0.658,
+    "key_sim": 0.422,
+    "val_sim": 0.895,
+    "android": "andpoe.text_rental_customize_out_of_town_title",
+    "ios": "iospoe.car.customize.oot-card.button.add-out-of-town-usage-+",
+    "android_val": "Out-of-town Usage",
+    "ios_val": "Add Out-of-town Usage",
+    "value_identical": false
+  },
+  {
+    "score": 0.696,
+    "key_sim": 0.498,
+    "val_sim": 0.894,
+    "android": "andpoe.text_credit_server_error_description",
+    "ios": "iospoe.paylater.error.notification.server-error.description.text",
+    "android_val": "Our system needs a break sometimes. It won’t take long, try to refresh this page to see if we’re done.",
+    "ios_val": "Looks like our system needs a break. It won’t take long, try to refresh this page to see if we’re done.",
+    "value_identical": false
+  },
+  {
+    "score": 0.671,
+    "key_sim": 0.448,
+    "val_sim": 0.894,
+    "android": "andpoe.generic_payment_option_error_text",
+    "ios": "iospoe.payment.method-selection-2.error-title",
+    "android_val": "Our system needs a break sometimes. It won’t take long, try to refresh this page to see if we’re done.",
+    "ios_val": "Looks like our system needs a break. It won’t take long, try to refresh this page to see if we’re done.",
+    "value_identical": false
+  },
+  {
+    "score": 0.737,
+    "key_sim": 0.584,
+    "val_sim": 0.889,
+    "android": "andpoe.text_rental_product_detail_section_refund_reschedule_policy",
+    "ios": "iospoe.car.product-detail.label.title.refund-&-reschedule",
+    "android_val": "<![CDATA[Refund & Reschedule Policy]]>",
+    "ios_val": "Refund & Reschedule Policy",
+    "value_identical": false
+  },
+  {
+    "score": 0.709,
+    "key_sim": 0.529,
+    "val_sim": 0.889,
+    "android": "andpoe.text_round_trip_price_pax",
+    "ios": "iospoe.flight.selected-flight.label.round-trip-price",
+    "android_val": "Round-trip price/pax",
+    "ios_val": "Round-trip price",
+    "value_identical": false
+  },
+  {
+    "score": 0.696,
+    "key_sim": 0.503,
+    "val_sim": 0.889,
+    "android": "andpoe.rental_detail_tnc_card",
+    "ios": "iospoe.vehicle-rental.tnc-detail.modal-title",
+    "android_val": "See terms & conditions",
+    "ios_val": "Terms & Conditions",
+    "value_identical": false
+  },
+  {
+    "score": 0.648,
+    "key_sim": 0.411,
+    "val_sim": 0.886,
+    "android": "andpoe.text_rental_wd_customize_location_pick_up_not_selected_error_message",
+    "ios": "iospoe.car.customize.label.error-choose-pick-up-location-to-continue",
+    "android_val": "Please choose your pick-up location.",
+    "ios_val": "Please select your pick-up location.",
+    "value_identical": false
+  },
+  {
+    "score": 0.656,
+    "key_sim": 0.427,
+    "val_sim": 0.885,
+    "android": "andpoe.text_flight_transit_different_airport",
+    "ios": "iospoe.flight-search-detail.label.The transit requires airport change",
+    "android_val": "<![CDATA[Requires airport change]]>",
+    "ios_val": "Requires airport change",
+    "value_identical": false
+  },
+  {
+    "score": 0.647,
+    "key_sim": 0.414,
+    "val_sim": 0.88,
+    "android": "andpoe.text_price_alert_detail_price_change_no_change",
+    "ios": "iospoe.pricealert_revamp_homepage_label_no_change",
+    "android_val": "Prices haven’t changed since {0}",
+    "ios_val": "Prices haven''t changed",
+    "value_identical": false
+  },
+  {
+    "score": 0.654,
+    "key_sim": 0.43,
+    "val_sim": 0.878,
+    "android": "andpoe.text_accommodation_check_in_out_title",
+    "ios": "iospoe.hotel.calendar-event.check-in-info-%@-check-out-info-%@",
+    "android_val": "Check-in/Check-out Time",
+    "ios_val": "Check-in: {0}\nCheck-out: {1}",
+    "value_identical": false
+  },
+  {
+    "score": 0.654,
+    "key_sim": 0.43,
+    "val_sim": 0.878,
+    "android": "andpoe.text_payment_paylater_sufficient_amount_dp_mandatory",
+    "ios": "iospoe.payment.main-paylater.label.r1-sufficient-message",
+    "android_val": "<![CDATA[Down Payment required: a portion of the booking amount needs to be paid upfront. <a href=\"paylater_learnmore\"><strong>Learn more.</strong></a>]]>",
+    "ios_val": "Down Payment required: a portion of the booking amount needs to be paid upfront. <a href=\"paylater-onboarding://\">Learn More</a>",
+    "value_identical": false
+  },
+  {
+    "score": 0.657,
+    "key_sim": 0.436,
+    "val_sim": 0.877,
+    "android": "andpoe.text_payment_paylater_insufficient_amount_dp_mandatory",
+    "ios": "iospoe.payment.main-paylater.label.r1-insufficient-message",
+    "android_val": "<![CDATA[Limit is not enough, while Down Payment is required. Combine with other methods. <a href=\"paylater_learnmore\"><strong>Learn more.</strong></a>]]>",
+    "ios_val": "Limit is not enough, while Down Payment is required. Combine with other methods. <a href=\"paylater-onboarding://\">Learn More</a>",
+    "value_identical": false
+  },
+  {
+    "score": 0.703,
+    "key_sim": 0.531,
+    "val_sim": 0.875,
+    "android": "andpoe.payment_selection_option_cell_see_all_options",
+    "ios": "iospoe.payment.selection-page.button.see-all-payment-method",
+    "android_val": "See all\\n({0})",
+    "ios_val": "See all",
+    "value_identical": false
+  },
+  {
+    "score": 0.648,
+    "key_sim": 0.42,
+    "val_sim": 0.875,
+    "android": "andpoe.text_accommodation_refund_history_button_title",
+    "ios": "iospoe.flight-refund.presubmission.tab.refund-history.title",
+    "android_val": "See Refund History",
+    "ios_val": "Refund History",
+    "value_identical": false
+  },
+  {
+    "score": 0.688,
+    "key_sim": 0.505,
+    "val_sim": 0.871,
+    "android": "andpoe.text_rental_lead_traveler",
+    "ios": "iospoe.rental.booking-form.label.lead-traveler-default-title",
+    "android_val": "Car Rental Traveler Details",
+    "ios_val": "Fill in Car Rental traveler details",
+    "value_identical": false
+  },
+  {
+    "score": 0.658,
+    "key_sim": 0.451,
+    "val_sim": 0.865,
+    "android": "andpoe.text_shuttle_please_fill_all_passenger_error",
+    "ios": "iospoe.shuttle-booking-form-alert.text.please-fill-your-passenger-contact",
+    "android_val": "Please fill in your passenger details",
+    "ios_val": "Please fill in your Passenger Contact.",
+    "value_identical": false
+  },
+  {
+    "score": 0.655,
+    "key_sim": 0.446,
+    "val_sim": 0.865,
+    "android": "andpoe.text_flight_general_addon_unavailable_popup_title",
+    "ios": "iospoe.flight.generaladdon-popup.label.not-available-title",
+    "android_val": "Sorry, this item is not available",
+    "ios_val": "Sorry, this item is currently not available",
+    "value_identical": false
+  },
+  {
+    "score": 0.691,
+    "key_sim": 0.525,
+    "val_sim": 0.857,
+    "android": "andpoe.rental_placeholder_select_rental_date_pickup_time",
+    "ios": "iospoe.rental_search_form_pickup_date_time_placeholder",
+    "android_val": "Select rental date and pick-up time",
+    "ios_val": "Select pick-up date and time",
+    "value_identical": false
+  },
+  {
+    "score": 0.645,
+    "key_sim": 0.434,
+    "val_sim": 0.857,
+    "android": "andpoe.payment_coupon_total_cashback_value_applied",
+    "ios": "iospoe.payment.new-selection-coupon.cashback-%@.subtitle",
+    "android_val": "You get {0} Points cashback!",
+    "ios_val": "You earned {0} Points cashback!",
+    "value_identical": false
+  },
+  {
+    "score": 0.668,
+    "key_sim": 0.485,
+    "val_sim": 0.851,
+    "android": "andpoe.text_flight_e_ticket_webcheckin_header_title_button",
+    "ios": "iospoe.flight_ticket_boarding_pass_tray_header_text",
+    "android_val": "See your boarding pass",
+    "ios_val": "Manage your boarding pass",
+    "value_identical": false
+  },
+  {
+    "score": 0.646,
+    "key_sim": 0.441,
+    "val_sim": 0.851,
+    "android": "andpoe.rental_error_select_dropoff_time",
+    "ios": "iospoe.ta_transport_time_picker_select_dropoff_time_header",
+    "android_val": "Please select drop-off time",
+    "ios_val": "Select Drop-off Time",
+    "value_identical": false
+  },
+  {
+    "score": 0.638,
+    "key_sim": 0.424,
+    "val_sim": 0.851,
+    "android": "andpoe.rental_title_select_rental_date_time",
+    "ios": "iospoe.car.search-form.calendar-picker.label.title-select-date-and-time",
+    "android_val": "Select Rental Date and Time",
+    "ios_val": "Select Date and Time",
+    "value_identical": false
+  },
+  {
+    "score": 0.659,
+    "key_sim": 0.47,
+    "val_sim": 0.848,
+    "android": "andpoe.text_shuttle_flight_booking_price_breakdown_airport_transport",
+    "ios": "iospoe.shuttle.booking-add-on.label.price-breakdown-label-aggregated",
+    "android_val": "Airport Transport",
+    "ios_val": "Airport Transfer",
+    "value_identical": false
+  },
+  {
+    "score": 0.678,
+    "key_sim": 0.51,
+    "val_sim": 0.846,
+    "android": "andpoe.text_shuttle_please_fill_airline_and_flight_number",
+    "ios": "iospoe.shuttle-product-details.error-message.please-fill-your-flight-number",
+    "android_val": "Please fill in your airline and flight number.",
+    "ios_val": "Please fill in your flight number.",
+    "value_identical": false
+  },
+  {
+    "score": 0.692,
+    "key_sim": 0.542,
+    "val_sim": 0.842,
+    "android": "andpoe.text_rental_product_detail_footer_basic_price_for",
+    "ios": "iospoe.car.product-detail.price-info.label.basic-rental-price-%d-day",
+    "android_val": "Basic rental for {0}\n",
+    "ios_val": "Basic rental for {0} day(s)",
+    "value_identical": false
+  },
+  {
+    "score": 0.626,
+    "key_sim": 0.41,
+    "val_sim": 0.842,
+    "android": "andpoe.flight_selected_sort_section_subtitle",
+    "ios": "iospoe.flight_result_dff_sort_description_single_%ld_%@",
+    "android_val": "<![CDATA[Showing <b>{0} flight(s)</b> sorted from <b>{1}</b>]]>",
+    "ios_val": "Showing <b>{0}</b> flight sorted from <b>{1}</b>",
+    "value_identical": false
+  },
+  {
+    "score": 0.709,
+    "key_sim": 0.58,
+    "val_sim": 0.839,
+    "android": "andpoe.text_payment_refund_search_branch_placeholder",
+    "ios": "iospoe.refund.bank-search.placeholder.search-branch",
+    "android_val": "Search Branch",
+    "ios_val": "Search Branch Name",
+    "value_identical": false
+  },
+  {
+    "score": 0.672,
+    "key_sim": 0.506,
+    "val_sim": 0.839,
+    "android": "andpoe.accom_bosrn_form_newname_title",
+    "ios": "iospoe.accom_bosrn_mybooking_changename_title",
+    "android_val": "New Guest Name",
+    "ios_val": "Change Guest Name",
+    "value_identical": false
+  },
+  {
+    "score": 0.713,
+    "key_sim": 0.592,
+    "val_sim": 0.833,
+    "android": "andpoe.text_credit_quick_approval_office_income_per_month_error",
+    "ios": "iospoe.paylater.quick-approval.error-helper.income-per-month-empty.label",
+    "android_val": "Minimum income Rp100.000/month",
+    "ios_val": "Minimum income per month Rp100.000",
+    "value_identical": false
+  },
+  {
+    "score": 0.683,
+    "key_sim": 0.533,
+    "val_sim": 0.833,
+    "android": "andpoe.flight_refund_item_selection_no_selected_item",
+    "ios": "iospoe.flight-refund.item-selection.snackbar.empty-journey.title",
+    "android_val": "Please select flight before continue",
+    "ios_val": "Please select the flight first before continuing.",
+    "value_identical": false
+  },
+  {
+    "score": 0.68,
+    "key_sim": 0.527,
+    "val_sim": 0.833,
+    "android": "andpoe.shuttle_location_picker_search_location_empty",
+    "ios": "iospoe.rental_location_picker_search_placeholder",
+    "android_val": "Search for a location",
+    "ios_val": "Search location",
+    "value_identical": false
+  },
+  {
+    "score": 0.675,
+    "key_sim": 0.517,
+    "val_sim": 0.833,
+    "android": "andpoe.flight_reschedule_search_calendar_free_dates",
+    "ios": "iospoe.flight.reschedule.search-form.date-input.free.footer.text",
+    "android_val": "Free on certain date or time",
+    "ios_val": "Free on certain date or schedule",
+    "value_identical": false
+  },
+  {
+    "score": 0.657,
+    "key_sim": 0.48,
+    "val_sim": 0.833,
+    "android": "andpoe.text_accommodation_discovery_facility_filter_description",
+    "ios": "iospoe.accom_filter_facility-filter-title",
+    "android_val": "All facilities",
+    "ios_val": "Facilities",
+    "value_identical": false
+  },
+  {
+    "score": 0.647,
+    "key_sim": 0.461,
+    "val_sim": 0.833,
+    "android": "andpoe.text_credit_quick_approval_support_doc_review_desc",
+    "ios": "iospoe.paylater.quick-approval.supporting-docs-review.subtitle.label",
+    "android_val": "Please make sure the document photo and the details are clearly visible to help our verification.",
+    "ios_val": "Please make sure that the details and the photo of your document are clearly visible to help our verification.",
+    "value_identical": false
+  },
+  {
+    "score": 0.665,
+    "key_sim": 0.502,
+    "val_sim": 0.829,
+    "android": "andpoe.shuttle_title_select_pickup_date_time",
+    "ios": "iospoe.shuttle_search_form_date_time_title",
+    "android_val": "Select Pick-up Date & Time",
+    "ios_val": "Pick-up Date & Time",
+    "value_identical": false
+  },
+  {
+    "score": 0.624,
+    "key_sim": 0.42,
+    "val_sim": 0.829,
+    "android": "andpoe.text_payment_success_loading",
+    "ios": "iospoe.payment.credit-card.label.loading-message",
+    "android_val": "Please wait, we are verifying your payment",
+    "ios_val": "We are verifying your payment",
+    "value_identical": false
+  },
+  {
+    "score": 0.653,
+    "key_sim": 0.479,
+    "val_sim": 0.827,
+    "android": "andpoe.text_how_to_top_up_ovo_content",
+    "ios": "iospoe.travelokapay.digital-wallet.detail.how-to-top-up.ovo-description",
+    "android_val": "<![CDATA[You can top up your balance via the available channels from OVO. Learn how to top up your balance <a href=\"https://www.ovo.id/howtotopup\"><b>here.</b></a>]]>",
+    "ios_val": "You can top up your balance via the available channels from OVO. Learn how to top up your balance <a href=\"ovo-top-up://\" style=\"text-decoration:none;\"><b>here.</b></a>",
+    "value_identical": false
+  },
+  {
+    "score": 0.669,
+    "key_sim": 0.518,
+    "val_sim": 0.821,
+    "android": "andpoe.text_rental_customize_location_tray_pickup_title",
+    "ios": "iospoe.rental_search_form_pickup_location_title",
+    "android_val": "Select pick-up location",
+    "ios_val": "Pick-up Location",
+    "value_identical": false
+  },
+  {
+    "score": 0.621,
+    "key_sim": 0.424,
+    "val_sim": 0.818,
+    "android": "andpoe.text_hotel_error_validation_guest_rooms",
+    "ios": "iospoe.hotel.room-list.invalid-guest-room",
+    "android_val": "<![CDATA[Number of <strong>rooms</strong> can''t be more than number of <strong>guests</strong>]]>.",
+    "ios_val": "Number of rooms can''t be more than number of guests.",
+    "value_identical": false
+  },
+  {
+    "score": 0.663,
+    "key_sim": 0.51,
+    "val_sim": 0.815,
+    "android": "andpoe.text_hotel_map_show_direction",
+    "ios": "iospoe.experience.product-detail-map.label.show-direction",
+    "android_val": "SHOW DIRECTION",
+    "ios_val": "See Direction",
+    "value_identical": false
+  },
+  {
+    "score": 0.651,
+    "key_sim": 0.494,
+    "val_sim": 0.809,
+    "android": "andpoe.text_user_social_sharing_hotel_detail_message_body",
+    "ios": "iospoe.user.social-sharing.label.flight-search-result-message-%@",
+    "android_val": "Check out {0} that I''m viewing on Traveloka now!",
+    "ios_val": "Check out these flights to {0} I''m viewing on Traveloka!",
+    "value_identical": false
+  },
+  {
+    "score": 0.65,
+    "key_sim": 0.494,
+    "val_sim": 0.806,
+    "android": "andpoe.text_payment_finalization_page_tap_continue_stimuli",
+    "ios": "iospoe.payment.multi-finalization.label.continue-to-retry",
+    "android_val": "<![CDATA[Tap <a href=\"\"><strong>here</strong></a> if nothing happens after 10 seconds]]>",
+    "ios_val": "Tap <b><a href=\"continue://\">here</a></b> if nothing happens after 10 seconds",
+    "value_identical": false
+  },
+  {
+    "score": 0.686,
+    "key_sim": 0.571,
+    "val_sim": 0.8,
+    "android": "andpoe.text_common_cta_got_it",
+    "ios": "iospoe.Got It",
+    "android_val": "OK, Got It!",
+    "ios_val": "Got It",
+    "value_identical": false
+  },
+  {
+    "score": 0.671,
+    "key_sim": 0.542,
+    "val_sim": 0.8,
+    "android": "andpoe.text_rental_confirm_location_tray_title_pickup",
+    "ios": "iospoe.rental_search_form_pickup_location_title",
+    "android_val": "Confirm pick-up location",
+    "ios_val": "Pick-up Location",
+    "value_identical": false
+  },
+  {
+    "score": 0.669,
+    "key_sim": 0.539,
+    "val_sim": 0.8,
+    "android": "andpoe.text_flight_request_boarding_pass",
+    "ios": "iospoe.flight_ticket_boarding_pass_tray_header_text",
+    "android_val": "Downloading your boarding pass...",
+    "ios_val": "Manage your boarding pass",
+    "value_identical": false
+  },
+  {
+    "score": 0.664,
+    "key_sim": 0.527,
+    "val_sim": 0.8,
+    "android": "andpoe.text_flight_search_result_shared_flight_not_found_message",
+    "ios": "iospoe.flight-search.label.flights-not-available.shared-flights-wrong-date-message",
+    "android_val": "Please search for flights on other dates or in another class.",
+    "ios_val": "Please search for flights on other dates.",
+    "value_identical": false
+  },
+  {
+    "score": 0.661,
+    "key_sim": 0.522,
+    "val_sim": 0.8,
+    "android": "andpoe.text_shuttle_change_schedule_title",
+    "ios": "iospoe.shuttle-product-details.label.change-jac-schedule",
+    "android_val": "Change Boarding Location",
+    "ios_val": "Change Boarding Point",
+    "value_identical": false
+  },
+  {
+    "score": 0.656,
+    "key_sim": 0.512,
+    "val_sim": 0.8,
+    "android": "andpoe.text_reschedule_back_to_my_booking_positive_action",
+    "ios": "iospoe.Back to My Booking",
+    "android_val": "Go to Request List",
+    "ios_val": "Go to Reschedule Request List",
+    "value_identical": false
+  },
+  {
+    "score": 0.637,
+    "key_sim": 0.475,
+    "val_sim": 0.8,
+    "android": "andpoe.text_payment_payoo_payment_code",
+    "ios": "iospoe.payment.counter-guideline.label.payment-code",
+    "android_val": "Payoo Payment Code",
+    "ios_val": "Payment Code",
+    "value_identical": false
+  },
+  {
+    "score": 0.624,
+    "key_sim": 0.449,
+    "val_sim": 0.8,
+    "android": "andpoe.rental_prebooking_dropoff_confirmation_change_location",
+    "ios": "iospoe.RentalWD.customize.confirmation-tray.button.change-other-location",
+    "android_val": "Search for another location",
+    "ios_val": "Select Another Location",
+    "value_identical": false
+  },
+  {
+    "score": 0.675,
+    "key_sim": 0.561,
+    "val_sim": 0.789,
+    "android": "andpoe.text_rental_pickup_location_addon_title",
+    "ios": "iospoe.vehicle-rental.booking-addon.addon.set-pickup-location.label",
+    "android_val": "Pickup Location",
+    "ios_val": "Choose pick-up location",
+    "value_identical": false
+  },
+  {
+    "score": 0.692,
+    "key_sim": 0.595,
+    "val_sim": 0.788,
+    "android": "andpoe.text_shuttle_pick_up_point_title",
+    "ios": "iospoe.shuttle.terminal-tray.label.title-select-pick-up-point",
+    "android_val": "Pick-up Point",
+    "ios_val": "Select Pick-up Point",
+    "value_identical": false
+  },
+  {
+    "score": 0.625,
+    "key_sim": 0.472,
+    "val_sim": 0.778,
+    "android": "andpoe.text_shuttle_airline_autocomplete_error_title",
+    "ios": "iospoe.shuttle-location-autocomplete.label.title-'%@'-airport",
+    "android_val": "No results for \"{0}\"",
+    "ios_val": "No results for “{0}” airport",
+    "value_identical": false
+  },
+  {
+    "score": 0.625,
+    "key_sim": 0.479,
+    "val_sim": 0.771,
+    "android": "andpoe.text_credit_payment_page_installment_plan_section_more_plans_label",
+    "ios": "iospoe.paylater.payment-installment-plan-tray-view.footer.label.see-more-plans-here",
+    "android_val": "<![CDATA[See more plans <font color=\"#0071CE\">here</font>]]>",
+    "ios_val": "See more plans <span style=\"color:#0071CE;\">here</span>",
+    "value_identical": false
+  },
+  {
+    "score": 0.66,
+    "key_sim": 0.551,
+    "val_sim": 0.769,
+    "android": "andpoe.text_tpay_instant_debit_manage_cards",
+    "ios": "iospoe.direct-debit.manage-cards.title",
+    "android_val": "Setup Instant Debit",
+    "ios_val": "Manage Instant Debit",
+    "value_identical": false
+  },
+  {
+    "score": 0.623,
+    "key_sim": 0.477,
+    "val_sim": 0.769,
+    "android": "andpoe.text_rental_product_detail_wod_footer_basic_price_for",
+    "ios": "iospoe.car.product-detail.price-info.label.basic-rental-price-%d-day-withoutdriver",
+    "android_val": "Rental for {0}",
+    "ios_val": "Rental for {0} day(s)",
+    "value_identical": false
+  },
+  {
+    "score": 0.622,
+    "key_sim": 0.474,
+    "val_sim": 0.769,
+    "android": "andpoe.experience_redemption_detail_vouchers_expired_section_title",
+    "ios": "iospoe.experience_voucher_redemption_method_evoucher_expired_info",
+    "android_val": "Voucher Expired",
+    "ios_val": "Your voucher has expired",
+    "value_identical": false
+  },
+  {
+    "score": 0.632,
+    "key_sim": 0.499,
+    "val_sim": 0.765,
+    "android": "andpoe.ptp_placeholder_enter_pickup_address",
+    "ios": "iospoe.ptp_search_form_enter_address_placeholder",
+    "android_val": "Enter pick-up address",
+    "ios_val": "Enter Address",
+    "value_identical": false
+  },
+  {
+    "score": 0.656,
+    "key_sim": 0.551,
+    "val_sim": 0.762,
+    "android": "andpoe.text_hotel_late_check_in_title",
+    "ios": "iospoe.shuttle.upcoming-hotel.label.check-in",
+    "android_val": "Late Check-in",
+    "ios_val": "Check-in",
+    "value_identical": false
+  },
+  {
+    "score": 0.64,
+    "key_sim": 0.521,
+    "val_sim": 0.759,
+    "android": "andpoe.text_payment_credit_card_title",
+    "ios": "iospoe.payment.card-input.textfield-title.credit-only",
+    "android_val": "Credit Card",
+    "ios_val": "Credit Card Number",
+    "value_identical": false
+  },
+  {
+    "score": 0.666,
+    "key_sim": 0.575,
+    "val_sim": 0.757,
+    "android": "andpoe.rental_detail_location_picker_latest_search_title",
+    "ios": "iospoe.car-rental.location-tray.latest-search-group.label",
+    "android_val": "Latest search in {0}",
+    "ios_val": "Your Latest Search(es)",
+    "value_identical": false
+  },
+  {
+    "score": 0.652,
+    "key_sim": 0.547,
+    "val_sim": 0.757,
+    "android": "andpoe.flight_summary_general_popup_return_route_openjaw",
+    "ios": "iospoe.flight.summary-tray-v2.label.general-popup-title-%@",
+    "android_val": "You selected {0} (Flight 2)",
+    "ios_val": "You selected <b>{0}</b>",
+    "value_identical": false
+  },
+  {
+    "score": 0.648,
+    "key_sim": 0.54,
+    "val_sim": 0.757,
+    "android": "andpoe.flight_summary_general_popup_departure_route_openjaw",
+    "ios": "iospoe.flight.summary-tray-v2.label.general-popup-title-%@",
+    "android_val": "You selected {0} (Flight 1)",
+    "ios_val": "You selected <b>{0}</b>",
+    "value_identical": false
+  },
+  {
+    "score": 0.63,
+    "key_sim": 0.515,
+    "val_sim": 0.744,
+    "android": "andpoe.text_experience_ticket_detail_redemption_method_section_label",
+    "ios": "iospoe.experience_ticket_detail_important_information_label",
+    "android_val": "Redemption Information",
+    "ios_val": "Important information",
+    "value_identical": false
+  },
+  {
+    "score": 0.667,
+    "key_sim": 0.597,
+    "val_sim": 0.737,
+    "android": "andpoe.flight_summary_card_label_show_details",
+    "ios": "iospoe.flight.summary-flight-card.button.detail",
+    "android_val": "Show details",
+    "ios_val": "Details",
+    "value_identical": false
+  },
+  {
+    "score": 0.624,
+    "key_sim": 0.511,
+    "val_sim": 0.737,
+    "android": "andpoe.text_hotel_free_breakfast_and_free_wifi",
+    "ios": "iospoe.Free Breakfast",
+    "android_val": "Free WiFi, Free Breakfast",
+    "ios_val": "Free Breakfast",
+    "value_identical": false
+  },
+  {
+    "score": 0.651,
+    "key_sim": 0.569,
+    "val_sim": 0.733,
+    "android": "andpoe.text_credit_quick_approval_occupation_details_section_office_source_fund_label",
+    "ios": "iospoe.paylater.quick-approval.occupation-details.source-of-income.label",
+    "android_val": "Source of Fund",
+    "ios_val": "Source of Income",
+    "value_identical": false
+  },
+  {
+    "score": 0.623,
+    "key_sim": 0.514,
+    "val_sim": 0.733,
+    "android": "andpoe.rental_detail_rental_area_modal_title",
+    "ios": "iospoe.rental.product-detail.tab-bar-rental-area",
+    "android_val": "Rental area details",
+    "ios_val": "Rental Area",
+    "value_identical": false
+  },
+  {
+    "score": 0.628,
+    "key_sim": 0.541,
+    "val_sim": 0.714,
+    "android": "andpoe.text_flight_multi_city",
+    "ios": "iospoe.flight.multi-city.payment-page-multi-city-title-label",
+    "android_val": "Multi-city",
+    "ios_val": "Multi-city Flights",
+    "value_identical": false
+  },
+  {
+    "score": 0.627,
+    "key_sim": 0.555,
+    "val_sim": 0.7,
+    "android": "andpoe.text_hotel",
+    "ios": "iospoe.Detail Hotel",
+    "android_val": "hotel(s)",
+    "ios_val": "Hotel Details",
+    "value_identical": false
+  }
+]

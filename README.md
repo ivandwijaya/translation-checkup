@@ -4,6 +4,10 @@ Reconciliation of Traveloka POE translation strings across **Android** and **iOS
 
 Takes the raw POE exports and the "cleaned" in-app string lists for each platform, prunes each POE export down to the strings actually shipped, combines them into a single key→value dataset, detects strings duplicated across platforms, and assigns each string a **workspace → bucket → key** classification derived from its key name.
 
+## View online
+
+Live viewer (GitHub Pages): **https://ivandwijaya.github.io/translation-checkup/**
+
 ## Preview locally
 
 `poe.csv` is the dataset (16,667 rows). `index.html` is a searchable, paginated viewer for it. It must be served over `http://` — opening the file directly (`file://`) won't work, because the browser blocks the CSV `fetch()`.
@@ -22,7 +26,7 @@ Viewer features:
 - **Sort any column alphabetically** (click the header; click again to reverse)
 - Adjustable page size
 
-> The viewer is fully client-side; nothing is uploaded. (GitHub Pages isn't used — Pages needs a public repo or a paid plan for private repos.)
+> The viewer is fully client-side. The same page is published via GitHub Pages (link above); running locally is only needed for offline use or unpublished changes.
 
 For a quick look without a server, open `poe.csv` in Excel, Numbers, or VS Code.
 

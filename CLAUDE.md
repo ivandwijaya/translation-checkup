@@ -19,8 +19,10 @@ Org context: this is Traveloka (an OTA). Treat all data as internal/confidential
 ## Data conventions the user established (follow these)
 
 1. **Values** come from the POE `value` field, **never `androidXmlValue`**.
-2. **workspace** = product domain, lowercase, from a controlled vocabulary (flight, **accom**, experience, shuttle, bus, train, rental, cruise, payment, paylater, refund, ptp, trip, credit, pricealert, kyc, user). Blank if not confident. (The accommodation domain is canonicalized as `accom` — variants `accommodation`/`accomm`/`hotel` all map to `accom`.)
-3. **bucket** = feature-level grouping only, **workspace-prefixed** (e.g. `accom_tnc`, `flight_reschedule`). A bucket name must never be shared across workspaces — the prefix guarantees this.
+2. **workspace** = product domain, lowercase, from a controlled vocabulary (flight, **hotel**, experience, shuttle, bus, train, rental, cruise, payment, paylater, refund, ptp, trip, credit, pricealert, kyc, user). Blank if not confident. (The accommodation domain is canonicalized to workspace `hotel` — variants `accommodation`/`accomm`/`accom`/`hotel` all map to `hotel`.)
+3. **bucket** = feature-level grouping only, prefixed by the string's **domain** (usually = the workspace). A bucket name must never be shared across workspaces. **Special cases** (workspace ≠ bucket prefix): the `hotel` workspace keeps bucket prefix `accom` (`accom_tnc`, not `hotel_tnc`); `pricealert` strings live in the `flight` workspace but keep bucket prefix `pricealert` (`pricealert_revamp`). Modeled in the parser as a DOMAIN→bucket-prefix map plus a WS_OF domain→workspace override. Some domains are spelled differently per platform — e.g. iOS `pricealert` vs Android's two-token `price_alert`; a MULTI map folds such multi-token leading forms into one domain (both → `pricealert`).
+
+**price-alert consolidation:** all price-alert strings (any key containing `pricealert` / `price_alert`, incl. `text_banner_price_alert_*` and `navigation_menu_price_alert`) live in workspace `flight` under a single bucket **`price_alert`** — no feature sub-buckets. Everything else moves into the key: the iOS `revamp` token is dropped; Android feature words (`detail`/`form`/`homepage`/`enable`/`remove`/…) become the key prefix; `text_banner_price_alert_*` keeps a `banner_` key prefix; `navigation_menu_price_alert` → key `navigation_menu_price`.
 4. **bucket is feature-only; all extra detail goes into the key.** Default rule: feature = the first token after the workspace prefix; everything after moves into the key. (Accommodation has a hand-refined feature map with a few 2-token features and semantic merges, e.g. `pay_at_hotel`→`pah`, `check_out`→`check_in`, all `no_*`→`no_inventory_handling`.)
 5. **key** = the content leaf, snake_case, with **template symbols stripped** (`%@`, `%ld`, `%d`, `{0}`, `(%@)`).
 6. **Fill only when confident; leave blank otherwise.** Wrong values are worse than blanks.
@@ -32,7 +34,7 @@ Org context: this is Traveloka (an OTA). Treat all data as internal/confidential
 
 The parser lives in scratchpad as `poeparse.py` (regenerable — see below), not committed. Its logic:
 - Strip `andpoe.`/`iospoe.` prefix and a leading `text_` (Android).
-- workspace = first token mapped via the vocabulary above (Android and iOS variants: `accommodation`/`accomm`/`hotel`→`accom`, `car`/`vehicle`→rental, `pay`→payment, `point`→ptp, etc.).
+- workspace = first token mapped via the vocabulary above (Android and iOS variants: `accommodation`/`accomm`/`accom`/`hotel`→`hotel` (bucket prefix stays `accom`), `car`/`vehicle`→rental, `pay`→payment, `point`→ptp, etc.).
 - Android: split bucket at the last page/container marker (`result`, `detail`, `page`, `popup`, `tray`, `list`, `tab`, `section`, `dialog`, …); iOS: split at the element marker (`label`, `button`, `title`, `text`, …). Then collapse bucket to the first-token feature and push the rest into the key.
 - Cross-platform matching: 1,400 exact + 2,674 fuzzy (tiers A–D by byte-exact value equality). Merged set = tier A.
 
@@ -51,7 +53,7 @@ The parser lives in scratchpad as `poeparse.py` (regenerable — see below), not
 - **Bash `cd` in a compound command can silently fail** in this environment — use absolute paths.
 - **The in-app browser blocks `localhost`**, so you can't screenshot the local viewer; verify by serving + `curl` instead.
 - Lark: use `--as user`. To add records use `base +record-batch-create` (≤200/batch); for distinct per-row updates use `base +record-upsert` per record (`+record-batch-update` only applies one shared patch). Pass large JSON via a direct arg through Python `subprocess`, not shell (avoids quoting issues); `--json -` stdin and `@file` with absolute paths don't work.
-- GitHub Pages is unavailable (private repo, no paid plan) — the viewer runs locally only.
+- The viewer is published via GitHub Pages at https://ivandwijaya.github.io/translation-checkup/ (also runs locally via `make serve`). A Pages site is publicly reachable, so the dataset — including internal key names/codenames — is exposed on the public internet.
 
 ## Current status
 

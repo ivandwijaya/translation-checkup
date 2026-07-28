@@ -38,6 +38,8 @@
   td.val{white-space:pre-wrap}
   .badge{display:inline-block;padding:1px 7px;border-radius:10px;background:var(--chip);font-size:11px}
   .badge.t{color:#f0883e} .badge.f{color:var(--muted)}
+  .msel{font-size:11px;padding:1px 6px;border:1px solid var(--border);border-radius:10px;background:var(--chip);color:var(--muted);cursor:pointer}
+  .msel.t{color:#f0883e} .msel.f{color:var(--muted)}
   tr:hover td{background:var(--hover)}
   mark{background:rgba(47,129,247,.35);color:inherit;border-radius:2px}
   .idx{color:var(--muted);font-size:11px;width:50px}
@@ -129,7 +131,7 @@ let all=[], filtered=[], page=0, sortCol=null, sortDir=1;
 const $=id=>document.getElementById(id);
 // editing is enabled only when served locally (never on GitHub Pages)
 const LOCAL=['localhost','127.0.0.1','[::1]',''].includes(location.hostname);
-const EDITABLE=new Set([2,3,4]);   // assigned workspace / bucket / key name
+const EDITABLE=new Set([2,3,4]);   // assigned workspace / bucket / key name (is merged uses a dropdown)
 let dirty=0, note='local edit mode';
 function setNote(m){ if(m!==undefined) note=m; $('editnote').textContent=note; }
 
@@ -185,7 +187,12 @@ function render(){
       const v=r[c.field];
       if(LOCAL && EDITABLE.has(c.field))
         return `<td class="${c.cls} edit" contenteditable="true" data-i="${r._i}" data-c="${c.field}">${esc(v)}</td>`;
-      if(c.k==='merged'){ if(v==='TRUE')return '<td><span class="badge t">TRUE</span></td>';
+      if(c.k==='merged'){
+        if(LOCAL){
+          const opt=(val,lab)=>`<option value="${val}"${v===val?' selected':''}>${lab}</option>`;
+          return `<td><select class="msel ${v==='TRUE'?'t':v==='FALSE'?'f':''}" data-i="${r._i}">${opt('','—')}${opt('TRUE','TRUE')}${opt('FALSE','FALSE')}</select></td>`;
+        }
+        if(v==='TRUE')return '<td><span class="badge t">TRUE</span></td>';
         if(v==='FALSE')return '<td><span class="badge f">FALSE</span></td>'; return '<td></td>'; }
       const searchable=['key','value','bucket','kn'].includes(c.k);
       return `<td class="${c.cls}">${hlTerms(v, searchable?hterms:[])}</td>`;
@@ -228,6 +235,12 @@ if(LOCAL){
   tb.addEventListener('input', e=>{
     const td=e.target.closest('td[contenteditable]'); if(!td) return;
     all[+td.dataset.i][+td.dataset.c]=td.textContent;
+    dirty++; setNote('editing…'); scheduleSave();
+  });
+  tb.addEventListener('change', e=>{
+    const s=e.target.closest('select.msel'); if(!s) return;
+    all[+s.dataset.i][5]=s.value;
+    s.className='msel '+(s.value==='TRUE'?'t':s.value==='FALSE'?'f':'');
     dirty++; setNote('editing…'); scheduleSave();
   });
   tb.addEventListener('keydown', e=>{

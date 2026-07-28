@@ -6332,10 +6332,10 @@ andpoe.text_hotel_facilities_show_less,Show less,hotel,accom_facilities,show_les
 andpoe.text_hotel_facilities_show_more,Show more,hotel,accom_facilities,show_more,FALSE
 andpoe.text_hotel_facility_few_result,We found only a few properties that match your criteria. Please change your filter.,hotel,accom_facility,few_result,FALSE
 andpoe.text_hotel_featured_destinations,Traveloka StayNow,hotel,,,FALSE
-andpoe.text_hotel_format_pah,<![CDATA[<font color=#1BA0E2>{0}</font>]]>,hotel,,,FALSE
-andpoe.text_hotel_format_room,{0} room(s),hotel,,,FALSE
-andpoe.text_hotel_format_total_guest_and_rooms,"{0} guest(s), {1} room(s)",hotel,,,FALSE
-andpoe.text_hotel_format_total_guest,{0} guest(s),hotel,,,FALSE
+andpoe.text_hotel_format_pah,<![CDATA[<font color=#1BA0E2>{0}</font>]]>,hotel,hotel_format,pah,FALSE
+andpoe.text_hotel_format_room,{0} room(s),hotel,hotel_format,room,FALSE
+andpoe.text_hotel_format_total_guest_and_rooms,"{0} guest(s), {1} room(s)",hotel,hotel_format,total_guest_and_rooms,FALSE
+andpoe.text_hotel_format_total_guest,{0} guest(s),hotel,hotel_format,total_guest,FALSE
 andpoe.text_hotel_free_breakfast_and_free_wifi,"Free WiFi, Free Breakfast",hotel,,,
 andpoe.text_hotel_free_breakfast_and_no_free_wifi,Free Breakfast,hotel,,,
 andpoe.text_hotel_guest_room_dialog_input_adults,Enter Number of Adult(s),hotel,accom_guest,room_dialog_input_adults,FALSE
@@ -6762,7 +6762,7 @@ andpoe.text_pay_at_hotel_credit_card_not_supported,Credit card type is not suppo
 andpoe.text_pay_at_hotel_credit_card_required,Confirmation Method Required,payment,payment_at,hotel_credit_card_required,FALSE
 andpoe.text_pay_at_hotel_debit_card_title,Debit Card,payment,payment_at,hotel_debit_card_title,FALSE
 andpoe.text_pay_at_hotel_for_reference_price,(for reference only),payment,payment_at,hotel_for_reference_price,FALSE
-andpoe.text_pay_at_hotel_format,<![CDATA[<font color=#1ba0e2>Pay at Hotel</font>]]>,payment,,,FALSE
+andpoe.text_pay_at_hotel_format,<![CDATA[<font color=#1ba0e2>Pay at Hotel</font>]]>,hotel,hotel_format,pay_at_hotel,FALSE
 andpoe.text_pay_at_hotel_guarantee_title,Confirm Booking,payment,payment_at,hotel_guarantee_title,FALSE
 andpoe.text_pay_at_hotel_help_description_direct_contract,"<![CDATA[<font color=#1c8ddb>Pay upon Check-inl</font> allows you to book a room without having to pay immediately. You can pay during your stay using various payment methods.
 <br><br>

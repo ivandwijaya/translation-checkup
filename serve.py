@@ -17,6 +17,12 @@ class Handler(http.server.SimpleHTTPRequestHandler):
     def __init__(self, *a, **k):
         super().__init__(*a, directory=ROOT, **k)
 
+    def do_GET(self):
+        # friendly route: /proposal -> proposal.html
+        if self.path.rstrip("/") == "/proposal":
+            self.path = "/proposal.html"
+        return super().do_GET()
+
     def do_POST(self):
         if self.path != "/save":
             self.send_error(404); return

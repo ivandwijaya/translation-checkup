@@ -58,6 +58,10 @@
   <div class="sub">Android + iOS strings with assigned workspace / bucket / key.</div>
   <div class="controls">
     <input id="q" type="search" placeholder="Search key, value, bucket, key name…" autocomplete="off">
+    <select id="matchmode" title="Exact = substring match. Loose = each space-separated word matched ignoring separators (booking trip → booking_trip).">
+      <option value="exact">Exact match</option>
+      <option value="loose">Loose match</option>
+    </select>
     <select id="workspace"><option value="__all">All workspaces</option></select>
     <select id="merged">
       <option value="__all">All (merged?)</option>
@@ -107,9 +111,11 @@ function parseCSV(text){
   return rows;
 }
 const esc=s=>(s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
-function hl(s,q){ s=s||''; if(!q) return esc(s);
-  const idx=s.toLowerCase().indexOf(q); if(idx<0) return esc(s);
-  return esc(s.slice(0,idx))+'<mark>'+esc(s.slice(idx,idx+q.length))+'</mark>'+esc(s.slice(idx+q.length)); }
+function hlTerms(s,terms){ s=s||''; if(!terms||!terms.length) return esc(s);
+  const re=new RegExp('('+terms.map(t=>t.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')).join('|')+')','ig');
+  let out='',last=0,m;
+  while((m=re.exec(s))!==null){ out+=esc(s.slice(last,m.index))+'<mark>'+esc(m[0])+'</mark>'; last=m.index+m[0].length; if(m.index===re.lastIndex) re.lastIndex++; }
+  return out+esc(s.slice(last)); }
 
 const COLS=[
   {k:'key',   label:'Initial key',    field:0, cls:'mono key'},
@@ -145,12 +151,16 @@ fetch('poe.csv').then(r=>{if(!r.ok)throw new Error(r.status);return r.text();}).
 
 function apply(){
   const q=$('q').value.trim().toLowerCase();
+  const mode=$('matchmode').value;
+  const terms = mode==='loose' ? q.split(/\s+/).filter(Boolean) : null;
   const wsv=$('workspace').value, mv=$('merged').value;
   filtered=all.filter(r=>{
     if(wsv!=='__all'){ const w=wsv==='__blank'?'':wsv; if(r[2]!==w) return false; }
     if(mv!=='__all' && r[5]!==mv) return false;
     if(!q) return true;
-    return (r[0]+' '+r[1]+' '+r[3]+' '+r[4]).toLowerCase().includes(q);
+    const hay=(r[0]+' '+r[1]+' '+r[3]+' '+r[4]).toLowerCase();
+    if(mode==='loose'){ const norm=hay.replace(/[^a-z0-9]+/g,' '); return terms.every(t=>norm.includes(t)); }
+    return hay.includes(q);
   });
   if(sortCol!==null){
     const f=COLS[sortCol].field;
@@ -168,6 +178,8 @@ function render(){
   const pages=Math.max(1,Math.ceil(filtered.length/size));
   if(page>=pages)page=pages-1;
   const q=$('q').value.trim().toLowerCase(), start=page*size, slice=filtered.slice(start,start+size);
+  const mode=$('matchmode').value;
+  const hterms = !q ? [] : (mode==='loose' ? q.split(/\s+/).filter(Boolean) : [q]);
   $('tbody').innerHTML=slice.map((r,i)=>{
     const cells=COLS.map(c=>{
       const v=r[c.field];
@@ -176,7 +188,7 @@ function render(){
       if(c.k==='merged'){ if(v==='TRUE')return '<td><span class="badge t">TRUE</span></td>';
         if(v==='FALSE')return '<td><span class="badge f">FALSE</span></td>'; return '<td></td>'; }
       const searchable=['key','value','bucket','kn'].includes(c.k);
-      return `<td class="${c.cls}">${hl(v, searchable?q:'')}</td>`;
+      return `<td class="${c.cls}">${hlTerms(v, searchable?hterms:[])}</td>`;
     }).join('');
     return `<tr><td class="idx">${start+i+1}</td>${cells}</tr>`;
   }).join('');
@@ -188,7 +200,7 @@ function render(){
   P.append(mk('Next ›',page+1,page>=pages-1), mk('Last »',pages-1,page>=pages-1));
 }
 let t;$('q').addEventListener('input',()=>{clearTimeout(t);t=setTimeout(apply,150);});
-$('workspace').onchange=apply; $('merged').onchange=apply; $('pagesize').onchange=()=>{page=0;render();};
+$('workspace').onchange=apply; $('merged').onchange=apply; $('matchmode').onchange=apply; $('pagesize').onchange=()=>{page=0;render();};
 
 // --- local editing: persist edits into `all`, autosave to the local server ---
 function csvCell(s){ s=(s==null?'':String(s)); return /[",\n\r]/.test(s) ? '"'+s.replace(/"/g,'""')+'"' : s; }

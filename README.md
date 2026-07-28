@@ -49,11 +49,11 @@ For a quick look without a server, open `poe.csv` in Excel, Numbers, or VS Code.
 | `index.html` | Local web viewer for `poe.csv`. |
 | `Makefile` | `make serve` launcher. |
 | `STATS.md` | Reconciliation statistics and rules. |
-| `ios_missing_keys.json` | 109 keys in `ioscleaned.json` with no source in `iospoe.json`. |
-| `fuzzy_matches_tierA.json` | Identical value (byte-exact) + strong key similarity — 811 pairs (the merged set). |
-| `fuzzy_matches_tierB.json` | Identical value (byte-exact) + moderate key similarity — 1,438 pairs. |
-| `fuzzy_matches_tierC.json` | Different value + strong key similarity — 120 pairs. |
-| `fuzzy_matches_tierD.json` | Different value + weaker key similarity — 305 pairs. |
+| `analysis/ios_missing_keys.json` | 109 keys in `ioscleaned.json` with no source in `iospoe.json`. |
+| `analysis/fuzzy_matches_tierA.json` | Identical value (byte-exact) + strong key similarity — 811 pairs (the merged set). |
+| `analysis/fuzzy_matches_tierB.json` | Identical value (byte-exact) + moderate key similarity — 1,438 pairs. |
+| `analysis/fuzzy_matches_tierC.json` | Different value + strong key similarity — 120 pairs. |
+| `analysis/fuzzy_matches_tierD.json` | Different value + weaker key similarity — 305 pairs. |
 | `source/androidpoe.json` | Raw Android POE export (23,242 buckets). |
 | `source/andcleaned.xml` | Cleaned Android strings (8,930 `<string>` entries). |
 | `source/iospoe.json` | Raw iOS POE export (23,346 buckets). |

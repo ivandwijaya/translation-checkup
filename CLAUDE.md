@@ -11,7 +11,7 @@ Org context: this is Traveloka (an OTA). Treat all data as internal/confidential
 ## Source of truth & artifacts
 
 - **`poe.csv` is the source of truth** — 6 columns: `initial key, initial value, assigned workspace, assigned bucket, assigned key name, is merged`. 16,667 rows.
-- `poe.json` and `fuzzy_matches.json` were **intentionally deleted** (redundant with `poe.csv` and the tier files). **Do not recreate them in the repo.** If you need key/value data, read `poe.csv`; if you need the fuzzy pairs, read `fuzzy_matches_tier{A,B,C,D}.json`.
+- `poe.json` and `fuzzy_matches.json` were **intentionally deleted** (redundant with `poe.csv` and the tier files). **Do not recreate them in the repo.** If you need key/value data, read `poe.csv`; if you need the fuzzy pairs, read `analysis/fuzzy_matches_tier{A,B,C,D}.json`.
 - `source/` holds the raw exports (`androidpoe.json`, `andcleaned.xml`, `iospoe.json`, `ioscleaned.json`).
 - Viewer: `index.html` + `make serve` (port 8766). Must be served over `http://`, not `file://`.
 - The user previously mirrored this data into a Lark spreadsheet/Base (`https://traveloka.sg.larksuite.com/wiki/Gn9WwPdxwiMZXjk2QOGlDK0igUf`), but has since **moved to the HTML/CSV** — the CSV is authoritative now, don't assume the Lark doc is in sync.

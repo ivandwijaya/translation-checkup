@@ -3372,27 +3372,27 @@ andpoe.payment_popup_webview_on_back_pressed_popup_description,"Payment with thi
 andpoe.payment_popup_webview_on_back_pressed_popup_main_button,Back to payment page,payment,payment_popup,webview_on_back_pressed_popup_main_button,TRUE
 andpoe.payment_popup_webview_on_back_pressed_popup_secondary_button,Go to Purchase List,payment,payment_popup,webview_on_back_pressed_popup_secondary_button,TRUE
 andpoe.payment_popup_webview_on_back_pressed_popup_title,Leaving this page?,payment,payment_popup,webview_on_back_pressed_popup_title,TRUE
-andpoe.payment_purchase_detail_revamp_check_status_action,Check payment status,payment,payment_purchase,status_progress_button_check_payment_status,TRUE
-andpoe.payment_purchase_detail_revamp_choose_method_action,Choose a method,payment,payment_purchase,status_progress_button_choose_method,TRUE
-andpoe.payment_purchase_detail_revamp_continue_payment_action,Continue to pay,payment,payment_purchase,detail_revamp_continue_payment_action,
-andpoe.payment_purchase_detail_revamp_cpm_cancel_action,Cancel this purchase,payment,payment_purchase,manage_cancel_title,TRUE
-andpoe.payment_purchase_detail_revamp_cpm_cancel_info,Canceling this purchase will release any applied coupons that were used.,payment,payment_purchase,manage_cancel_description,TRUE
-andpoe.payment_purchase_detail_revamp_cpm_description,Make sure your previous payment is not yet paid. Any applied coupons or Points cannot be used until the booking has expired or been canceled.,payment,payment_purchase,change_method_popup_description,TRUE
-andpoe.payment_purchase_detail_revamp_cpm_primary_action,"Yes, change",payment,payment_purchase,change_method_popup_button_yes,TRUE
-andpoe.payment_purchase_detail_revamp_cpm_secondary_action,Back,payment,payment_purchase,detail_revamp_cpm_secondary_action,FALSE
-andpoe.payment_purchase_detail_revamp_cpm_title,Change your payment method?,payment,payment_purchase,change_method_popup_title,TRUE
-andpoe.payment_purchase_detail_revamp_detail_container,Payment details,payment,payment_purchase,detail_revamp_detail_container,
-andpoe.payment_purchase_detail_revamp_help_tray_title,How can we help you?,payment,payment_purchase,detail_revamp_help_tray_title,TRUE
-andpoe.payment_purchase_detail_revamp_manage_title,Manage your purchase,payment,payment_purchase,detail_revamp_manage_title,TRUE
-andpoe.payment_purchase_detail_revamp_page_subtitle,Booking ID: {0},payment,payment_purchase,detail_revamp_page_subtitle,FALSE
-andpoe.payment_purchase_detail_revamp_page_title,Your purchase detail,payment,payment_purchase,title,TRUE
-andpoe.payment_purchase_detail_revamp_remaining_time_label,Remaining time:,payment,payment_purchase,detail_revamp_remaining_time_label,TRUE
-andpoe.payment_purchase_detail_revamp_see_proof,See payment proof,payment,payment_purchase,detail_revamp_see_proof,TRUE
-andpoe.payment_purchase_detail_revamp_total_price_label,Total price,payment,payment_purchase,detail_revamp_total_price_label,
-andpoe.payment_purchase_detail_revamp_upload_proof_action,Upload payment proof,payment,payment_purchase,detail_revamp_upload_proof_action,
-andpoe.payment_purchase_detail_upload_proof_section_button,Upload payment proof,payment,payment_purchase,detail_upload_proof_section_button,TRUE
-andpoe.payment_purchase_detail_upload_proof_section_description,"Don''t worry, your payment is being processed. To speed up the process, you can manually confirm it by uploading your payment proof.",payment,payment_purchase,detail_upload_proof_section_description,TRUE
-andpoe.payment_purchase_detail_upload_proof_section_title,Haven''t receive a payment confirmation?,payment,payment_purchase,detail_upload_proof_section_title,TRUE
+andpoe.payment_purchase_detail_revamp_check_status_action,Check payment status,payment,payment_purchase_detail,status_progress_button_check_payment_status,TRUE
+andpoe.payment_purchase_detail_revamp_choose_method_action,Choose a method,payment,payment_purchase_detail,status_progress_button_choose_method,TRUE
+andpoe.payment_purchase_detail_revamp_continue_payment_action,Continue to pay,payment,payment_purchase_detail,revamp_continue_payment_action,
+andpoe.payment_purchase_detail_revamp_cpm_cancel_action,Cancel this purchase,payment,payment_purchase_detail,manage_cancel_title,TRUE
+andpoe.payment_purchase_detail_revamp_cpm_cancel_info,Canceling this purchase will release any applied coupons that were used.,payment,payment_purchase_detail,manage_cancel_description,TRUE
+andpoe.payment_purchase_detail_revamp_cpm_description,Make sure your previous payment is not yet paid. Any applied coupons or Points cannot be used until the booking has expired or been canceled.,payment,payment_purchase_detail,change_method_popup_description,TRUE
+andpoe.payment_purchase_detail_revamp_cpm_primary_action,"Yes, change",payment,payment_purchase_detail,change_method_popup_button_yes,TRUE
+andpoe.payment_purchase_detail_revamp_cpm_secondary_action,Back,payment,payment_purchase_detail,revamp_cpm_secondary_action,FALSE
+andpoe.payment_purchase_detail_revamp_cpm_title,Change your payment method?,payment,payment_purchase_detail,change_method_popup_title,TRUE
+andpoe.payment_purchase_detail_revamp_detail_container,Payment details,payment,payment_purchase_detail,revamp_detail_container,
+andpoe.payment_purchase_detail_revamp_help_tray_title,How can we help you?,payment,payment_purchase_detail,revamp_help_tray_title,TRUE
+andpoe.payment_purchase_detail_revamp_manage_title,Manage your purchase,payment,payment_purchase_detail,revamp_manage_title,TRUE
+andpoe.payment_purchase_detail_revamp_page_subtitle,Booking ID: {0},payment,payment_purchase_detail,revamp_page_subtitle,FALSE
+andpoe.payment_purchase_detail_revamp_page_title,Your purchase detail,payment,payment_purchase_detail,title,TRUE
+andpoe.payment_purchase_detail_revamp_remaining_time_label,Remaining time:,payment,payment_purchase_detail,revamp_remaining_time_label,TRUE
+andpoe.payment_purchase_detail_revamp_see_proof,See payment proof,payment,payment_purchase_detail,revamp_see_proof,TRUE
+andpoe.payment_purchase_detail_revamp_total_price_label,Total price,payment,payment_purchase_detail,revamp_total_price_label,
+andpoe.payment_purchase_detail_revamp_upload_proof_action,Upload payment proof,payment,payment_purchase_detail,revamp_upload_proof_action,
+andpoe.payment_purchase_detail_upload_proof_section_button,Upload payment proof,payment,payment_purchase_detail,upload_proof_section_button,TRUE
+andpoe.payment_purchase_detail_upload_proof_section_description,"Don''t worry, your payment is being processed. To speed up the process, you can manually confirm it by uploading your payment proof.",payment,payment_purchase_detail,upload_proof_section_description,TRUE
+andpoe.payment_purchase_detail_upload_proof_section_title,Haven''t receive a payment confirmation?,payment,payment_purchase_detail,upload_proof_section_title,TRUE
 andpoe.payment_qr_content_guideline_section_title,How to Pay with QR,payment,payment_guideline_qr,label_how_to_pay,TRUE
 andpoe.payment_qr_download_failed,"Sorry, something went wrong. Please try again.",payment,payment_qr,download_failed,TRUE
 andpoe.payment_qr_download_success,The QR code has been saved. Please check your gallery. ,payment,payment_qr,download_success,
@@ -3552,7 +3552,7 @@ andpoe.payment_upload_proof_tray_picker_description,"You can upload a file in PN
 andpoe.payment_upload_proof_tray_picker_gallery_button,Choose from gallery,payment,payment_upload_proof,tray_button_secondary,TRUE
 andpoe.payment_upload_proof_tray_picker_photo_button,Take a photo,payment,payment_upload,proof_tray_picker_photo_button,TRUE
 andpoe.payment_upload_proof_tray_picker_title,Upload payment proof,payment,payment_upload,proof_tray_picker_title,FALSE
-andpoe.payment_upload_proof_uploaded_popup_title,Your payment proof,payment,payment_purchase,status_detail_proof_popup_title,TRUE
+andpoe.payment_upload_proof_uploaded_popup_title,Your payment proof,payment,payment_purchase_detail,status_detail_proof_popup_title,TRUE
 andpoe.payment_viet_qr_permission_granted_try_again,Something went wrong. Tap ''Save QR Code'' to try again.,payment,,,FALSE
 andpoe.payment_webview_callback_polling_message,Please wait a moment.,payment,payment_webview,callback_polling_message,
 andpoe.payment_webview_callback_polling_message_screen,Verifying your payment with our partner...,payment,payment_webview_verifying,label_title,TRUE
@@ -14436,28 +14436,28 @@ iospoe.payment.product-detail.details-button,Details,payment,payment_product,det
 iospoe.payment.product-detail.error-subtitle,Tap here to reload,payment,payment_product,detail_card_widget_error_description,TRUE
 iospoe.payment.product-detail.error-title,Couldn’t load your booking details,payment,payment_product,detail_card_widget_error_title,TRUE
 iospoe.payment.promo.congratulation.label.congratulations,Congratulations!,payment,payment_promo,congratulation_label_congratulations,TRUE
-iospoe.payment.purchase.change-method.popup.button.cancel,Back,payment,payment_purchase,change_method_popup_cancel,FALSE
-iospoe.payment.purchase.change-method.popup.button.yes,"Yes, change",payment,payment_purchase,change_method_popup_button_yes,TRUE
-iospoe.payment.purchase.change-method.popup.description,Make sure your previous payment is not yet paid. Any applied coupons or Points cannot be used until the booking has expired or been canceled.,payment,payment_purchase,change_method_popup_description,TRUE
-iospoe.payment.purchase.change-method.popup.title,Change your payment method?,payment,payment_purchase,change_method_popup_title,TRUE
+iospoe.payment.purchase.change-method.popup.button.cancel,Back,payment,payment_purchase_detail,change_method_popup_cancel,FALSE
+iospoe.payment.purchase.change-method.popup.button.yes,"Yes, change",payment,payment_purchase_detail,change_method_popup_button_yes,TRUE
+iospoe.payment.purchase.change-method.popup.description,Make sure your previous payment is not yet paid. Any applied coupons or Points cannot be used until the booking has expired or been canceled.,payment,payment_purchase_detail,change_method_popup_description,TRUE
+iospoe.payment.purchase.change-method.popup.title,Change your payment method?,payment,payment_purchase_detail,change_method_popup_title,TRUE
 iospoe.payment.purchase.error.reload-page,Reload Page,payment,,,FALSE
-iospoe.payment.purchase.error.title,System Error,payment,payment_purchase,error_title,FALSE
-iospoe.payment.purchase.help-tray.title,How can we help you?,payment,payment_purchase,detail_revamp_help_tray_title,TRUE
-iospoe.payment.purchase.manage.cancel-description,Canceling this purchase will release any applied coupons that were used.,payment,payment_purchase,manage_cancel_description,TRUE
-iospoe.payment.purchase.manage.cancel-title,Cancel this purchase,payment,payment_purchase,manage_cancel_title,TRUE
-iospoe.payment.purchase.manage.title,Manage your purchase,payment,payment_purchase,detail_revamp_manage_title,TRUE
-iospoe.payment.purchase.remaining-time,Remaining time:,payment,payment_purchase,detail_revamp_remaining_time_label,TRUE
-iospoe.payment.purchase.status-detail.proof-popup.title,Your payment proof,payment,payment_purchase,status_detail_proof_popup_title,TRUE
-iospoe.payment.purchase.status-detail.title,Payment details,payment,payment_purchase,status_detail_title,
-iospoe.payment.purchase.status-detail.upload.button,Upload payment proof,payment,payment_purchase,detail_upload_proof_section_button,TRUE
-iospoe.payment.purchase.status-detail.upload.description,"Don''t worry, your payment is being processed. To speed up the process, you can manually confirm it by uploading your payment proof.",payment,payment_purchase,detail_upload_proof_section_description,TRUE
-iospoe.payment.purchase.status-detail.upload.see-payment-proof,See payment proof,payment,payment_purchase,detail_revamp_see_proof,TRUE
-iospoe.payment.purchase.status-detail.upload.title,Haven''t receive a payment confirmation?,payment,payment_purchase,detail_upload_proof_section_title,TRUE
-iospoe.payment.purchase.status-progress.button.check-payment-status,Check payment status,payment,payment_purchase,status_progress_button_check_payment_status,TRUE
-iospoe.payment.purchase.status-progress.button.choose-method,Choose a method,payment,payment_purchase,status_progress_button_choose_method,TRUE
-iospoe.payment.purchase.status-progress.button.continue,Continue to pay,payment,payment_purchase,status_progress_continue,
-iospoe.payment.purchase.status-progress.button.upload,Upload payment proof,payment,payment_purchase,status_progress_upload,FALSE
-iospoe.payment.purchase.title,Your purchase detail,payment,payment_purchase,title,TRUE
+iospoe.payment.purchase.error.title,System Error,payment,payment_purchase_detail,error_title,FALSE
+iospoe.payment.purchase.help-tray.title,How can we help you?,payment,payment_purchase_detail,revamp_help_tray_title,TRUE
+iospoe.payment.purchase.manage.cancel-description,Canceling this purchase will release any applied coupons that were used.,payment,payment_purchase_detail,manage_cancel_description,TRUE
+iospoe.payment.purchase.manage.cancel-title,Cancel this purchase,payment,payment_purchase_detail,manage_cancel_title,TRUE
+iospoe.payment.purchase.manage.title,Manage your purchase,payment,payment_purchase_detail,revamp_manage_title,TRUE
+iospoe.payment.purchase.remaining-time,Remaining time:,payment,payment_purchase_detail,revamp_remaining_time_label,TRUE
+iospoe.payment.purchase.status-detail.proof-popup.title,Your payment proof,payment,payment_purchase_detail,status_detail_proof_popup_title,TRUE
+iospoe.payment.purchase.status-detail.title,Payment details,payment,payment_purchase_detail,status_detail_title,
+iospoe.payment.purchase.status-detail.upload.button,Upload payment proof,payment,payment_purchase_detail,upload_proof_section_button,TRUE
+iospoe.payment.purchase.status-detail.upload.description,"Don''t worry, your payment is being processed. To speed up the process, you can manually confirm it by uploading your payment proof.",payment,payment_purchase_detail,upload_proof_section_description,TRUE
+iospoe.payment.purchase.status-detail.upload.see-payment-proof,See payment proof,payment,payment_purchase_detail,revamp_see_proof,TRUE
+iospoe.payment.purchase.status-detail.upload.title,Haven''t receive a payment confirmation?,payment,payment_purchase_detail,upload_proof_section_title,TRUE
+iospoe.payment.purchase.status-progress.button.check-payment-status,Check payment status,payment,payment_purchase_detail,status_progress_button_check_payment_status,TRUE
+iospoe.payment.purchase.status-progress.button.choose-method,Choose a method,payment,payment_purchase_detail,status_progress_button_choose_method,TRUE
+iospoe.payment.purchase.status-progress.button.continue,Continue to pay,payment,payment_purchase_detail,status_progress_continue,
+iospoe.payment.purchase.status-progress.button.upload,Upload payment proof,payment,payment_purchase_detail,status_progress_upload,FALSE
+iospoe.payment.purchase.title,Your purchase detail,payment,payment_purchase_detail,title,TRUE
 iospoe.payment.qr-popup-expired.button.back-to-main,Back to Payment Page,payment,payment_qr,popup_expired_back_to_main,
 iospoe.payment.qr-popup-expired.label.description,"Sorry, this QR code is no longer available. You can go back and tap the ''Pay'' button again to generate a new code.",payment,payment_qr,expired_dialog_description,TRUE
 iospoe.payment.qr-popup-expired.label.title,The QR Code Has Expired,payment,payment_qr,expired_dialog_title,TRUE

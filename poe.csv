@@ -1,10 +1,10 @@
 initial key,initial value,assigned workspace,assigned bucket,assigned key name,is merged
 andpoe.about_refund_balance_description,"<![CDATA[<ul><li>Refund Balance comes from your refunded transactions. This includes refunds for transactions exceeding your limits (card/e-wallet), or failed transactions using Bank Transfer, Virtual Account, or Convenience Store.</li><li>Read more about Refund Balance Terms & Conditions <a href=https://www.traveloka.com/en-en/balance-tnc style=\""text-decoration:none;\"">here</a>.</li></ul>]]>",,,,
 andpoe.about_withdrawal_process,About withdrawal process,,,,FALSE
-andpoe.accom_aa_pah_flx_popup_info_desc,"<![CDATA[<b>1. Secure the room WITHOUT immediate payment<br/><br/>2. Pay by cash or card at the hotel <br/><br/>3. No need to request a refund if your plan changes. (Only applicable for free-cancellation booking).</b><br/><br/>Simply choose one of these methods: credit card or TPayLater to confirm the room. Rest assured, once it is confirmed, the room will be kept for your stay.]]>",hotel,accom_aa,pah_flx_popup_info_desc,FALSE
-andpoe.accom_aa_pah_flx_popup_info_ean_desc,"<![CDATA[<b>1. Secure the unit WITHOUT immediate payment<br/><br/>2. Pay by cash or card upon check-in<br/><br/>3. Relax when there''s a change of plan. You don''t need to worry about requesting a refund if you have to cancel\n</b><br/><br/>Note: You will be required to provide credit card details to confirm the booking. However, for security reasons, some accommodations may charge your credit card prior to your arrival.]]>",hotel,accom_aa,pah_flx_popup_info_ean_desc,FALSE
-andpoe.accom_aa_pah_flx_popup_info_ean_title,Why Choose This?,hotel,accom_aa,pah_flx_popup_info_ean_title,FALSE
-andpoe.accom_aa_pah_flx_popup_info_title,Why Choose This?,hotel,accom_aa,pah_flx_popup_info_title,FALSE
+andpoe.accom_aa_pah_flx_popup_info_desc,"<![CDATA[<b>1. Secure the room WITHOUT immediate payment<br/><br/>2. Pay by cash or card at the hotel <br/><br/>3. No need to request a refund if your plan changes. (Only applicable for free-cancellation booking).</b><br/><br/>Simply choose one of these methods: credit card or TPayLater to confirm the room. Rest assured, once it is confirmed, the room will be kept for your stay.]]>",hotel,accom_alternative,pah_flx_popup_info_desc,FALSE
+andpoe.accom_aa_pah_flx_popup_info_ean_desc,"<![CDATA[<b>1. Secure the unit WITHOUT immediate payment<br/><br/>2. Pay by cash or card upon check-in<br/><br/>3. Relax when there''s a change of plan. You don''t need to worry about requesting a refund if you have to cancel\n</b><br/><br/>Note: You will be required to provide credit card details to confirm the booking. However, for security reasons, some accommodations may charge your credit card prior to your arrival.]]>",hotel,accom_alternative,pah_flx_popup_info_ean_desc,FALSE
+andpoe.accom_aa_pah_flx_popup_info_ean_title,Why Choose This?,hotel,accom_alternative,pah_flx_popup_info_ean_title,FALSE
+andpoe.accom_aa_pah_flx_popup_info_title,Why Choose This?,hotel,accom_alternative,pah_flx_popup_info_title,FALSE
 andpoe.accom_aqstpp_section_subtitle,"As a Preferred Partner Plus, this hotel has an outstanding performance that is regularly verified by Traveloka.",hotel,accom_aqstpp,section_subtitle,FALSE
 andpoe.accom_aqstpp_tray_usp_list,This hotel also offers the following top features and facilities to ensure you enjoy your stay:,hotel,accom_aqstpp,tray_usp_list,FALSE
 andpoe.accom_area_filter_reco_title_tray,Area Recommendation,hotel,accom_area,filter_reco_title_tray,FALSE
@@ -1030,38 +1030,38 @@ andpoe.credit_hybrid_form_step_two_phone_number_required,Phone number is require
 andpoe.credit_hybrid_form_step_two_relationship_required,Please select to continue.,credit,credit_hybrid,form_step_two_relationship_required,TRUE
 andpoe.credit_hybrid_form_step_two_source_of_income_required,Please select to continue.,credit,credit_hybrid,form_step_two_source_of_income_required,
 andpoe.credit_hybrid_form_step_two_total_work_experience_required,Please select to continue.,credit,credit_hybrid,form_step_two_total_work_experience_required,
-andpoe.credit_kyc_address_detail_option_page_search_placeholder_city,Search city/regency,credit,credit_kyc,address_detail_option_page_search_placeholder_city,TRUE
-andpoe.credit_kyc_address_detail_option_page_search_placeholder_district,Search district,credit,credit_kyc,address_detail_option_page_search_placeholder_district,TRUE
-andpoe.credit_kyc_address_detail_option_page_search_placeholder_postal,Search postal code,credit,credit_kyc,address_detail_option_page_search_placeholder_postal,TRUE
-andpoe.credit_kyc_address_detail_option_page_search_placeholder_province,Search province,credit,credit_kyc,address_detail_option_page_search_placeholder_province,TRUE
-andpoe.credit_kyc_address_detail_option_page_search_placeholder_subdistrict,Search subdistrict,credit,credit_kyc,address_detail_option_page_search_placeholder_subdistrict,TRUE
-andpoe.credit_kyc_address_detail_option_page_title_city,Select city/regency in {0},credit,credit_kyc,address_detail_option_page_title_city,
-andpoe.credit_kyc_address_detail_option_page_title_district,Select district in {0},credit,credit_kyc,address_detail_option_page_title_district,
-andpoe.credit_kyc_address_detail_option_page_title_postal,Select postal code in {0},credit,credit_kyc,address_detail_option_page_title_postal,
-andpoe.credit_kyc_address_detail_option_page_title_province,Select province,credit,credit_kyc,address_detail_option_page_title_province,TRUE
-andpoe.credit_kyc_address_detail_option_page_title_subdistrict,Select subdistrict in {0},credit,credit_kyc,address_detail_option_page_title_subdistrict,
-andpoe.credit_kyc_address_form_page_v2_address_detail_option_page_clear_button,Clear,credit,credit_kyc,address_form_page_v2_address_detail_option_page_clear_button,FALSE
-andpoe.credit_kyc_address_form_page_v2_address_detail_option_page_error_not_found_description,Check the spelling or try using different keywords.,credit,credit_kyc,address_form_page_v2_address_detail_option_page_error_not_found_description,TRUE
-andpoe.credit_kyc_address_form_page_v2_address_detail_option_page_error_not_found_title,We couldn''t find results for “{0}”,credit,credit_kyc,address_form_page_v2_address_detail_option_page_error_not_found_title,
-andpoe.credit_kyc_address_form_page_v2_address_form_input_field_error_helper_text,Please fill in your address,credit,credit_kyc,address_form_page_v2_address_form_input_field_error_helper_text,
-andpoe.credit_kyc_address_form_page_v2_address_format_error_stimuli,"Only characters , . / - ( ) '' "" are allowed",credit,credit_kyc,address_form_page_v2_address_format_error_stimuli,
-andpoe.credit_kyc_address_form_page_v2_exit_tray_back,Back,credit,credit_kyc,address_form_page_v2_exit_tray_back,TRUE
-andpoe.credit_kyc_address_form_page_v2_exit_tray_info,Your data will be saved for now. Complete soon to finish your TPayLater application. Are you sure you want to leave?,credit,credit_kyc,address_form_page_v2_exit_tray_info,TRUE
-andpoe.credit_kyc_address_form_page_v2_exit_tray_leave,Leave,credit,credit_kyc,address_form_page_v2_exit_tray_leave,TRUE
-andpoe.credit_kyc_address_form_page_v2_exit_tray_title,Leaving this page?,credit,credit_kyc,address_form_page_v2_exit_tray_title,TRUE
-andpoe.credit_kyc_address_form_page_v2_main_page_navigation_label_title,Your current address,credit,credit_kyc,address_form_page_v2_main_page_navigation_label_title,TRUE
-andpoe.credit_kyc_address_form_page_v2_popup_location_access_button_primary,Allow location access,credit,credit_kyc,address_form_page_v2_popup_location_access_button_primary,TRUE
-andpoe.credit_kyc_address_form_page_v2_popup_location_access_button_secondary,Don’t allow,credit,credit_kyc,address_form_page_v2_popup_location_access_button_secondary,TRUE
-andpoe.credit_kyc_address_form_page_v2_popup_location_access_label_description,"To continue, please allow location access in your phone settings.",credit,credit_kyc,address_form_page_v2_popup_location_access_label_description,TRUE
-andpoe.credit_kyc_address_form_page_v2_popup_location_access_label_title,Turn on location access,credit,credit_kyc,address_form_page_v2_popup_location_access_label_title,TRUE
-andpoe.credit_kyc_address_form_page_v2_rtrw_length_error_stimuli,Please make sure RT/RW format is correct (e.g. 012/003),credit,credit_kyc,address_form_page_v2_rtrw_length_error_stimuli,TRUE
-andpoe.credit_kyc_address_form_page_v2_rtrw_stimuli,Input your RT/RW in 3-digits format (e.g. 012/003),credit,credit_kyc,address_form_page_v2_rtrw_stimuli,FALSE
-andpoe.credit_kyc_address_form_page_v2_save,Save,credit,credit_kyc,address_form_page_v2_save,TRUE
-andpoe.credit_kyc_address_form_page_v2_save_tray_check_again,Check again,credit,credit_kyc,address_form_page_v2_save_tray_check_again,TRUE
-andpoe.credit_kyc_address_form_page_v2_save_tray_confirm,Confirm,credit,credit_kyc,address_form_page_v2_save_tray_confirm,TRUE
-andpoe.credit_kyc_address_form_page_v2_save_tray_info,Please make sure all details are correct to avoid rejection.,credit,credit_kyc,address_form_page_v2_save_tray_info,TRUE
-andpoe.credit_kyc_address_form_page_v2_save_tray_title,Review your address,credit,credit_kyc,address_form_page_v2_save_tray_title,TRUE
-andpoe.credit_kyc_address_form_page_v2_street_name_length_error_stimuli,Address must be 10 - 160 characters,credit,credit_kyc,address_form_page_v2_street_name_length_error_stimuli,TRUE
+andpoe.credit_kyc_address_detail_option_page_search_placeholder_city,Search city/regency,kyc,credit_kyc,address_detail_option_page_search_placeholder_city,TRUE
+andpoe.credit_kyc_address_detail_option_page_search_placeholder_district,Search district,kyc,credit_kyc,address_detail_option_page_search_placeholder_district,TRUE
+andpoe.credit_kyc_address_detail_option_page_search_placeholder_postal,Search postal code,kyc,credit_kyc,address_detail_option_page_search_placeholder_postal,TRUE
+andpoe.credit_kyc_address_detail_option_page_search_placeholder_province,Search province,kyc,credit_kyc,address_detail_option_page_search_placeholder_province,TRUE
+andpoe.credit_kyc_address_detail_option_page_search_placeholder_subdistrict,Search subdistrict,kyc,credit_kyc,address_detail_option_page_search_placeholder_subdistrict,TRUE
+andpoe.credit_kyc_address_detail_option_page_title_city,Select city/regency in {0},kyc,credit_kyc,address_detail_option_page_title_city,
+andpoe.credit_kyc_address_detail_option_page_title_district,Select district in {0},kyc,credit_kyc,address_detail_option_page_title_district,
+andpoe.credit_kyc_address_detail_option_page_title_postal,Select postal code in {0},kyc,credit_kyc,address_detail_option_page_title_postal,
+andpoe.credit_kyc_address_detail_option_page_title_province,Select province,kyc,credit_kyc,address_detail_option_page_title_province,TRUE
+andpoe.credit_kyc_address_detail_option_page_title_subdistrict,Select subdistrict in {0},kyc,credit_kyc,address_detail_option_page_title_subdistrict,
+andpoe.credit_kyc_address_form_page_v2_address_detail_option_page_clear_button,Clear,kyc,credit_kyc,address_form_page_v2_address_detail_option_page_clear_button,FALSE
+andpoe.credit_kyc_address_form_page_v2_address_detail_option_page_error_not_found_description,Check the spelling or try using different keywords.,kyc,credit_kyc,address_form_page_v2_address_detail_option_page_error_not_found_description,TRUE
+andpoe.credit_kyc_address_form_page_v2_address_detail_option_page_error_not_found_title,We couldn''t find results for “{0}”,kyc,credit_kyc,address_form_page_v2_address_detail_option_page_error_not_found_title,
+andpoe.credit_kyc_address_form_page_v2_address_form_input_field_error_helper_text,Please fill in your address,kyc,credit_kyc,address_form_page_v2_address_form_input_field_error_helper_text,
+andpoe.credit_kyc_address_form_page_v2_address_format_error_stimuli,"Only characters , . / - ( ) '' "" are allowed",kyc,credit_kyc,address_form_page_v2_address_format_error_stimuli,
+andpoe.credit_kyc_address_form_page_v2_exit_tray_back,Back,kyc,credit_kyc,address_form_page_v2_exit_tray_back,TRUE
+andpoe.credit_kyc_address_form_page_v2_exit_tray_info,Your data will be saved for now. Complete soon to finish your TPayLater application. Are you sure you want to leave?,kyc,credit_kyc,address_form_page_v2_exit_tray_info,TRUE
+andpoe.credit_kyc_address_form_page_v2_exit_tray_leave,Leave,kyc,credit_kyc,address_form_page_v2_exit_tray_leave,TRUE
+andpoe.credit_kyc_address_form_page_v2_exit_tray_title,Leaving this page?,kyc,credit_kyc,address_form_page_v2_exit_tray_title,TRUE
+andpoe.credit_kyc_address_form_page_v2_main_page_navigation_label_title,Your current address,kyc,credit_kyc,address_form_page_v2_main_page_navigation_label_title,TRUE
+andpoe.credit_kyc_address_form_page_v2_popup_location_access_button_primary,Allow location access,kyc,credit_kyc,address_form_page_v2_popup_location_access_button_primary,TRUE
+andpoe.credit_kyc_address_form_page_v2_popup_location_access_button_secondary,Don’t allow,kyc,credit_kyc,address_form_page_v2_popup_location_access_button_secondary,TRUE
+andpoe.credit_kyc_address_form_page_v2_popup_location_access_label_description,"To continue, please allow location access in your phone settings.",kyc,credit_kyc,address_form_page_v2_popup_location_access_label_description,TRUE
+andpoe.credit_kyc_address_form_page_v2_popup_location_access_label_title,Turn on location access,kyc,credit_kyc,address_form_page_v2_popup_location_access_label_title,TRUE
+andpoe.credit_kyc_address_form_page_v2_rtrw_length_error_stimuli,Please make sure RT/RW format is correct (e.g. 012/003),kyc,credit_kyc,address_form_page_v2_rtrw_length_error_stimuli,TRUE
+andpoe.credit_kyc_address_form_page_v2_rtrw_stimuli,Input your RT/RW in 3-digits format (e.g. 012/003),kyc,credit_kyc,address_form_page_v2_rtrw_stimuli,FALSE
+andpoe.credit_kyc_address_form_page_v2_save,Save,kyc,credit_kyc,address_form_page_v2_save,TRUE
+andpoe.credit_kyc_address_form_page_v2_save_tray_check_again,Check again,kyc,credit_kyc,address_form_page_v2_save_tray_check_again,TRUE
+andpoe.credit_kyc_address_form_page_v2_save_tray_confirm,Confirm,kyc,credit_kyc,address_form_page_v2_save_tray_confirm,TRUE
+andpoe.credit_kyc_address_form_page_v2_save_tray_info,Please make sure all details are correct to avoid rejection.,kyc,credit_kyc,address_form_page_v2_save_tray_info,TRUE
+andpoe.credit_kyc_address_form_page_v2_save_tray_title,Review your address,kyc,credit_kyc,address_form_page_v2_save_tray_title,TRUE
+andpoe.credit_kyc_address_form_page_v2_street_name_length_error_stimuli,Address must be 10 - 160 characters,kyc,credit_kyc,address_form_page_v2_street_name_length_error_stimuli,TRUE
 andpoe.credit_pl_accom_hotel_card_discounted_badge_title,With TPayLater,credit,credit_pl,accom_hotel_card_discounted_badge_title,
 andpoe.credit_pl_accom_hotel_card_original_title,Original price,credit,credit_pl,accom_hotel_card_original_title,TRUE
 andpoe.credit_pl_accom_onboarding_tnc_text,"TPayLater is powered by Caturnusa Sejahtera Finance, licensed and supervised by Otoritas Jasa Keuangan.",credit,credit_pl,accom_onboarding_tnc_text,
@@ -5091,8 +5091,8 @@ andpoe.text_credit_ktp_review_page_styx_duplicate_ktp_error_popup_description,Yo
 andpoe.text_credit_ktp_review_page_styx_duplicate_ktp_error_popup_title,KTP already registered,credit,credit_ktp,review_page_styx_duplicate_ktp_error_popup_title,
 andpoe.text_credit_ktp_review_page_styx_privacy_policy,"<![CDATA[Please make sure you have read and agreed to TPayLater <a href=""{0}""><strong> Terms & Conditions</strong></a> and <strong><a href=""{1}"">Privacy Policy</a></strong> before uploading your KTP.]]>",credit,credit_ktp,review_page_styx_privacy_policy,FALSE
 andpoe.text_credit_ktp_review_page_title,Review KTP Data,credit,credit_ktp,review_page_title,
-andpoe.text_credit_kyc_page_header,Applying for TPayLater,credit,credit_kyc,page_header,FALSE
-andpoe.text_credit_kyc_submit_failed_snackbar_message,An error happened when submitting your details. Tap the button below to retry.,credit,credit_kyc,submit_failed_snackbar_message,FALSE
+andpoe.text_credit_kyc_page_header,Applying for TPayLater,kyc,credit_kyc,page_header,FALSE
+andpoe.text_credit_kyc_submit_failed_snackbar_message,An error happened when submitting your details. Tap the button below to retry.,kyc,credit_kyc,submit_failed_snackbar_message,FALSE
 andpoe.text_credit_level_comparison_page_current_level_label,My Current Level,credit,credit_level,comparison_page_current_level_label,
 andpoe.text_credit_level_comparison_page_learn_level_button_label,Learn About TPayLater Level,credit,credit_level,comparison_page_learn_level_button_label,
 andpoe.text_credit_level_comparison_page_title,Benefits for Each Level,credit,credit_level,comparison_page_title,
@@ -5191,7 +5191,7 @@ andpoe.text_credit_pcc_kyc_address_error,"Failed loading location data, please c
 andpoe.text_credit_pcc_kyc_no_result_subtitle,Please try another keyword and search again,credit,credit_pcc,kyc_no_result_subtitle,FALSE
 andpoe.text_credit_pcc_kyc_no_result_title,"Sorry, we couldn’t find any result for {0}",credit,credit_pcc,kyc_no_result_title,FALSE
 andpoe.text_credit_pcc_kyc_retry,Retry,credit,credit_pcc,kyc_retry,FALSE
-andpoe.text_credit_pcc_kyc_search,Search your address detail,credit,,,FALSE
+andpoe.text_credit_pcc_kyc_search,Search your address detail,kyc,,,FALSE
 andpoe.text_credit_pcc_review_kyc_page_header,Review Your Details,credit,credit_pcc,review_kyc_page_header,FALSE
 andpoe.text_credit_pcc_status_page_header,TPayLater,credit,credit_pcc,status_page_header,FALSE
 andpoe.text_credit_per_month,/month,credit,,,
@@ -7647,7 +7647,7 @@ andpoe.text_rental_inventory_check_price_details,Price Details,rental,rental_inv
 andpoe.text_rental_inventory_result_title,Select Rental Provider,rental,rental_inventory,result_title,FALSE
 andpoe.text_rental_inventory_see_reviews,SEE REVIEWS,rental,,,
 andpoe.text_rental_itinerary_card_see_voucher,See Voucher,rental,rental_itinerary,card_see_voucher,
-andpoe.text_rental_kyc_checkbox_check_all,Check all,rental,,,
+andpoe.text_rental_kyc_checkbox_check_all,Check all,kyc,,,
 andpoe.text_rental_label_out_of_town,"<![CDATA[ {0} <font color=""#687176""> {1} </font>]]>",rental,,,FALSE
 andpoe.text_rental_last_search_title,Your Recent Searches,rental,rental_last,search_title,FALSE
 andpoe.text_rental_lead_traveler,Car Rental Traveler Details,rental,,,
@@ -13356,40 +13356,40 @@ iospoe.paylater.hybrid-form-step-two.total-work-experience-required.label,Select
 iospoe.paylater.info-text-popup.project-activate.transition-page-popup.label,Please complete your data in 7 days or your application will be dismissed.,paylater,paylater_info,text_popup_project_activate_transition_page_popup_label,
 iospoe.paylater.konmari.my-bills-page.title,My bills,paylater,paylater_konmari,my_bills_page_title,FALSE
 iospoe.paylater.konmari.transaction-history-page.title,Transaction history,credit,credit_transaction,history_page_title,TRUE
-iospoe.paylater.kyc-address-form-page-v2.address-detail-option-page.error-not-found-description.label,Check the spelling or try using different keywords.,credit,credit_kyc,address_form_page_v2_address_detail_option_page_error_not_found_description,TRUE
-iospoe.paylater.kyc-address-form-page-v2.address-detail-option-page.error-not-found-title.label,We couldn''t find results for ,paylater,paylater_kyc,address_form_page_v2_address_detail_option_page_error_not_found_title_label,
-iospoe.paylater.kyc-address-form-page-v2.address-detail-option-page.search-placeholder.city.label,Search city/regency,credit,credit_kyc,address_detail_option_page_search_placeholder_city,TRUE
-iospoe.paylater.kyc-address-form-page-v2.address-detail-option-page.search-placeholder.district.label,Search district,credit,credit_kyc,address_detail_option_page_search_placeholder_district,TRUE
-iospoe.paylater.kyc-address-form-page-v2.address-detail-option-page.search-placeholder.postal-code.label,Search postal code,credit,credit_kyc,address_detail_option_page_search_placeholder_postal,TRUE
-iospoe.paylater.kyc-address-form-page-v2.address-detail-option-page.search-placeholder.province.label,Search province,credit,credit_kyc,address_detail_option_page_search_placeholder_province,TRUE
-iospoe.paylater.kyc-address-form-page-v2.address-detail-option-page.search-placeholder.subdistrict.label,Search subdistrict,credit,credit_kyc,address_detail_option_page_search_placeholder_subdistrict,TRUE
-iospoe.paylater.kyc-address-form-page-v2.address-detail-option-page.title.city.label,Select city/regency in,paylater,paylater_kyc,address_form_page_v2_address_detail_option_page_title_city_label,
-iospoe.paylater.kyc-address-form-page-v2.address-detail-option-page.title.district.label,Select district in,paylater,paylater_kyc,address_form_page_v2_address_detail_option_page_title_district_label,
-iospoe.paylater.kyc-address-form-page-v2.address-detail-option-page.title.postal-code.label,Select postal code in,paylater,paylater_kyc,address_form_page_v2_address_detail_option_page_title_postal_code_label,
-iospoe.paylater.kyc-address-form-page-v2.address-detail-option-page.title.province.label,Select province,credit,credit_kyc,address_detail_option_page_title_province,TRUE
-iospoe.paylater.kyc-address-form-page-v2.address-detail-option-page.title.subdistrict.label,Select subdistrict in,paylater,paylater_kyc,address_form_page_v2_address_detail_option_page_title_subdistrict_label,
-iospoe.paylater.kyc-address-form-page-v2.area-detail.empty-error-stimuli.label,Please fill in the required field,paylater,paylater_kyc,address_form_page_v2_area_detail_empty_error_stimuli_label,FALSE
-iospoe.paylater.kyc-address-form-page-v2.exit-tray.back.button,Back,credit,credit_kyc,address_form_page_v2_exit_tray_back,TRUE
-iospoe.paylater.kyc-address-form-page-v2.exit-tray.info.label,Your data will be saved for now. Complete soon to finish your TPayLater application. Are you sure you want to leave?,credit,credit_kyc,address_form_page_v2_exit_tray_info,TRUE
-iospoe.paylater.kyc-address-form-page-v2.exit-tray.leave.button,Leave,credit,credit_kyc,address_form_page_v2_exit_tray_leave,TRUE
-iospoe.paylater.kyc-address-form-page-v2.exit-tray.title.label,Leaving this page?,credit,credit_kyc,address_form_page_v2_exit_tray_title,TRUE
-iospoe.paylater.kyc-address-form-page-v2.house-number.empty-error-stimuli.label,Please fill in the required field,paylater,paylater_kyc,address_form_page_v2_house_number_empty_error_stimuli_label,FALSE
-iospoe.paylater.kyc-address-form-page-v2.house-number.format-error-stimuli.label,"Only characters , . - ( ) '' "" are allowed",paylater,paylater_kyc,address_form_page_v2_house_number_format_error_stimuli_label,
-iospoe.paylater.kyc-address-form-page-v2.main-page.navigation.label.title,Your current address,credit,credit_kyc,address_form_page_v2_main_page_navigation_label_title,TRUE
-iospoe.paylater.kyc-address-form-page-v2.popup.turn-on-location-access.button.primary.title,Allow location access,credit,credit_kyc,address_form_page_v2_popup_location_access_button_primary,TRUE
-iospoe.paylater.kyc-address-form-page-v2.popup.turn-on-location-access.button.secondary.title,Don’t allow,credit,credit_kyc,address_form_page_v2_popup_location_access_button_secondary,TRUE
-iospoe.paylater.kyc-address-form-page-v2.popup.turn-on-location-access.label.description,"To continue, please allow location access in your phone settings.",credit,credit_kyc,address_form_page_v2_popup_location_access_label_description,TRUE
-iospoe.paylater.kyc-address-form-page-v2.popup.turn-on-location-access.label.title,Turn on location access,credit,credit_kyc,address_form_page_v2_popup_location_access_label_title,TRUE
-iospoe.paylater.kyc-address-form-page-v2.rt-rw-number.length-error-stimuli.label,Please make sure RT/RW format is correct (e.g. 012/003),credit,credit_kyc,address_form_page_v2_rtrw_length_error_stimuli,TRUE
-iospoe.paylater.kyc-address-form-page-v2.save-tray.check-again.button,Check again,credit,credit_kyc,address_form_page_v2_save_tray_check_again,TRUE
-iospoe.paylater.kyc-address-form-page-v2.save-tray.confirm.button,Confirm,credit,credit_kyc,address_form_page_v2_save_tray_confirm,TRUE
-iospoe.paylater.kyc-address-form-page-v2.save-tray.info.label,Please make sure all details are correct to avoid rejection.,credit,credit_kyc,address_form_page_v2_save_tray_info,TRUE
-iospoe.paylater.kyc-address-form-page-v2.save-tray.title.label,Review your address,credit,credit_kyc,address_form_page_v2_save_tray_title,TRUE
-iospoe.paylater.kyc-address-form-page-v2.save.button,Save,credit,credit_kyc,address_form_page_v2_save,TRUE
-iospoe.paylater.kyc-address-form-page-v2.street-name.empty-error-stimuli.label,Please fill in your address,paylater,paylater_kyc,address_form_page_v2_street_name_empty_error_stimuli_label,
-iospoe.paylater.kyc-address-form-page-v2.street-name.format-error-stimuli.label,"Only characters , . / - ( ) '' "" are allowed",paylater,paylater_kyc,address_form_page_v2_street_name_format_error_stimuli_label,FALSE
-iospoe.paylater.kyc-address-form-page-v2.street-name.length-error-stimuli.label,Address must be 10 - 160 characters,credit,credit_kyc,address_form_page_v2_street_name_length_error_stimuli,TRUE
-iospoe.paylater.kyc.application.snackbar.credo-error,An error happened when submitting your details. Tap the button below to retry.,paylater,paylater_kyc,application_credo_error,FALSE
+iospoe.paylater.kyc-address-form-page-v2.address-detail-option-page.error-not-found-description.label,Check the spelling or try using different keywords.,kyc,credit_kyc,address_form_page_v2_address_detail_option_page_error_not_found_description,TRUE
+iospoe.paylater.kyc-address-form-page-v2.address-detail-option-page.error-not-found-title.label,We couldn''t find results for ,kyc,paylater_kyc,address_form_page_v2_address_detail_option_page_error_not_found_title_label,
+iospoe.paylater.kyc-address-form-page-v2.address-detail-option-page.search-placeholder.city.label,Search city/regency,kyc,credit_kyc,address_detail_option_page_search_placeholder_city,TRUE
+iospoe.paylater.kyc-address-form-page-v2.address-detail-option-page.search-placeholder.district.label,Search district,kyc,credit_kyc,address_detail_option_page_search_placeholder_district,TRUE
+iospoe.paylater.kyc-address-form-page-v2.address-detail-option-page.search-placeholder.postal-code.label,Search postal code,kyc,credit_kyc,address_detail_option_page_search_placeholder_postal,TRUE
+iospoe.paylater.kyc-address-form-page-v2.address-detail-option-page.search-placeholder.province.label,Search province,kyc,credit_kyc,address_detail_option_page_search_placeholder_province,TRUE
+iospoe.paylater.kyc-address-form-page-v2.address-detail-option-page.search-placeholder.subdistrict.label,Search subdistrict,kyc,credit_kyc,address_detail_option_page_search_placeholder_subdistrict,TRUE
+iospoe.paylater.kyc-address-form-page-v2.address-detail-option-page.title.city.label,Select city/regency in,kyc,paylater_kyc,address_form_page_v2_address_detail_option_page_title_city_label,
+iospoe.paylater.kyc-address-form-page-v2.address-detail-option-page.title.district.label,Select district in,kyc,paylater_kyc,address_form_page_v2_address_detail_option_page_title_district_label,
+iospoe.paylater.kyc-address-form-page-v2.address-detail-option-page.title.postal-code.label,Select postal code in,kyc,paylater_kyc,address_form_page_v2_address_detail_option_page_title_postal_code_label,
+iospoe.paylater.kyc-address-form-page-v2.address-detail-option-page.title.province.label,Select province,kyc,credit_kyc,address_detail_option_page_title_province,TRUE
+iospoe.paylater.kyc-address-form-page-v2.address-detail-option-page.title.subdistrict.label,Select subdistrict in,kyc,paylater_kyc,address_form_page_v2_address_detail_option_page_title_subdistrict_label,
+iospoe.paylater.kyc-address-form-page-v2.area-detail.empty-error-stimuli.label,Please fill in the required field,kyc,paylater_kyc,address_form_page_v2_area_detail_empty_error_stimuli_label,FALSE
+iospoe.paylater.kyc-address-form-page-v2.exit-tray.back.button,Back,kyc,credit_kyc,address_form_page_v2_exit_tray_back,TRUE
+iospoe.paylater.kyc-address-form-page-v2.exit-tray.info.label,Your data will be saved for now. Complete soon to finish your TPayLater application. Are you sure you want to leave?,kyc,credit_kyc,address_form_page_v2_exit_tray_info,TRUE
+iospoe.paylater.kyc-address-form-page-v2.exit-tray.leave.button,Leave,kyc,credit_kyc,address_form_page_v2_exit_tray_leave,TRUE
+iospoe.paylater.kyc-address-form-page-v2.exit-tray.title.label,Leaving this page?,kyc,credit_kyc,address_form_page_v2_exit_tray_title,TRUE
+iospoe.paylater.kyc-address-form-page-v2.house-number.empty-error-stimuli.label,Please fill in the required field,kyc,paylater_kyc,address_form_page_v2_house_number_empty_error_stimuli_label,FALSE
+iospoe.paylater.kyc-address-form-page-v2.house-number.format-error-stimuli.label,"Only characters , . - ( ) '' "" are allowed",kyc,paylater_kyc,address_form_page_v2_house_number_format_error_stimuli_label,
+iospoe.paylater.kyc-address-form-page-v2.main-page.navigation.label.title,Your current address,kyc,credit_kyc,address_form_page_v2_main_page_navigation_label_title,TRUE
+iospoe.paylater.kyc-address-form-page-v2.popup.turn-on-location-access.button.primary.title,Allow location access,kyc,credit_kyc,address_form_page_v2_popup_location_access_button_primary,TRUE
+iospoe.paylater.kyc-address-form-page-v2.popup.turn-on-location-access.button.secondary.title,Don’t allow,kyc,credit_kyc,address_form_page_v2_popup_location_access_button_secondary,TRUE
+iospoe.paylater.kyc-address-form-page-v2.popup.turn-on-location-access.label.description,"To continue, please allow location access in your phone settings.",kyc,credit_kyc,address_form_page_v2_popup_location_access_label_description,TRUE
+iospoe.paylater.kyc-address-form-page-v2.popup.turn-on-location-access.label.title,Turn on location access,kyc,credit_kyc,address_form_page_v2_popup_location_access_label_title,TRUE
+iospoe.paylater.kyc-address-form-page-v2.rt-rw-number.length-error-stimuli.label,Please make sure RT/RW format is correct (e.g. 012/003),kyc,credit_kyc,address_form_page_v2_rtrw_length_error_stimuli,TRUE
+iospoe.paylater.kyc-address-form-page-v2.save-tray.check-again.button,Check again,kyc,credit_kyc,address_form_page_v2_save_tray_check_again,TRUE
+iospoe.paylater.kyc-address-form-page-v2.save-tray.confirm.button,Confirm,kyc,credit_kyc,address_form_page_v2_save_tray_confirm,TRUE
+iospoe.paylater.kyc-address-form-page-v2.save-tray.info.label,Please make sure all details are correct to avoid rejection.,kyc,credit_kyc,address_form_page_v2_save_tray_info,TRUE
+iospoe.paylater.kyc-address-form-page-v2.save-tray.title.label,Review your address,kyc,credit_kyc,address_form_page_v2_save_tray_title,TRUE
+iospoe.paylater.kyc-address-form-page-v2.save.button,Save,kyc,credit_kyc,address_form_page_v2_save,TRUE
+iospoe.paylater.kyc-address-form-page-v2.street-name.empty-error-stimuli.label,Please fill in your address,kyc,paylater_kyc,address_form_page_v2_street_name_empty_error_stimuli_label,
+iospoe.paylater.kyc-address-form-page-v2.street-name.format-error-stimuli.label,"Only characters , . / - ( ) '' "" are allowed",kyc,paylater_kyc,address_form_page_v2_street_name_format_error_stimuli_label,FALSE
+iospoe.paylater.kyc-address-form-page-v2.street-name.length-error-stimuli.label,Address must be 10 - 160 characters,kyc,credit_kyc,address_form_page_v2_street_name_length_error_stimuli,TRUE
+iospoe.paylater.kyc.application.snackbar.credo-error,An error happened when submitting your details. Tap the button below to retry.,kyc,paylater_kyc,application_credo_error,FALSE
 iospoe.paylater.label.common-section-error-network-message-description,Unable to load this section due to connection issues. Please check your internet and try again.,paylater,paylater_label,common_section_error_network_message_description,FALSE
 iospoe.paylater.label.common-section-error-server-message-description,Unable to load this section due to server issues. Please wait a moment and try again later.,paylater,paylater_label,common_section_error_server_message_description,FALSE
 iospoe.paylater.label.data-update-capability-country-code,Country Code,paylater,,data_update_capability_country_code,FALSE
@@ -14776,7 +14776,7 @@ iospoe.pricealert_revamp_flight_preference_label_direct_flights_only,Only direct
 iospoe.pricealert_revamp_flight_preference_label_selected_departure_time,Departure time,flight,price_alert,flight_preference_label_selected_departure_time,FALSE
 iospoe.pricealert_revamp_flight_preference_label_selected_direct_flight,Direct flights,flight,price_alert,flight_preference_label_selected_direct_flight,FALSE
 iospoe.pricealert_revamp_flight_preference_label_your_preference,Your flight preference(s),flight,price_alert,flight_preference_label_your_preference,FALSE
-iospoe.pricealert_revamp_form_button_create_price_alert,Create Price Alert,flight,price_alert,form_button_create,TRUE
+iospoe.pricealert_revamp_form_button_create_price_alert,Create Price Alert,flight,price_alert,form_create_page_title,TRUE
 iospoe.pricealert_revamp_form_button_flight_information_see_price_alert,See Price Analysis,flight,price_alert,form_button_flight_information_see,
 iospoe.pricealert_revamp_form_button_notification_banner_benefit,See How,flight,price_alert,form_button_notification_banner_benefit,FALSE
 iospoe.pricealert_revamp_form_button_remove_price_alert,Delete Price Alert,flight,price_alert,form_button_remove,FALSE
@@ -15812,9 +15812,9 @@ iospoe.traveloka-quick.label.add-card,Add new card,user,user_traveloka,quick_add
 iospoe.travelokapay.cardless-credit-onboarding.button.continue,Continue,,,,FALSE
 iospoe.travelokapay.cardless-credit-pay.label.loading-title,Please wait,,,,FALSE
 iospoe.travelokapay.cardless-credit-resubmit.label.submit-empty-document-error,Please upload the required documents to continue. You can also resume this step later. All your details have been saved automatically.,,,,FALSE
-iospoe.travelokapay.cardless-kyc.bank-statement,Bank Statement,,,,
-iospoe.travelokapay.cardless-kyc.income-document.title,Select Document,,,,FALSE
-iospoe.travelokapay.cardless-kyc.salary-slip,Salary Slip,,,,
+iospoe.travelokapay.cardless-kyc.bank-statement,Bank Statement,kyc,,,
+iospoe.travelokapay.cardless-kyc.income-document.title,Select Document,kyc,,,FALSE
+iospoe.travelokapay.cardless-kyc.salary-slip,Salary Slip,kyc,,,
 iospoe.travelokapay.choose-payment-method.title.choose-payment,Select Payment Method,,,,
 iospoe.travelokapay.common.label.creditless-term-and-condition,"By applying, you agree to our <a href=""tnc://"" style=""text-decoration:none;"">Terms and Conditions</a> and <a href=""privacy://"" style=""text-decoration:none;"">Privacy Policy</a> and that your application may be processed for both TPayLater and PayLater Card, when applicable.",,,,FALSE
 iospoe.travelokapay.common.label.transaction-id-%@,Transaction ID {0},,,,
@@ -15868,58 +15868,58 @@ iospoe.travelokapay.home-otp-verification-popup.label.message-%@,"To ensure the 
 iospoe.travelokapay.home.label.card-registering,Verifying your debit card,,,,FALSE
 iospoe.travelokapay.home.label.cardless-credit,TPayLater,,,,FALSE
 iospoe.travelokapay.home.powered-by-travelokapay,Powered by travelokaPay,,,,
-iospoe.travelokapay.kyc-confirm.button.retake,Retake,,,,FALSE
-iospoe.travelokapay.kyc-confirm.subtitle.label.retake-documents,Would you like to retake your photo? Please make sure it follows the guideline provided.,,,,FALSE
-iospoe.travelokapay.kyc-confirm.subtitle.label.retake-id,Would you like to retake your photo? Please make sure it follows the guideline provided.,,,,FALSE
-iospoe.travelokapay.kyc-confirm.subtitle.label.retake-income,Would you like to retake your photo? Please make sure it follows the guideline provided.,,,,FALSE
-iospoe.travelokapay.kyc-confirm.subtitle.label.retake-selfie,Would you like to retake your photo? Please make sure it follows the guideline provided.,,,,FALSE
-iospoe.travelokapay.kyc-confirm.title.label.retake-documents,Retake Document Photo,,,,FALSE
-iospoe.travelokapay.kyc-confirm.title.label.retake-id,Retake KTP Photo,,,,FALSE
-iospoe.travelokapay.kyc-confirm.title.label.retake-income,Retake Salary Slip Photo,,,,FALSE
-iospoe.travelokapay.kyc-confirm.title.label.retake-selfie,Retake Selfie,,,,FALSE
-iospoe.travelokapay.kyc-form-submit.label.upload-complete,Upload complete,,,,FALSE
-iospoe.travelokapay.kyc-form-submit.label.upload-failed,Upload failed,,,,FALSE
-iospoe.travelokapay.kyc-form.label.upload-no-connection,Failed to upload your file(s). Please check your internet connection and try again.,,,,FALSE
-iospoe.travelokapay.kyc-initial.label.description,Position your face within the frame. Make sure that your face takes up 80% of the photo.,,,,FALSE
-iospoe.travelokapay.kyc-popup.button.retake,"No, Retake",,,,FALSE
-iospoe.travelokapay.kyc-popup.button.yes,Yes,,,,FALSE
-iospoe.travelokapay.kyc-popup.label.upload-label,Do you want to upload this one?,,,,FALSE
-iospoe.travelokapay.kyc-scan-id.label.description1,"Prepare the original document, not the scanned, copied, or uploaded version. Make sure it is in good condition.",,,,FALSE
-iospoe.travelokapay.kyc-scan-id.label.description2,"Turn off your flash, use good lighting instead.",,,,FALSE
-iospoe.travelokapay.kyc-scan-id.label.description3,Take picture of your entire document and make sure every detail is readable.,,,,FALSE
-iospoe.travelokapay.kyc-scan-id.title.scan-documents,Take Document Photo,,,,FALSE
-iospoe.travelokapay.kyc-scan-id.title.scan-id,Scan ID Card,,,,FALSE
-iospoe.travelokapay.kyc-selfie.title.take-selfie,Take a Selfie,,,,FALSE
-iospoe.travelokapay.kyc-spinner-id.button.done,Take Photo,,,,FALSE
-iospoe.travelokapay.kyc-spinner-id.label.id-card,Take Document Photo,,,,FALSE
-iospoe.travelokapay.kyc-spinner-id.label.others,Other,,,,FALSE
-iospoe.travelokapay.kyc-submit-page.button.submit,Submit,,,,FALSE
-iospoe.travelokapay.kyc-submit-page.label.guarantee,We guarantee that all of the details that you have submitted will be kept confidential and will not be shared with other parties for any kind of purposes.,,,,FALSE
-iospoe.travelokapay.kyc-submit-page.label.name-helper,Name as on ID card (without title),,,,FALSE
-iospoe.travelokapay.kyc-submit-page.label.terms-and-conditions,"By tapping the button below, you agree to travelokaPay''s <a href=""tnc://"">Terms & Conditions</a> and <a href=""privacy://"">Privacy Policy</a>.",,,,FALSE
-iospoe.travelokapay.kyc-submit-page.textfield.full-name,Full Name,,,,FALSE
-iospoe.travelokapay.kyc-upgrade.subtitle.label.uploading-income-%@,Uploading your {0} photo...,,,,FALSE
-iospoe.travelokapay.kyc-upgrade.title.label.uploading-income-%@,{0},,,,FALSE
-iospoe.travelokapay.kyc-upload-upgrade.label.notification-upload-no-document,Please upload all of the required documents to increase your limit.,,,,FALSE
-iospoe.travelokapay.kyc-upload.label.retake-%@,Retake {0},,,,
-iospoe.travelokapay.kyc-upload.label.retake-documents,Retake Document Photo,,,,FALSE
-iospoe.travelokapay.kyc-upload.label.retake-id,Retake KTP Photo,,,,FALSE
-iospoe.travelokapay.kyc-upload.label.retake-income,Retake Salary Slip Photo,,,,FALSE
-iospoe.travelokapay.kyc-upload.label.retake-selfie,Retake Selfie,,,,FALSE
-iospoe.travelokapay.kyc-upload.subtitle.label.uploaded-document-%@,Your {0} photo is succesfully uploaded.,,,,FALSE
-iospoe.travelokapay.kyc-upload.subtitle.label.uploaded-id,Your KTP photo is succesfully uploaded.,,,,FALSE
-iospoe.travelokapay.kyc-upload.subtitle.label.uploaded-income-%@,Your {0} photo is succesfully uploaded.,,,,FALSE
-iospoe.travelokapay.kyc-upload.subtitle.label.uploaded-selfie,Your selfie is succesfully uploaded.,,,,FALSE
-iospoe.travelokapay.kyc-upload.subtitle.label.uploading-id,So we can verify your application even more quickly.,,,,FALSE
-iospoe.travelokapay.kyc-upload.subtitle.label.uploading-selfie,So we can make sure that the applicant is really you.,,,,FALSE
-iospoe.travelokapay.kyc-upload.subtitle.label.uploading-support,Please upload your driving license or passport.,,,,FALSE
-iospoe.travelokapay.kyc-upload.title.label.uploaded-document-%@,{0},,,,FALSE
-iospoe.travelokapay.kyc-upload.title.label.uploaded-id,KTP,,,,FALSE
-iospoe.travelokapay.kyc-upload.title.label.uploaded-income-%@,{0},,,,FALSE
-iospoe.travelokapay.kyc-upload.title.label.uploaded-selfie,Selfie,,,,FALSE
-iospoe.travelokapay.kyc-upload.title.label.uploading-id,Take KTP Photo,,,,FALSE
-iospoe.travelokapay.kyc-upload.title.label.uploading-selfie,Take a Selfie,,,,FALSE
-iospoe.travelokapay.kyc-upload.title.label.uploading-support-%@,Take {0},,,,FALSE
+iospoe.travelokapay.kyc-confirm.button.retake,Retake,kyc,,,FALSE
+iospoe.travelokapay.kyc-confirm.subtitle.label.retake-documents,Would you like to retake your photo? Please make sure it follows the guideline provided.,kyc,,,FALSE
+iospoe.travelokapay.kyc-confirm.subtitle.label.retake-id,Would you like to retake your photo? Please make sure it follows the guideline provided.,kyc,,,FALSE
+iospoe.travelokapay.kyc-confirm.subtitle.label.retake-income,Would you like to retake your photo? Please make sure it follows the guideline provided.,kyc,,,FALSE
+iospoe.travelokapay.kyc-confirm.subtitle.label.retake-selfie,Would you like to retake your photo? Please make sure it follows the guideline provided.,kyc,,,FALSE
+iospoe.travelokapay.kyc-confirm.title.label.retake-documents,Retake Document Photo,kyc,,,FALSE
+iospoe.travelokapay.kyc-confirm.title.label.retake-id,Retake KTP Photo,kyc,,,FALSE
+iospoe.travelokapay.kyc-confirm.title.label.retake-income,Retake Salary Slip Photo,kyc,,,FALSE
+iospoe.travelokapay.kyc-confirm.title.label.retake-selfie,Retake Selfie,kyc,,,FALSE
+iospoe.travelokapay.kyc-form-submit.label.upload-complete,Upload complete,kyc,,,FALSE
+iospoe.travelokapay.kyc-form-submit.label.upload-failed,Upload failed,kyc,,,FALSE
+iospoe.travelokapay.kyc-form.label.upload-no-connection,Failed to upload your file(s). Please check your internet connection and try again.,kyc,,,FALSE
+iospoe.travelokapay.kyc-initial.label.description,Position your face within the frame. Make sure that your face takes up 80% of the photo.,kyc,,,FALSE
+iospoe.travelokapay.kyc-popup.button.retake,"No, Retake",kyc,,,FALSE
+iospoe.travelokapay.kyc-popup.button.yes,Yes,kyc,,,FALSE
+iospoe.travelokapay.kyc-popup.label.upload-label,Do you want to upload this one?,kyc,,,FALSE
+iospoe.travelokapay.kyc-scan-id.label.description1,"Prepare the original document, not the scanned, copied, or uploaded version. Make sure it is in good condition.",kyc,,,FALSE
+iospoe.travelokapay.kyc-scan-id.label.description2,"Turn off your flash, use good lighting instead.",kyc,,,FALSE
+iospoe.travelokapay.kyc-scan-id.label.description3,Take picture of your entire document and make sure every detail is readable.,kyc,,,FALSE
+iospoe.travelokapay.kyc-scan-id.title.scan-documents,Take Document Photo,kyc,,,FALSE
+iospoe.travelokapay.kyc-scan-id.title.scan-id,Scan ID Card,kyc,,,FALSE
+iospoe.travelokapay.kyc-selfie.title.take-selfie,Take a Selfie,kyc,,,FALSE
+iospoe.travelokapay.kyc-spinner-id.button.done,Take Photo,kyc,,,FALSE
+iospoe.travelokapay.kyc-spinner-id.label.id-card,Take Document Photo,kyc,,,FALSE
+iospoe.travelokapay.kyc-spinner-id.label.others,Other,kyc,,,FALSE
+iospoe.travelokapay.kyc-submit-page.button.submit,Submit,kyc,,,FALSE
+iospoe.travelokapay.kyc-submit-page.label.guarantee,We guarantee that all of the details that you have submitted will be kept confidential and will not be shared with other parties for any kind of purposes.,kyc,,,FALSE
+iospoe.travelokapay.kyc-submit-page.label.name-helper,Name as on ID card (without title),kyc,,,FALSE
+iospoe.travelokapay.kyc-submit-page.label.terms-and-conditions,"By tapping the button below, you agree to travelokaPay''s <a href=""tnc://"">Terms & Conditions</a> and <a href=""privacy://"">Privacy Policy</a>.",kyc,,,FALSE
+iospoe.travelokapay.kyc-submit-page.textfield.full-name,Full Name,kyc,,,FALSE
+iospoe.travelokapay.kyc-upgrade.subtitle.label.uploading-income-%@,Uploading your {0} photo...,kyc,,,FALSE
+iospoe.travelokapay.kyc-upgrade.title.label.uploading-income-%@,{0},kyc,,,FALSE
+iospoe.travelokapay.kyc-upload-upgrade.label.notification-upload-no-document,Please upload all of the required documents to increase your limit.,kyc,,,FALSE
+iospoe.travelokapay.kyc-upload.label.retake-%@,Retake {0},kyc,,,
+iospoe.travelokapay.kyc-upload.label.retake-documents,Retake Document Photo,kyc,,,FALSE
+iospoe.travelokapay.kyc-upload.label.retake-id,Retake KTP Photo,kyc,,,FALSE
+iospoe.travelokapay.kyc-upload.label.retake-income,Retake Salary Slip Photo,kyc,,,FALSE
+iospoe.travelokapay.kyc-upload.label.retake-selfie,Retake Selfie,kyc,,,FALSE
+iospoe.travelokapay.kyc-upload.subtitle.label.uploaded-document-%@,Your {0} photo is succesfully uploaded.,kyc,,,FALSE
+iospoe.travelokapay.kyc-upload.subtitle.label.uploaded-id,Your KTP photo is succesfully uploaded.,kyc,,,FALSE
+iospoe.travelokapay.kyc-upload.subtitle.label.uploaded-income-%@,Your {0} photo is succesfully uploaded.,kyc,,,FALSE
+iospoe.travelokapay.kyc-upload.subtitle.label.uploaded-selfie,Your selfie is succesfully uploaded.,kyc,,,FALSE
+iospoe.travelokapay.kyc-upload.subtitle.label.uploading-id,So we can verify your application even more quickly.,kyc,,,FALSE
+iospoe.travelokapay.kyc-upload.subtitle.label.uploading-selfie,So we can make sure that the applicant is really you.,kyc,,,FALSE
+iospoe.travelokapay.kyc-upload.subtitle.label.uploading-support,Please upload your driving license or passport.,kyc,,,FALSE
+iospoe.travelokapay.kyc-upload.title.label.uploaded-document-%@,{0},kyc,,,FALSE
+iospoe.travelokapay.kyc-upload.title.label.uploaded-id,KTP,kyc,,,FALSE
+iospoe.travelokapay.kyc-upload.title.label.uploaded-income-%@,{0},kyc,,,FALSE
+iospoe.travelokapay.kyc-upload.title.label.uploaded-selfie,Selfie,kyc,,,FALSE
+iospoe.travelokapay.kyc-upload.title.label.uploading-id,Take KTP Photo,kyc,,,FALSE
+iospoe.travelokapay.kyc-upload.title.label.uploading-selfie,Take a Selfie,kyc,,,FALSE
+iospoe.travelokapay.kyc-upload.title.label.uploading-support-%@,Take {0},kyc,,,FALSE
 iospoe.travelokapay.loading.title,Please wait,,,,FALSE
 iospoe.travelokapay.main.cell.badge-new,NEW,,,,FALSE
 iospoe.travelokapay.main.cell.title-digital-wallet,Digital Wallet,,,,
@@ -16124,17 +16124,17 @@ iospoe.trip.tomang_search-result_one-way.button.CHANGE-HOTEL,CHANGE HOTEL,trip,t
 iospoe.trip.tomang_search-result_one-way.button.CHANGE-ROOM,CHANGE ROOM,trip,trip_tomang,search_result_one_way_change_room,FALSE
 iospoe.trip.trip_search-hotel.label.Your Flight,Your Flight,trip,trip_trip,search_hotel_yourflight,FALSE
 iospoe.tvp.credit-application.button.activate-now,Apply,,,,FALSE
-iospoe.tvp.credit-bill-kyc.button.continue-save,Save & Continue,,,,
-iospoe.tvp.credit-bill-kyc.button.edit,Edit,,,,FALSE
-iospoe.tvp.credit-bill-kyc.button.my-detail-correct,Submit My Details,,,,FALSE
-iospoe.tvp.credit-bill-kyc.label.already-verified,Your selfie from UANGKU Balance,,,,FALSE
-iospoe.tvp.credit-bill-kyc.label.personal-document,Personal Documents,,,,FALSE
-iospoe.tvp.credit-bill-kyc.label.title-subtitle,"Thank you for submitting your details, we will process them immediately. Wait for our notification or check your application status from My Account page.",,,,FALSE
-iospoe.tvp.credit-bill-kyc.label.title-verifying,Processing Your Application,,,,
-iospoe.tvp.credit-bill-kyc.label.uploaded,Successful,,,,
-iospoe.tvp.credit-bill-kyc.notification.error,Please upload the required documents to continue. You can also resume this step later. All your details have been saved automatically.,,,,FALSE
-iospoe.tvp.credit-bill-kyc.title.cardless-registration,Applying for TPayLater,,,,FALSE
-iospoe.tvp.credit-bill-kyc.title.summary,Review Your Details,,,,FALSE
+iospoe.tvp.credit-bill-kyc.button.continue-save,Save & Continue,kyc,,,
+iospoe.tvp.credit-bill-kyc.button.edit,Edit,kyc,,,FALSE
+iospoe.tvp.credit-bill-kyc.button.my-detail-correct,Submit My Details,kyc,,,FALSE
+iospoe.tvp.credit-bill-kyc.label.already-verified,Your selfie from UANGKU Balance,kyc,,,FALSE
+iospoe.tvp.credit-bill-kyc.label.personal-document,Personal Documents,kyc,,,FALSE
+iospoe.tvp.credit-bill-kyc.label.title-subtitle,"Thank you for submitting your details, we will process them immediately. Wait for our notification or check your application status from My Account page.",kyc,,,FALSE
+iospoe.tvp.credit-bill-kyc.label.title-verifying,Processing Your Application,kyc,,,
+iospoe.tvp.credit-bill-kyc.label.uploaded,Successful,kyc,,,
+iospoe.tvp.credit-bill-kyc.notification.error,Please upload the required documents to continue. You can also resume this step later. All your details have been saved automatically.,kyc,,,FALSE
+iospoe.tvp.credit-bill-kyc.title.cardless-registration,Applying for TPayLater,kyc,,,FALSE
+iospoe.tvp.credit-bill-kyc.title.summary,Review Your Details,kyc,,,FALSE
 iospoe.upgrade-app.button.label,Update Now,,,,FALSE
 iospoe.user-change-profile.button.title.fullname-change,CHANGE,user,user_change,profile_button_fullname_change,FALSE
 iospoe.user-social-share.label.sharing-popup-option-description,Choose your sharing preference,user,user_social,share_label_sharing_popup_option_description,FALSE

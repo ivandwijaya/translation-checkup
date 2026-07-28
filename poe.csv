@@ -3385,7 +3385,7 @@ andpoe.payment_purchase_detail_revamp_detail_container,Payment details,payment,p
 andpoe.payment_purchase_detail_revamp_help_tray_title,How can we help you?,payment,payment_purchase_detail,revamp_help_tray_title,TRUE
 andpoe.payment_purchase_detail_revamp_manage_title,Manage your purchase,payment,payment_purchase_detail,revamp_manage_title,TRUE
 andpoe.payment_purchase_detail_revamp_page_subtitle,Booking ID: {0},payment,payment_purchase_detail,revamp_page_subtitle,FALSE
-andpoe.payment_purchase_detail_revamp_page_title,Your purchase detail,payment,payment_purchase_detail,title,TRUE
+andpoe.payment_purchase_detail_revamp_page_title,Your purchase detail,payment,payment_purchase_detail,page_title,TRUE
 andpoe.payment_purchase_detail_revamp_remaining_time_label,Remaining time:,payment,payment_purchase_detail,revamp_remaining_time_label,TRUE
 andpoe.payment_purchase_detail_revamp_see_proof,See payment proof,payment,payment_purchase_detail,revamp_see_proof,TRUE
 andpoe.payment_purchase_detail_revamp_total_price_label,Total price,payment,payment_purchase_detail,revamp_total_price_label,
@@ -14457,7 +14457,7 @@ iospoe.payment.purchase.status-progress.button.check-payment-status,Check paymen
 iospoe.payment.purchase.status-progress.button.choose-method,Choose a method,payment,payment_purchase_detail,status_progress_button_choose_method,TRUE
 iospoe.payment.purchase.status-progress.button.continue,Continue to pay,payment,payment_purchase_detail,status_progress_continue,
 iospoe.payment.purchase.status-progress.button.upload,Upload payment proof,payment,payment_purchase_detail,status_progress_upload,FALSE
-iospoe.payment.purchase.title,Your purchase detail,payment,payment_purchase_detail,title,TRUE
+iospoe.payment.purchase.title,Your purchase detail,payment,payment_purchase_detail,page_title,TRUE
 iospoe.payment.qr-popup-expired.button.back-to-main,Back to Payment Page,payment,payment_qr,popup_expired_back_to_main,
 iospoe.payment.qr-popup-expired.label.description,"Sorry, this QR code is no longer available. You can go back and tap the ''Pay'' button again to generate a new code.",payment,payment_qr,expired_dialog_description,TRUE
 iospoe.payment.qr-popup-expired.label.title,The QR Code Has Expired,payment,payment_qr,expired_dialog_title,TRUE

@@ -30,6 +30,7 @@ Org context: this is Traveloka (an OTA). Treat all data as internal/confidential
 6. **Fill only when confident; leave blank otherwise.** Wrong values are worse than blanks.
 7. **`is merged`**: `TRUE` for merged tier-A pairs, `FALSE` for unique keys (no cross-platform match), blank for keys that have a match but aren't merged yet.
 8. **Merged pairs must be identical**: for every tier-A pair, the Android and iOS rows share one identity (derived from the Android key) → same bucket + key. Where a key fuzzy-matched multiple partners, keep the most-specific pair merged and **unmerge the extras** (they keep their own distinct identity, `is merged = FALSE`). Don't force distinct interfaces to collide.
+   - **Edit-time invariant:** whenever you change a row's workspace/bucket/key, check its `is merged` flag first. If it's `TRUE`, find the row's cross-platform pair and apply the **same** workspace/bucket/key change to it, so the pair stays identical. (Alternatively, if the two shouldn't share an identity, unmerge — set both to `FALSE` — before re-keying.) Never leave a `TRUE` pair with mismatched categorization.
 9. **Uniqueness**: distinct interfaces should not collapse to the same `bucket`+`key`. Collapsing buckets is fine because the detail moved into the key keeps rows distinct.
 
 ## Classification pipeline

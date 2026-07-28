@@ -5845,7 +5845,7 @@ andpoe.text_flight_departure_date,Departure Time,flight,flight_departure,date,
 andpoe.text_flight_departure,Departure Flight,flight,,,FALSE
 andpoe.text_flight_destination_city,To,flight,,,
 andpoe.text_flight_detail_aircraft_information,{0} ({1}),flight,flight_detail,aircraft_information,FALSE
-andpoe.text_flight_detail_aircraft_legroom,{0}-inch seat pitch,flight,flight_rich_flight_info,label_pitch,TRUE
+andpoe.text_flight_detail_aircraft_legroom,{0}-inch seat pitch,flight,flight_rich_flight_info,label_aircraft_legroom,TRUE
 andpoe.text_flight_detail_aircraft_seat_layout,{0} seat layout,flight,flight_rich_flight_info,label_seat_layout,TRUE
 andpoe.text_flight_detail_condition_header,Conditions,flight,flight_detail,condition_header,
 andpoe.text_flight_detail_coupon_card_apply_snackbar_applied,Coupon applied! Your discounted price will be reflected after you finish choosing your flight.,flight,flight_search_result,details_promo_coupon_apply_filter_snack_bar_message,TRUE
@@ -5944,24 +5944,24 @@ andpoe.text_flight_order_review_tab_title,Flight,flight,flight_order,review_tab_
 andpoe.text_flight_origination_date,Departure Date,flight,flight_hangar,placeholder_departure_date_text_field,TRUE
 andpoe.text_flight_origination_flight,Departure Flight,flight,,,FALSE
 andpoe.text_flight_other_service,Miscellaneous Fees & Taxes,flight,flight_search_int_detail_label,other_service_fee,TRUE
-andpoe.text_flight_outbound_baggage_buy,Baggage 0kg (buy at booking),flight,flight_rich_flight_info,label_baggage_buy,TRUE
-andpoe.text_flight_outbound_cabin_baggage,Cabin baggage {0} kg,flight,,,
+andpoe.text_flight_outbound_baggage_buy,Baggage 0kg (buy at booking),flight,flight_outbound,baggage_buy,FALSE
+andpoe.text_flight_outbound_cabin_baggage,Cabin baggage {0} kg,flight,flight_outbound,cabin_baggage_kg,TRUE
 andpoe.text_flight_outbound_cabin_baggage_piece,Cabin baggage {0} x {1} kg,flight,flight_outbound,cabin_baggage_piece,TRUE
-andpoe.text_flight_outbound_duration_hour_minute,<![CDATA[Total Duration <b>{0}h {1}m</b>]]>,flight,,,FALSE
-andpoe.text_flight_outbound_duration_minute,<![CDATA[Total Duration <b>{0}m</b>]]>,flight,,,FALSE
-andpoe.text_flight_outbound_entertainment,In-flight entertainment,flight,flight_rich_flight_info,label_entertainment,TRUE
-andpoe.text_flight_outbound_hidden_transit_time_hour_minute,<![CDATA[<b>Stop at {0} ({1}h {2}m)</b>]]>,flight,,,FALSE
-andpoe.text_flight_outbound_hidden_transit_time_minute,<![CDATA[<b>Stop at {0} ({1}m)</b>]]>,flight,,,FALSE
-andpoe.text_flight_outbound_meal,In-flight meals,flight,,,
-andpoe.text_flight_outbound_no_facilities,Facilities info are not yet available,flight,,,FALSE
-andpoe.text_flight_outbound_power_and_usb,Power & USB port,flight,,,
-andpoe.text_flight_outbound_power_socket,Power socket,flight,,,FALSE
-andpoe.text_flight_outbound_transit_time_day_hour_minute,<![CDATA[Stop for <b>{0}d {1}h {2}m</b>]]>,flight,,,FALSE
-andpoe.text_flight_outbound_transit_time_hour_minute,<![CDATA[Stop for <b>{0}h {1}m</b>]]>,flight,,,FALSE
-andpoe.text_flight_outbound_transit_time_minute,<![CDATA[Stop for <b>{0}m</b>]]>,flight,,,FALSE
-andpoe.text_flight_outbound_usb_port,USB port,flight,,,FALSE
-andpoe.text_flight_outbound_wifi_buy,WiFi (buy in flight),flight,,,FALSE
-andpoe.text_flight_outbound_wifi,WiFi,flight,flight_rich_flight_info,label_wifi,TRUE
+andpoe.text_flight_outbound_duration_hour_minute,<![CDATA[Total Duration <b>{0}h {1}m</b>]]>,flight,flight_outbound,duration_hour_minute,FALSE
+andpoe.text_flight_outbound_duration_minute,<![CDATA[Total Duration <b>{0}m</b>]]>,flight,flight_outbound,duration_minute,FALSE
+andpoe.text_flight_outbound_entertainment,In-flight entertainment,flight,flight_outbound,entertainment,FALSE
+andpoe.text_flight_outbound_hidden_transit_time_hour_minute,<![CDATA[<b>Stop at {0} ({1}h {2}m)</b>]]>,flight,flight_outbound,hidden_transit_time_hour_minute,FALSE
+andpoe.text_flight_outbound_hidden_transit_time_minute,<![CDATA[<b>Stop at {0} ({1}m)</b>]]>,flight,flight_outbound,hidden_transit_time_minute,FALSE
+andpoe.text_flight_outbound_meal,In-flight meals,flight,flight_outbound,meal,
+andpoe.text_flight_outbound_no_facilities,Facilities info are not yet available,flight,flight_outbound,no_facilities,FALSE
+andpoe.text_flight_outbound_power_and_usb,Power & USB port,flight,flight_outbound,power_and_usb,
+andpoe.text_flight_outbound_power_socket,Power socket,flight,flight_outbound,power_socket,FALSE
+andpoe.text_flight_outbound_transit_time_day_hour_minute,<![CDATA[Stop for <b>{0}d {1}h {2}m</b>]]>,flight,flight_outbound,transit_time_day_hour_minute,FALSE
+andpoe.text_flight_outbound_transit_time_hour_minute,<![CDATA[Stop for <b>{0}h {1}m</b>]]>,flight,flight_outbound,transit_time_hour_minute,FALSE
+andpoe.text_flight_outbound_transit_time_minute,<![CDATA[Stop for <b>{0}m</b>]]>,flight,flight_outbound,transit_time_minute,FALSE
+andpoe.text_flight_outbound_usb_port,USB port,flight,flight_outbound,usb_port,FALSE
+andpoe.text_flight_outbound_wifi_buy,WiFi (buy in flight),flight,flight_outbound,wifi_buy,FALSE
+andpoe.text_flight_outbound_wifi,WiFi,flight,flight_outbound,wifi,FALSE
 andpoe.text_flight_owrt,One-way / Round-trip,flight,flight_home_hangar,ow_rt_label,TRUE
 andpoe.text_flight_passenger_adult,Adult,flight,,,FALSE
 andpoe.text_flight_passenger_adult_range,Age 12+,flight,flight_select_passenger,adult_age_threshold_description_label,TRUE
@@ -9063,8 +9063,7 @@ iospoe.Booking,Booking,prebooking,booking,,FALSE
 iospoe.CANCEL,Cancel,,,,
 iospoe.CONTINUE,Continue,,,,FALSE
 iospoe.CVV harus berupa angka,CVV should be numeric,,,,FALSE
-iospoe.Cabin Baggage %@ kg,Cabin baggage {0} kg,flight,flight,cabinbaggagekg,
-iospoe.Cabin baggage %@ kg,Cabin baggage {0} kg,flight,flight,cabinbaggagekg_2,FALSE
+iospoe.Cabin Baggage %@ kg,Cabin baggage {0} kg,flight,flight_outbound,cabin_baggage_kg,TRUE
 iospoe.Cabin baggage %@ pc(s) (%@ kg/piece),Cabin baggage {0} x {1} kg,flight,flight_outbound,cabin_baggage_piece,TRUE
 iospoe.Cancel Refund,Cancel refund,flight,flight,cancelrefund,
 iospoe.Cancel,Cancel,,,,FALSE
@@ -11690,27 +11689,27 @@ iospoe.flight.reschedule.search-form.round-trip.invalid-date.title,Please select
 iospoe.flight.reschedule.survey-banner.title,Leave a review,flight,flight_reschedule,survey_banner_title,TRUE
 iospoe.flight.result-filter.label.refund-reschedule-section-title,Refund & Reschedule,flight,flight_result,filter_label_refund_reschedule_section_title,
 iospoe.flight.review.button.refund-reschedule-see-policy,INFO,flight,flight_refund,reschedule_see_policy,TRUE
-iospoe.flight.rich-flight-info.label.%@-pitch,{0}-inch seat pitch,flight,flight_rich_flight_info,label_pitch,TRUE
+iospoe.flight.rich-flight-info.label.%@-pitch,{0}-inch seat pitch,flight,flight_rich_flight_info,label_aircraft_legroom,TRUE
 iospoe.flight.rich-flight-info.label.%@-seat-layout,{0} seat layout,flight,flight_rich_flight_info,label_seat_layout,TRUE
-iospoe.flight.rich-flight-info.label.aircraft-type-larger-regional-jet,regional jet,flight,,,FALSE
-iospoe.flight.rich-flight-info.label.aircraft-type-smaller-regional-jet,regional jet,flight,,,FALSE
+iospoe.flight.rich-flight-info.label.aircraft-type-larger-regional-jet,regional jet,flight,flight_rich_flight_info,label_aircraft_type_larger_regional_jet,FALSE
+iospoe.flight.rich-flight-info.label.aircraft-type-smaller-regional-jet,regional jet,flight,flight_rich_flight_info,label_aircraft_type_smaller_regional_jet,FALSE
 iospoe.flight.rich-flight-info.label.aircraft-type-turbo-or-trop,propeller,flight,flight_rich_flight_info,label_aircraft_type_turbo_or_trop,TRUE
-iospoe.flight.rich-flight-info.label.baggage-buy,Baggage 0kg (buy at booking),flight,flight_rich_flight_info,label_baggage_buy,TRUE
-iospoe.flight.rich-flight-info.label.baggage,Baggage,flight,flight_rich,flight_info_baggage,FALSE
-iospoe.flight.rich-flight-info.label.entertainment,In-flight entertainment,flight,flight_rich_flight_info,label_entertainment,TRUE
-iospoe.flight.rich-flight-info.label.power-or-usb,Power / USB port,flight,flight_rich,flight_info_power_or_usb,
+iospoe.flight.rich-flight-info.label.baggage-buy,Baggage 0kg (buy at booking),flight,flight_rich_flight_info,label_baggage_buy,FALSE
+iospoe.flight.rich-flight-info.label.baggage,Baggage,flight,flight_rich_flight_info,label_baggage,FALSE
+iospoe.flight.rich-flight-info.label.entertainment,In-flight entertainment,flight,flight_rich_flight_info,label_entertainment,FALSE
+iospoe.flight.rich-flight-info.label.power-or-usb,Power / USB port,flight,flight_rich_flight_info,label_power_or_usb,FALSE
 iospoe.flight.rich-flight-info.label.seat-type-above-average-legroom,above standard,flight,flight_rich_flight_info,label_seat_type_above_average_legroom,TRUE
-iospoe.flight.rich-flight-info.label.seat-type-angle-flat-seat,angled-flat seat,flight,,,FALSE
-iospoe.flight.rich-flight-info.label.seat-type-below-average-legroom,below standard,flight,,,FALSE
-iospoe.flight.rich-flight-info.label.seat-type-cradle-recliner,cradle sleeper,flight,,,FALSE
-iospoe.flight.rich-flight-info.label.seat-type-full-flat-pod,full flat pod,flight,,,FALSE
-iospoe.flight.rich-flight-info.label.seat-type-full-flat-seat,flat-bed seat,flight,,,FALSE
-iospoe.flight.rich-flight-info.label.seat-type-middle-seat-free,free middle seat,flight,,,FALSE
-iospoe.flight.rich-flight-info.label.seat-type-private-suite,private suite,flight,,,FALSE
-iospoe.flight.rich-flight-info.label.seat-type-recliner-seat,recliner seat,flight,,,FALSE
-iospoe.flight.rich-flight-info.label.seat-type-skycouch,skycouch,flight,,,FALSE
+iospoe.flight.rich-flight-info.label.seat-type-angle-flat-seat,angled-flat seat,flight,flight_rich_flight_info,label_seat_type_angle_flat_seat,FALSE
+iospoe.flight.rich-flight-info.label.seat-type-below-average-legroom,below standard,flight,flight_rich_flight_info,label_seat_type_below_average_legroom,FALSE
+iospoe.flight.rich-flight-info.label.seat-type-cradle-recliner,cradle sleeper,flight,flight_rich_flight_info,label_seat_type_cradle_recliner,FALSE
+iospoe.flight.rich-flight-info.label.seat-type-full-flat-pod,full flat pod,flight,flight_rich_flight_info,label_seat_type_full_flat_pod,FALSE
+iospoe.flight.rich-flight-info.label.seat-type-full-flat-seat,flat-bed seat,flight,flight_rich_flight_info,label_seat_type_full_flat_seat,FALSE
+iospoe.flight.rich-flight-info.label.seat-type-middle-seat-free,free middle seat,flight,flight_rich_flight_info,label_seat_type_middle_seat_free,FALSE
+iospoe.flight.rich-flight-info.label.seat-type-private-suite,private suite,flight,flight_rich_flight_info,label_seat_type_private_suite,FALSE
+iospoe.flight.rich-flight-info.label.seat-type-recliner-seat,recliner seat,flight,flight_rich_flight_info,label_seat_type_recliner_seat,FALSE
+iospoe.flight.rich-flight-info.label.seat-type-skycouch,skycouch,flight,flight_rich_flight_info,label_seat_type_skycouch,FALSE
 iospoe.flight.rich-flight-info.label.seat-type-standard-legroom,standard,flight,flight_rich_flight_info,label_seat_type_standard_legroom,TRUE
-iospoe.flight.rich-flight-info.label.wifi,WiFi,flight,flight_rich_flight_info,label_wifi,TRUE
+iospoe.flight.rich-flight-info.label.wifi,WiFi,flight,flight_rich_flight_info,label_wifi,FALSE
 iospoe.flight.round-trip-info.button.continue-popup,Continue,flight,flight_round,trip_info_continue_popup,
 iospoe.flight.round-trip-info.button.finish-popup,"Ok, Got it",flight,flight_round,trip_info_finish_popup,
 iospoe.flight.round-trip-info.label.desc-popup-first,"We add the return ticket price to your departure ticket price, so you can instantly see how much your entire trip costs.",flight,,,FALSE

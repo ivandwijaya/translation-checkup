@@ -1612,12 +1612,12 @@ andpoe.experience_new_autocomplete_see_all_activities_button,See More Activities
 andpoe.experience_new_autocomplete_subtitle_error_empty_state,Try changing your keywords to help us find what you''re searching for.,experience,experience_new,autocomplete_subtitle_error_empty_state,TRUE
 andpoe.experience_new_autocomplete_title_error_empty_state,"Hmm, Nothing Matches Your Search",experience,experience_new,autocomplete_title_error_empty_state,TRUE
 andpoe.experience_new_autocomplete_type_at_least_label,Type at least 3 characters to see results,experience,experience_new,autocomplete_type_at_least_label,TRUE
-andpoe.experience_no_internet_button_text,Retry,experience,experience_no,internet_button_text,TRUE
-andpoe.experience_no_internet_description,Please check your internet connection or network settings and try again. Let’s get you back on!,experience,experience_no,internet_description,TRUE
-andpoe.experience_no_internet_title,You’re Offline,experience,experience_no,internet_title,TRUE
-andpoe.experience_no_preference_description,"Our partner will select any available service provider, regardless of their gender.",experience,experience_no,preference_description,FALSE
-andpoe.experience_no_preference,Anyone,experience,experience_no,preference,FALSE
-andpoe.experience_non_rescheduleable_description,You can''t reschedule your visit.,experience,experience_non,rescheduleable_description,TRUE
+andpoe.experience_no_internet_button_text,Retry,experience,experience_text,no_internet_button_text,TRUE
+andpoe.experience_no_internet_description,Please check your internet connection or network settings and try again. Let’s get you back on!,experience,experience_text,no_internet_description,TRUE
+andpoe.experience_no_internet_title,You’re Offline,experience,experience_text,no_internet_title,TRUE
+andpoe.experience_no_preference_description,"Our partner will select any available service provider, regardless of their gender.",experience,experience_text,no_preference_description,FALSE
+andpoe.experience_no_preference,Anyone,experience,experience_text,no_preference,FALSE
+andpoe.experience_non_rescheduleable_description,You can''t reschedule your visit.,experience,experience_text,non_rescheduleable_description,TRUE
 andpoe.experience_ongoing_promo_tray_title,Promos You Can Use,experience,experience_ongoing,promo_tray_title,TRUE
 andpoe.experience_owlet_ticket_detail_eligibility,Things to note,experience,experience_owlet_ticket_detail,eligibility,TRUE
 andpoe.experience_owlet_ticket_detail_footer_book_now,Select,experience,experience_owlet,ticket_detail_footer_book_now,TRUE
@@ -4645,8 +4645,8 @@ andpoe.text_amenities,FACILITIES,,,,FALSE
 andpoe.text_arrival_departure_less6h_button,OK,,,,FALSE
 andpoe.text_arrival_departure_less6h_desc,"<![CDATA[For your convenience, please choose a return flight that departs at least <b>6 hours</b> after your arrival at your destination.]]>",flight,,,FALSE
 andpoe.text_arrival_departure_less6h_title,Choose another return flight,flight,flight_search_popup_title,less_than_6_hours,TRUE
-andpoe.text_arrival_earliest,Earliest arrival,flight,flight_search_result_big_4,sort_chip_button_arrivaltimeearliest,TRUE
-andpoe.text_arrival_latest,Latest arrival,flight,flight_search_result_big_4,sort_chip_button_arrivaltimelatest,TRUE
+andpoe.text_arrival_earliest,Earliest arrival,flight,flight_sort,arrival_earliest,TRUE
+andpoe.text_arrival_latest,Latest arrival,flight,flight_sort,arrival_latest,TRUE
 andpoe.text_balance,Balance,payment,,,FALSE
 andpoe.text_banner_price_alert_cta_available,Open Price Alert,flight,flight_search_result_banner,price_alert_banner_created_button_text_label,TRUE
 andpoe.text_banner_price_alert_cta_not_available,Create Price Alert,flight,price_alert,banner_cta_not_available,
@@ -5462,7 +5462,7 @@ andpoe.text_default_phone_country_code,+62,,,,FALSE
 andpoe.text_default_to_string_separated_by_space,{0} {1},,,,FALSE
 andpoe.text_departure_earliest,Earliest departure,flight,flight_search_result_big_4,sort_chip_button_departuretimeearliest,TRUE
 andpoe.text_departure,Departure:,,,,FALSE
-andpoe.text_departure_latest,Latest departure,flight,flight_search_result_big_4,sort_chip_button_departuretimelatest,TRUE
+andpoe.text_departure_latest,Latest departure,flight,flight_sort,departure_latest,TRUE
 andpoe.text_dialog_change_currency_title,Select your currency,experience,experience_internationalization,label_currency_section_title,TRUE
 andpoe.text_dialog_unsupported_currency_change_currency_cta,Change Currency,experience,experience_currency_popup,button_title_yes,TRUE
 andpoe.text_dialog_unsupported_currency_message_format,"The currency from your existing app settings cannot be used for this booking. To proceed, please switch to other supported currencies.",,,,FALSE
@@ -5480,7 +5480,7 @@ andpoe.text_do_payment_in_time,Pay within,payment,payment_do,in_time,FALSE
 andpoe.text_drop_off_addon_in_town_free,In-town,rental,rental_customize,select_location_label_in_town,TRUE
 andpoe.text_due_to_new_travel_date,"As your travel dates have changed, {0}.",,,,FALSE
 andpoe.text_duration_of_at_least_one_transit_point,Duration (of at least one stopping point):,ptp,ptp_of,duration_at_least_one_transit,FALSE
-andpoe.text_duration_shortest,Shortest duration,flight,flight_search_result_big_4,sort_chip_button_duration,TRUE
+andpoe.text_duration_shortest,Shortest duration,flight,flight_sort,duration_shortest,TRUE
 andpoe.text_duration_time,Duration,,,,
 andpoe.text_ean_credit_card_failed_button,Check Credit Card Details,credit,credit_ean,card_failed_button,FALSE
 andpoe.text_ean_credit_card_failed_description,Please make sure you have entered the correct credit card details.,credit,credit_ean,card_failed_description,FALSE
@@ -5588,13 +5588,13 @@ andpoe.text_experience_map_show_in_map_label,View Map,experience,experience_prod
 andpoe.text_experience_max_distance_sort_chain,<![CDATA[More than {0} {1}]]>,experience,experience_text,max_distance_sort_chain,FALSE
 andpoe.text_experience_merchandising_enable_gps_description,"By allowing us to access your location, you will get better recommendations for activities near you, more accurate search results plus curated promotions and offers.",experience,experience_location_prompt,landing_page_visit_description,TRUE
 andpoe.text_experience_merchandising_enable_gps_title,Enable Your Location Services,experience,experience_merchandising,enable_gps_title,TRUE
-andpoe.text_experience_no_inventory_message_on_product_chain_page,All activities under this chain are currently sold out at all locations. Kindly return to the previous page to browse other exciting places! We’ll be back soon.,experience,experience_product_chain_empty_result,description,TRUE
-andpoe.text_experience_no_inventory_message_search_result,"We appreciate your enthusiasm, but there are no activities within this area yet. Hang tight, we''ll add them soon!",experience,experience_no,inventory_message_search_result,TRUE
+andpoe.text_experience_no_inventory_message_on_product_chain_page,All activities under this chain are currently sold out at all locations. Kindly return to the previous page to browse other exciting places! We’ll be back soon.,experience,experience_text,product_chain_empty_result_description,TRUE
+andpoe.text_experience_no_inventory_message_search_result,"We appreciate your enthusiasm, but there are no activities within this area yet. Hang tight, we''ll add them soon!",experience,experience_text,no_inventory_message_search_result,TRUE
 andpoe.text_experience_no_inventory_ticket_message,"Sorry, the item you selected is currently not available. Please select another item.",experience,experience_ticket_list,label_empty_result_description,TRUE
 andpoe.text_experience_no_inventory_ticket_title,Item Not Available,experience,experience_ticket_list,label_empty_result_title,TRUE
-andpoe.text_experience_no_inventory_title_on_product_chain_page,We’re Taking a Break,experience,experience_product_chain_empty_result,title,TRUE
-andpoe.text_experience_no_inventory_title_search_result,We’re Almost Ready to Serve You!,experience,experience_no,inventory_title_search_result,TRUE
-andpoe.text_experience_no_timeslot_voucher_default_param,Voucher Type(s),experience,experience_no,timeslot_voucher_default_param,FALSE
+andpoe.text_experience_no_inventory_title_on_product_chain_page,We’re Taking a Break,experience,experience_text,product_chain_empty_result_title,TRUE
+andpoe.text_experience_no_inventory_title_search_result,We’re Almost Ready to Serve You!,experience,experience_text,no_inventory_title_search_result,TRUE
+andpoe.text_experience_no_timeslot_voucher_default_param,Voucher Type(s),experience,experience_text,no_timeslot_voucher_default_param,FALSE
 andpoe.text_experience_price_range_label,Price Range,experience,experience_price,range_label,FALSE
 andpoe.text_experience_product_chain_enable_gps_description,"By allowing us to access your location, you will be able to sort the locations or outlets by the nearest distance first.",experience,experience_location_prompt,product_chain_description,TRUE
 andpoe.text_experience_product_chain_enable_gps_title,Enable Your Location Services,experience,experience_product,chain_enable_gps_title,TRUE
@@ -6383,7 +6383,7 @@ andpoe.text_hotel_multi_room_search_result_banner_text,You''re currently seeing 
 andpoe.text_hotel_near_me,Near me,hotel,,,
 andpoe.text_hotel_new_section_rating,Rating,hotel,accom_new,section_rating,FALSE
 andpoe.text_hotel_new_section_title,Popular Picks,hotel,accom_new,section_title,FALSE
-andpoe.text_hotel_night,night(s),hotel,accom_text,night,TRUE
+andpoe.text_hotel_night,night(s),hotel,accom_text,night,FALSE
 andpoe.text_hotel_night_ext,"{0, plural, one {{0} night} other {{0} night(s)}}",hotel,,,FALSE
 andpoe.text_hotel_night_formatted_ext,"{0, plural, one {<![CDATA[<font color=#434343><strong>{0}</strong></font> Night]]>} other {<![CDATA[<font color=#434343><strong>{0}</strong></font> Nights]]>}}",hotel,,,FALSE
 andpoe.text_hotel_no_free_breakfast_and_free_wifi,"Free WiFi, Breakfast not included",hotel,,,FALSE
@@ -10109,14 +10109,14 @@ iospoe.easy-reschedule-policy.title.label,Easy Reschedule Policy,,,,
 iospoe.ebill-domestic-home.confirmation.no,Check Again,,,,FALSE
 iospoe.error.label.come-back-again-shortly,"Sorry, something went wrong. Please try again later.",,,,FALSE
 iospoe.expeirence.hotel-pickup-form-modal.label-title.pickup-meeting-point,Pickup Point,experience,experience_hotel_pickup_form_modal,label_title_pickup_meeting_point,FALSE
-iospoe.experience-product-chain.empty-result.description,All activities under this chain are currently sold out at all locations. Kindly return to the previous page to browse other exciting places! We’ll be back soon.,experience,experience_product_chain_empty_result,description,TRUE
-iospoe.experience-product-chain.empty-result.title,We’re Taking a Break,experience,experience_product_chain_empty_result,title,TRUE
+iospoe.experience-product-chain.empty-result.description,All activities under this chain are currently sold out at all locations. Kindly return to the previous page to browse other exciting places! We’ll be back soon.,experience,experience_text,product_chain_empty_result_description,TRUE
+iospoe.experience-product-chain.empty-result.title,We’re Taking a Break,experience,experience_text,product_chain_empty_result_title,TRUE
 iospoe.experience-quick-book-tray.empty-result.empty-description,"Let’s try to find other activities, shall we?",experience,experience_quick_book_tray_empty_result,empty_description,TRUE
 iospoe.experience-quick-book-tray.empty-result.empty-title,No Options Found,experience,experience_quick_book_tray_empty_result,empty_title,TRUE
 iospoe.experience-search-result.empty-result-filtered.description,"Sorry, it looks like there are no results that match your preferences. Please adjust your filters for more results.",experience,experience_search_result_empty_result_filtered,description,TRUE
 iospoe.experience-search-result.empty-result-filtered.title,Nothing Left in the Shelf,experience,experience_search_result_empty_result_filtered,title,TRUE
-iospoe.experience-search-result.empty-result-no-inventory.description,"We appreciate your enthusiasm, but there are no activities within this area yet. Hang tight, we''ll add them soon!",experience,experience_no,inventory_message_search_result,TRUE
-iospoe.experience-search-result.empty-result-no-inventory.title,We’re Almost Ready to Serve You!,experience,experience_no,inventory_title_search_result,TRUE
+iospoe.experience-search-result.empty-result-no-inventory.description,"We appreciate your enthusiasm, but there are no activities within this area yet. Hang tight, we''ll add them soon!",experience,experience_text,no_inventory_message_search_result,TRUE
+iospoe.experience-search-result.empty-result-no-inventory.title,We’re Almost Ready to Serve You!,experience,experience_text,no_inventory_title_search_result,TRUE
 iospoe.experience-search-result.empty-result-unfiltered.title,"Uh-oh, Our Shelves Are Empty",experience,experience_search_result_empty_result_unfiltered,title,TRUE
 iospoe.experience-search-result.sort-filter.relevance,Most Relevant,experience,experience_search_result_sort_filter,relevance,TRUE
 iospoe.experience.autocomplete.text-field.title,"Destination, venue, or activity",experience,experience_autocomplete,text_field_title,TRUE
@@ -10453,11 +10453,11 @@ iospoe.experience_new_autocomplete_see_all_activities_button,See More Activities
 iospoe.experience_new_autocomplete_subtitle_error_empty_state,Try changing your keywords to help us find what you''re searching for.,experience,experience_new,autocomplete_subtitle_error_empty_state,TRUE
 iospoe.experience_new_autocomplete_title_error_empty_state,"Hmm, Nothing Matches Your Search",experience,experience_new,autocomplete_title_error_empty_state,TRUE
 iospoe.experience_new_autocomplete_type_at_least_label,Type at least 3 characters to see results,experience,experience_new,autocomplete_type_at_least_label,TRUE
-iospoe.experience_no_internet_button_text,Retry,experience,experience_no,internet_button_text,TRUE
-iospoe.experience_no_internet_description,Please check your internet connection or network settings and try again. Let’s get you back on!,experience,experience_no,internet_description,TRUE
-iospoe.experience_no_internet_title,You’re Offline,experience,experience_no,internet_title,TRUE
-iospoe.experience_non_rescheduleable_description,You can''t reschedule your visit.,experience,experience_non,rescheduleable_description,TRUE
-iospoe.experience_non_rescheduleable_valid_until_description,"You can use this voucher anytime as long as it is still valid. However, the voucher can''t be rescheduled if you can''t use it within the validity period.",experience,experience_non,rescheduleable_valid_until_description,FALSE
+iospoe.experience_no_internet_button_text,Retry,experience,experience_text,no_internet_button_text,TRUE
+iospoe.experience_no_internet_description,Please check your internet connection or network settings and try again. Let’s get you back on!,experience,experience_text,no_internet_description,TRUE
+iospoe.experience_no_internet_title,You’re Offline,experience,experience_text,no_internet_title,TRUE
+iospoe.experience_non_rescheduleable_description,You can''t reschedule your visit.,experience,experience_text,non_rescheduleable_description,TRUE
+iospoe.experience_non_rescheduleable_valid_until_description,"You can use this voucher anytime as long as it is still valid. However, the voucher can''t be rescheduled if you can''t use it within the validity period.",experience,experience_text,non_rescheduleable_valid_until_description,FALSE
 iospoe.experience_ongoing_promo_tray_title,Promos You Can Use,experience,experience_ongoing,promo_tray_title,TRUE
 iospoe.experience_owlet_ticket_detail_eligibility,Things to note,experience,experience_owlet_ticket_detail,eligibility,TRUE
 iospoe.experience_owlet_ticket_detail_footer_book_now,Select,experience,experience_owlet,ticket_detail_footer_book_now,TRUE
@@ -11309,12 +11309,12 @@ iospoe.flight-search.popup-button.less-than-6-hours,OK,flight,flight_search,popu
 iospoe.flight-search.popup-title.less-than-6-hours,Choose another return flight,flight,flight_search_popup_title,less_than_6_hours,TRUE
 iospoe.flight-search.result-sort.label.price-lowest,Cheapest,flight,flight_result,sort_tray_lowest_price,TRUE
 iospoe.flight-seat.selection-review.page-title.label,Review Seat Selection,flight,flight_seat,selection_review_page_title_label,FALSE
-iospoe.flight-sort.label.arrival-earliest,Earliest arrival,flight,flight_sort,arrival_earliest,
-iospoe.flight-sort.label.arrival-latest,Latest arrival,flight,flight_sort,arrival_latest,
+iospoe.flight-sort.label.arrival-earliest,Earliest arrival,flight,flight_sort,arrival_earliest,TRUE
+iospoe.flight-sort.label.arrival-latest,Latest arrival,flight,flight_sort,arrival_latest,TRUE
 iospoe.flight-sort.label.departure-earliest,Earliest departure,flight,flight_result,bottom_filter_sort_departure_earliest,TRUE
-iospoe.flight-sort.label.departure-latest,Latest departure,flight,flight_sort,departure_latest,
+iospoe.flight-sort.label.departure-latest,Latest departure,flight,flight_sort,departure_latest,TRUE
 iospoe.flight-sort.label.direct-flight,Direct flights first,flight,flight_sort,direct_flight,
-iospoe.flight-sort.label.duration-shortest,Shortest duration,flight,flight_sort,duration_shortest,
+iospoe.flight-sort.label.duration-shortest,Shortest duration,flight,flight_sort,duration_shortest,TRUE
 iospoe.flight-sort.label.score,Best value,flight,flight_sort_label,score,TRUE
 iospoe.flight-status.search-result.search-flight-status.button,Change Search,flight,flight_status,search_result_search_flight_status_button,FALSE
 iospoe.flight-tdm.auth-error.button-title.change-email-address,Change Traveloka account,flight,flight_tdm_auth_error,button_title_change_email_address,TRUE
@@ -11746,12 +11746,12 @@ iospoe.flight.search-result-big-4.promo-banner.promo.coupon.button.apply-filter.
 iospoe.flight.search-result-big-4.promo-banner.promo.coupon.button.apply.label,Apply,flight,flight_search,result_big_4_promo_banner_promo_coupon_button_apply_label,FALSE
 iospoe.flight.search-result-big-4.promo-banner.promo.coupon.snack-bar.filter.applied.message,Coupon applied! Your search results are now filtered based on the applied coupon.,flight,flight_search,result_big_4_promo_banner_promo_coupon_snack_bar_filter_applied_message,FALSE
 iospoe.flight.search-result-big-4.promo-banner.promo.coupon.snack-bar.non-filter.applied.message,Coupon is successfully applied!,flight,flight_search,result_big_4_promo_banner_promo_coupon_snack_bar_non_filter_applied_message,FALSE
-iospoe.flight.search-result-big-4.sort-chip.button.arrivalTimeEarliest,Earliest arrival,flight,flight_search_result_big_4,sort_chip_button_arrivaltimeearliest,TRUE
-iospoe.flight.search-result-big-4.sort-chip.button.arrivalTimeLatest,Latest arrival,flight,flight_search_result_big_4,sort_chip_button_arrivaltimelatest,TRUE
+iospoe.flight.search-result-big-4.sort-chip.button.arrivalTimeEarliest,Earliest arrival,flight,,,FALSE
+iospoe.flight.search-result-big-4.sort-chip.button.arrivalTimeLatest,Latest arrival,flight,,,FALSE
 iospoe.flight.search-result-big-4.sort-chip.button.departureTimeEarliest,Earliest departure,flight,flight_search_result_big_4,sort_chip_button_departuretimeearliest,TRUE
-iospoe.flight.search-result-big-4.sort-chip.button.departureTimeLatest,Latest departure,flight,flight_search_result_big_4,sort_chip_button_departuretimelatest,TRUE
+iospoe.flight.search-result-big-4.sort-chip.button.departureTimeLatest,Latest departure,flight,,,FALSE
 iospoe.flight.search-result-big-4.sort-chip.button.direct-flight-first,Direct first,flight,flight_search,result_big_4_sort_chip_direct_flight_first,FALSE
-iospoe.flight.search-result-big-4.sort-chip.button.duration,Shortest duration,flight,flight_search_result_big_4,sort_chip_button_duration,TRUE
+iospoe.flight.search-result-big-4.sort-chip.button.duration,Shortest duration,flight,,,FALSE
 iospoe.flight.search-result-big-4.sort-chip.button.price,Cheapest,flight,flight_search,result_big_4_sort_chip_price,FALSE
 iospoe.flight.search-result-big-4.sort-chip.button.score,Recommended,flight,flight_search,result_big_4_sort_chip_score,
 iospoe.flight.search-result-big-four.baliho.highlights.title.label,Highlights,flight,flight_search_result_big_four,baliho_highlights_title_label,TRUE
@@ -15086,7 +15086,7 @@ iospoe.rentalWD.manage-booking.add-on.tier-coachmark,Select the area where you p
 iospoe.rentalWD.manage-booking.add-on.title,Rental Add-ons,rental,,,FALSE
 iospoe.rentalWD.manage-booking.add-ons.back,Pick-up & Drop-off Location,rental,rental_rentalwd,manage_booking_add_ons_back,FALSE
 iospoe.rentalWD.manage-booking.pop-up.driver-accommodation-max-%@-nights,Add driver’s accommodation for {0} night(s) to avoid additional charges.,hotel,accom_rentalwd,manage_booking_pop_up_driver_max_nights,FALSE
-iospoe.rentalWD.manage-booking.pop-up.driver-accommodation.night(s),night(s),hotel,accom_text,night,TRUE
+iospoe.rentalWD.manage-booking.pop-up.driver-accommodation.night(s),night(s),rental,,,FALSE
 iospoe.rentalWD.manage-booking.pop-up.not-purchase-any-add-ons,Looks like you have not added fuel and driver’s meals to your rental. Would you like to add?,rental,rental_manage_rental_addon_reminder_no_addon,title,TRUE
 iospoe.rentalWD.manage-booking.pop-up.only-purchase-add-ons-in-day-one,Looking good for day 1. Add fuel and driver’s meals for the remaining days as well?,rental,rental_manage_rental_addon_reminder_only_first_day,title,TRUE
 iospoe.rentalWD.manage-booking.pop-up.primary-action,"Yes, Add Now",rental,rental_rentalwd,manage_booking_pop_up_primary_action,FALSE

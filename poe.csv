@@ -6269,7 +6269,7 @@ andpoe.text_hotel_backdate_expired_title,Book for today,hotel,accom_backdate,exp
 andpoe.text_hotel_booking_review,Booking Review,hotel,,,FALSE
 andpoe.text_hotel_change_search,Change Search,hotel,,,
 andpoe.text_hotel_check_in_instruction,Check-in Instruction,hotel,,,FALSE
-andpoe.text_hotel_checkin,Check-in Date,hotel,hotel,checkin,TRUE
+andpoe.text_hotel_checkin,Check-in Date,hotel,accom_text,check_in_date,TRUE
 andpoe.text_hotel_checkout_format,Check-out: {0},hotel,accom_add_to_calendar,event_notes_check_out,TRUE
 andpoe.text_hotel_child_occupancy_adult_field,Adult(s),hotel,,,FALSE
 andpoe.text_hotel_child_occupancy_child_number,Child {0},hotel,accom_child,occupancy_child_number,FALSE
@@ -6332,10 +6332,10 @@ andpoe.text_hotel_facilities_show_less,Show less,hotel,accom_facilities,show_les
 andpoe.text_hotel_facilities_show_more,Show more,hotel,accom_facilities,show_more,FALSE
 andpoe.text_hotel_facility_few_result,We found only a few properties that match your criteria. Please change your filter.,hotel,accom_facility,few_result,FALSE
 andpoe.text_hotel_featured_destinations,Traveloka StayNow,hotel,,,FALSE
-andpoe.text_hotel_format_pah,<![CDATA[<font color=#1BA0E2>{0}</font>]]>,hotel,hotel_format,pah,FALSE
-andpoe.text_hotel_format_room,{0} room(s),hotel,hotel_format,room,FALSE
-andpoe.text_hotel_format_total_guest_and_rooms,"{0} guest(s), {1} room(s)",hotel,hotel_format,total_guest_and_rooms,FALSE
-andpoe.text_hotel_format_total_guest,{0} guest(s),hotel,hotel_format,total_guest,FALSE
+andpoe.text_hotel_format_pah,<![CDATA[<font color=#1BA0E2>{0}</font>]]>,hotel,accom_text,format_pah,FALSE
+andpoe.text_hotel_format_room,{0} room(s),hotel,accom_text,format_room,FALSE
+andpoe.text_hotel_format_total_guest_and_rooms,"{0} guest(s), {1} room(s)",hotel,accom_text,format_total_guest_and_rooms,FALSE
+andpoe.text_hotel_format_total_guest,{0} guest(s),hotel,accom_text,format_total_guest,FALSE
 andpoe.text_hotel_free_breakfast_and_free_wifi,"Free WiFi, Free Breakfast",hotel,,,
 andpoe.text_hotel_free_breakfast_and_no_free_wifi,Free Breakfast,hotel,,,
 andpoe.text_hotel_guest_room_dialog_input_adults,Enter Number of Adult(s),hotel,accom_guest,room_dialog_input_adults,FALSE
@@ -6383,7 +6383,7 @@ andpoe.text_hotel_multi_room_search_result_banner_text,You''re currently seeing 
 andpoe.text_hotel_near_me,Near me,hotel,,,
 andpoe.text_hotel_new_section_rating,Rating,hotel,accom_new,section_rating,FALSE
 andpoe.text_hotel_new_section_title,Popular Picks,hotel,accom_new,section_title,FALSE
-andpoe.text_hotel_night,night(s),hotel,hotel,night,TRUE
+andpoe.text_hotel_night,night(s),hotel,accom_text,night,TRUE
 andpoe.text_hotel_night_ext,"{0, plural, one {{0} night} other {{0} night(s)}}",hotel,,,FALSE
 andpoe.text_hotel_night_formatted_ext,"{0, plural, one {<![CDATA[<font color=#434343><strong>{0}</strong></font> Night]]>} other {<![CDATA[<font color=#434343><strong>{0}</strong></font> Nights]]>}}",hotel,,,FALSE
 andpoe.text_hotel_no_free_breakfast_and_free_wifi,"Free WiFi, Breakfast not included",hotel,,,FALSE
@@ -6762,7 +6762,7 @@ andpoe.text_pay_at_hotel_credit_card_not_supported,Credit card type is not suppo
 andpoe.text_pay_at_hotel_credit_card_required,Confirmation Method Required,payment,payment_at,hotel_credit_card_required,FALSE
 andpoe.text_pay_at_hotel_debit_card_title,Debit Card,payment,payment_at,hotel_debit_card_title,FALSE
 andpoe.text_pay_at_hotel_for_reference_price,(for reference only),payment,payment_at,hotel_for_reference_price,FALSE
-andpoe.text_pay_at_hotel_format,<![CDATA[<font color=#1ba0e2>Pay at Hotel</font>]]>,hotel,hotel_format,pay_at_hotel,FALSE
+andpoe.text_pay_at_hotel_format,<![CDATA[<font color=#1ba0e2>Pay at Hotel</font>]]>,hotel,accom_text,format_pay_at_hotel,FALSE
 andpoe.text_pay_at_hotel_guarantee_title,Confirm Booking,payment,payment_at,hotel_guarantee_title,FALSE
 andpoe.text_pay_at_hotel_help_description_direct_contract,"<![CDATA[<font color=#1c8ddb>Pay upon Check-inl</font> allows you to book a room without having to pay immediately. You can pay during your stay using various payment methods.
 <br><br>
@@ -9241,7 +9241,7 @@ iospoe.Tambah Email,Add Email,,,,FALSE
 iospoe.Tambahkan ke daftar tamu,Tambahkan ke daftar tamu,,,,FALSE
 iospoe.Tambahkan sebagai tamu,Add to guest list,,,,FALSE
 iospoe.Tanggal Berangkat,Departure Date,,,,FALSE
-iospoe.Tanggal Check In,Check-in Date,hotel,hotel,checkin,TRUE
+iospoe.Tanggal Check In,Check-in Date,hotel,accom_text,check_in_date,TRUE
 iospoe.Tanggal Lahir,Birth date,,,,FALSE
 iospoe.Tanggal Pulang,Return Date,flight,,,FALSE
 iospoe.Tanggal pulang harus lebih besar dari tanggal berangkat,Return date must be after departure date,,,,FALSE
@@ -15086,7 +15086,7 @@ iospoe.rentalWD.manage-booking.add-on.tier-coachmark,Select the area where you p
 iospoe.rentalWD.manage-booking.add-on.title,Rental Add-ons,rental,,,FALSE
 iospoe.rentalWD.manage-booking.add-ons.back,Pick-up & Drop-off Location,rental,rental_rentalwd,manage_booking_add_ons_back,FALSE
 iospoe.rentalWD.manage-booking.pop-up.driver-accommodation-max-%@-nights,Add driver’s accommodation for {0} night(s) to avoid additional charges.,hotel,accom_rentalwd,manage_booking_pop_up_driver_max_nights,FALSE
-iospoe.rentalWD.manage-booking.pop-up.driver-accommodation.night(s),night(s),hotel,hotel,night,TRUE
+iospoe.rentalWD.manage-booking.pop-up.driver-accommodation.night(s),night(s),hotel,accom_text,night,TRUE
 iospoe.rentalWD.manage-booking.pop-up.not-purchase-any-add-ons,Looks like you have not added fuel and driver’s meals to your rental. Would you like to add?,rental,rental_manage_rental_addon_reminder_no_addon,title,TRUE
 iospoe.rentalWD.manage-booking.pop-up.only-purchase-add-ons-in-day-one,Looking good for day 1. Add fuel and driver’s meals for the remaining days as well?,rental,rental_manage_rental_addon_reminder_only_first_day,title,TRUE
 iospoe.rentalWD.manage-booking.pop-up.primary-action,"Yes, Add Now",rental,rental_rentalwd,manage_booking_pop_up_primary_action,FALSE

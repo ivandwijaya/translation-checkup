@@ -1375,12 +1375,12 @@ andpoe.error_same_airport,Destination and origin city must not be the same.,,,,
 andpoe.error_spinner_must_select,Must be selected,,,,FALSE
 andpoe.eticket_component_see_more_label,See +{0} more,,,,FALSE
 andpoe.eticket_price_summary_total_price_label,Total Price,,,,
-andpoe.experience_add_ons_add_button_title,Add,experience,experience_add,ons_add_button_title,TRUE
-andpoe.experience_add_ons_multi_pax_item_count_copy,{0} item,experience,experience_add,ons_multi_pax_item_count_copy,TRUE
-andpoe.experience_add_ons_multi_pax_item_count_plural_copy,{0} items,experience,experience_add,ons_multi_pax_item_count_plural_copy,TRUE
-andpoe.experience_add_ons_section_title,Additional items to complete your trip,experience,experience_add,ons_section_title,TRUE
-andpoe.experience_add_ons_tray_button_remove,Remove,experience,experience_add_ons_tray,remove,TRUE
-andpoe.experience_add_ons_tray_button_save,Continue,experience,experience_add,ons_tray_button_save,TRUE
+andpoe.experience_add_ons_add_button_title,Add,experience,experience_add_ons,add_button_title,TRUE
+andpoe.experience_add_ons_multi_pax_item_count_copy,{0} item,experience,experience_add_ons,multi_pax_item_count_copy,TRUE
+andpoe.experience_add_ons_multi_pax_item_count_plural_copy,{0} items,experience,experience_add_ons,multi_pax_item_count_plural_copy,TRUE
+andpoe.experience_add_ons_section_title,Additional items to complete your trip,experience,experience_add_ons,section_title,TRUE
+andpoe.experience_add_ons_tray_button_remove,Remove,experience,experience_add_ons,tray_remove,TRUE
+andpoe.experience_add_ons_tray_button_save,Continue,experience,experience_add_ons,tray_button_save,TRUE
 andpoe.experience_add_pax_button,Add Pax,experience,experience_add,pax_button,FALSE
 andpoe.experience_any_group_preference,Anyone ({0}),experience,experience_any,group_preference,TRUE
 andpoe.experience_area_coverage_section_description,Is your destination not covered here?,experience,experience_area,coverage_section_description,TRUE
@@ -4657,7 +4657,7 @@ andpoe.text_banner_price_alert_title_not_available,Flight prices often fluctuate
 andpoe.text_boarding_pass_dialog_title,Boarding Pass,flight,,,FALSE
 andpoe.text_boarding_pass,Boarding Pass,flight,flight_web_check_in,label_boarding_pass,TRUE
 andpoe.text_book_now,Book Now,,,,
-andpoe.text_booking_addons_title,Available Add-on(s),prebooking,booking_addons,title,FALSE
+andpoe.text_booking_addons_title,Available Add-on(s),prebooking,booking_add_ons,title,FALSE
 andpoe.text_booking_baggage,Baggage {0},prebooking,booking,baggage,
 andpoe.text_booking_baggage_title,Baggage,prebooking,booking_baggage,title,TRUE
 andpoe.text_booking_baggage_to,Baggage {0} - {1},prebooking,booking_baggage,to,
@@ -5742,9 +5742,9 @@ andpoe.text_flight_addon_baggage_description_4,You can bring {0} baggage per pas
 andpoe.text_flight_addon_baggage_description_5,Pack your bags! You can bring {0} baggage per passenger.,flight,flight_booking_form_baggage,label_description_type_e_kg,TRUE
 andpoe.text_flight_addon_baggage_description_6,Get your packing list ready! Tap to see how many bags you can bring.,flight,flight_booking_form_baggage,label_description_type_f,TRUE
 andpoe.text_flight_addon_baggage_is_selected,Baggage allowance has been selected. Tap to review or change.,flight,flight_booking_form_baggage,label_description_have_selected_baggage,TRUE
-andpoe.text_flight_addon_baggage_total_price,Baggage Charge,flight,flight_addon,baggage_total_price,
+andpoe.text_flight_addon_baggage_total_price,Baggage Charge,flight,flight_add_ons,baggage_total_price,
 andpoe.text_flight_addon_seat_is_selected,Seat has been selected. Tap to review or change.,flight,,,FALSE
-andpoe.text_flight_addon_seat_title,Select Seat,flight,flight_addon,seat_title,
+andpoe.text_flight_addon_seat_title,Select Seat,flight,flight_add_ons,seat_title,
 andpoe.text_flight_aiport_grouped,All airports in,flight,,,FALSE
 andpoe.text_flight_aircraft_type_larger_regional_jet,regional jet,flight,,,FALSE
 andpoe.text_flight_aircraft_type_smaller_regional_jet,regional jet,flight,,,FALSE
@@ -7421,9 +7421,9 @@ andpoe.text_remove_card_section,You’ve reached your saved card limit.\nRemove 
 andpoe.text_remove_card_success_gpo,You have successfully removed a card! You can manage your saved cards through home page.,,,,FALSE
 andpoe.text_remove_card_tray_title,Which card to remove?,payment,payment_card_removal_tray,title,TRUE
 andpoe.text_rental_additional_charge_info,Add-ons (Optional),rental,rental_additional,charge_info,FALSE
-andpoe.text_rental_addon_detail,{0}/{1},rental,rental_addon,detail,FALSE
-andpoe.text_rental_addon_details_additional_notes_helper,"Airport terminal, building name, address number, etc.",rental,rental_addon,details_additional_notes_helper,
-andpoe.text_rental_addon_details_additional_notes_hint,Additional notes (optional),rental,rental_addon,details_additional_notes_hint,FALSE
+andpoe.text_rental_addon_detail,{0}/{1},rental,rental_add_ons,detail,FALSE
+andpoe.text_rental_addon_details_additional_notes_helper,"Airport terminal, building name, address number, etc.",rental,rental_add_ons,details_additional_notes_helper,
+andpoe.text_rental_addon_details_additional_notes_hint,Additional notes (optional),rental,rental_add_ons,details_additional_notes_hint,FALSE
 andpoe.text_rental_adjust_rental_time,Change Rental Time,rental,rental_adjust,rental_time,TRUE
 andpoe.text_rental_all_inclusive_date,Select the dates for using In-town All in One,rental,rental_rental_calendar,choose_date_title,TRUE
 andpoe.text_rental_all_providers_displayed,All provider(s) have been displayed.,rental,rental_supplier_search,label_footer_all_providers_displayed,TRUE
@@ -7669,20 +7669,20 @@ andpoe.text_rental_location_tray_popular_location_title,Popular Locations,rental
 andpoe.text_rental_location_tray_rental_office,Rental Office,rental,rental_location,tray_rental_office,
 andpoe.text_rental_location_tray_same_as_pick_up_location,Same as Pick-up Location,rental,rental_location,tray_same_as_pick_up_location,TRUE
 andpoe.text_rental_manage_add_ons_title,Rental Add-ons,rental,rental_manage,add_ons_title,
-andpoe.text_rental_manage_addons_check_destination_button,Check Destination,rental,rental_manage_addons_check_destination,button,TRUE
-andpoe.text_rental_manage_addons_check_destination_message,Not finding your destination? Check here instead.,rental,rental_manage_addons_check_destination,message,TRUE
+andpoe.text_rental_manage_addons_check_destination_button,Check Destination,rental,rental_add_ons,manage_check_destination_button,TRUE
+andpoe.text_rental_manage_addons_check_destination_message,Not finding your destination? Check here instead.,rental,rental_add_ons,manage_check_destination_message,TRUE
 andpoe.text_rental_manage_location_title,Pick-up & Drop-off,rental,rental_manage_location,title,TRUE
 andpoe.text_rental_manage_rental_add_pick_up_location,+ Add pick-up location,rental,rental_manage_rental_add_pick_up,location,TRUE
 andpoe.text_rental_manage_rental_add_your_drop_off_location,+ Add drop-off location,rental,rental_manage_rental_add_your_drop_off,location,TRUE
-andpoe.text_rental_manage_rental_addon_reminder_no_addon_title,Looks like you have not added fuel and driver’s meals to your rental. Would you like to add?,rental,rental_manage_rental_addon_reminder_no_addon,title,TRUE
-andpoe.text_rental_manage_rental_addon_reminder_only_first_day_title,Looking good for day 1. Add fuel and driver’s meals for the remaining days as well?,rental,rental_manage_rental_addon_reminder_only_first_day,title,TRUE
+andpoe.text_rental_manage_rental_addon_reminder_no_addon_title,Looks like you have not added fuel and driver’s meals to your rental. Would you like to add?,rental,rental_add_ons,manage_rental_reminder_no_addon_title,TRUE
+andpoe.text_rental_manage_rental_addon_reminder_only_first_day_title,Looking good for day 1. Add fuel and driver’s meals for the remaining days as well?,rental,rental_add_ons,manage_rental_reminder_only_first_day_title,TRUE
 andpoe.text_rental_manage_rental_addon_reminder_tray_button_confirm,"Yes, Add Now",rental,rental_manage,rental_addon_reminder_tray_button_confirm,FALSE
 andpoe.text_rental_manage_rental_addon_reminder_tray_button_negative,"No, Thanks",rental,rental_manage,rental_addon_reminder_tray_button_negative,FALSE
 andpoe.text_rental_manage_rental_addons_coachmark_next_button,Next,rental,rental_manage,rental_addons_coachmark_next_button,FALSE
 andpoe.text_rental_manage_rental_addons_coachmark_ok_button,"OK, Got It",rental,rental_manage,rental_addons_coachmark_ok_button,FALSE
-andpoe.text_rental_manage_rental_addons_date_tab_coachmark_message,Switch between dates to customize add-ons for each day.,rental,rental_manage_rental_addons_date_tab,coachmark_message,TRUE
-andpoe.text_rental_manage_rental_addons_sub_tier_coachmark_message,Add the fuel consumption based on your trip needs.,rental,rental_manage_rental_addons_sub_tier_coachmark,message,TRUE
-andpoe.text_rental_manage_rental_addons_tier_coachmark_message,Select the area where you plan to use the car.,rental,rental_manage_rental_addons_tier_coachmark,message,TRUE
+andpoe.text_rental_manage_rental_addons_date_tab_coachmark_message,Switch between dates to customize add-ons for each day.,rental,rental_add_ons,manage_rental_date_tab_coachmark_message,TRUE
+andpoe.text_rental_manage_rental_addons_sub_tier_coachmark_message,Add the fuel consumption based on your trip needs.,rental,rental_add_ons,manage_rental_sub_tier_coachmark_message,TRUE
+andpoe.text_rental_manage_rental_addons_tier_coachmark_message,Select the area where you plan to use the car.,rental,rental_add_ons,manage_rental_tier_coachmark_message,TRUE
 andpoe.text_rental_manage_rental_back_to_set_location,Pick-up & Drop-off Location,rental,rental_manage,rental_back_to_set_location,
 andpoe.text_rental_manage_rental_confirmation_tray_confirm,"Yes, Confirm +{0}",rental,rental_manage_rental_confirmation_tray,confirm,TRUE
 andpoe.text_rental_manage_rental_driver_accommodation_nights,night(s),rental,rental_rental_outoftown_catalog,stepper_night_type_label,TRUE
@@ -7694,7 +7694,7 @@ andpoe.text_rental_manage_rental_header_drop_off_date,Drop-off date,rental,renta
 andpoe.text_rental_manage_rental_header_pick_up_date,Pick-up date,rental,rental_manage,rental_header_pick_up_date,FALSE
 andpoe.text_rental_manage_rental_location_edit_button,Edit,rental,rental_manage,rental_location_edit_button,FALSE
 andpoe.text_rental_manage_rental_location_note_placeholder_text,Add details of your location,rental,rental_manage,rental_location_note_placeholder_text,FALSE
-andpoe.text_rental_manage_rental_manage_addons_date_tab_title,Select add-ons:,rental,rental_manage_rental_manage_addons_date_tab,title,TRUE
+andpoe.text_rental_manage_rental_manage_addons_date_tab_title,Select add-ons:,rental,rental_add_ons,manage_rental_date_tab_title,TRUE
 andpoe.text_rental_manage_rental_manage_location_continue_scroll_button,Continue,rental,rental_manage,rental_manage_location_continue_scroll_button,
 andpoe.text_rental_manage_rental_pick_up_drop_off_location,Pick-up & drop-off location,rental,rental_manage_rental_pick_up_drop_off,location,TRUE
 andpoe.text_rental_manage_rental_pick_up_location_subtitle,Pick-up: {0},rental,rental_manage,rental_pick_up_location_subtitle,
@@ -7726,7 +7726,7 @@ andpoe.text_rental_onboarding_skip,Skip,rental,rental_onboarding,skip,TRUE
 andpoe.text_rental_onboarding_top_1,Car Rental without Driver,rental,rental_rental_onboarding,label_title_1,TRUE
 andpoe.text_rental_onboarding_top_2,Various rental options at your fingertips,rental,rental_rental_onboarding,label_title_2,TRUE
 andpoe.text_rental_onboarding_top_3,Complete rental requirements info,rental,rental_rental_onboarding,label_title_3,TRUE
-andpoe.text_rental_one_time,one time,rental,rental_rental_addon,charging_type_one_time,TRUE
+andpoe.text_rental_one_time,one time,rental,rental_add_ons,charging_type_one_time,TRUE
 andpoe.text_rental_other_location,+ {0} other office(s),rental,rental_product_detail,pool_list_label_plus_other_locations,TRUE
 andpoe.text_rental_out_of_town_date,Select your out-of-town travel dates,rental,rental_rental_calendar,oot_choose_date_title,TRUE
 andpoe.text_rental_out_of_town_dialog_title,Out-of-town Usage,rental,rental_out,of_town_dialog_title,FALSE
@@ -8117,13 +8117,13 @@ andpoe.text_shuttle_add_passenger,PASSENGERS (AGE 2+),shuttle,,,FALSE
 andpoe.text_shuttle_additional_info,Additional Information,shuttle,shuttle_additional,info,
 andpoe.text_shuttle_addon_location_input_placeholder_from_airport,Where would you like to go?,shuttle,,,FALSE
 andpoe.text_shuttle_addon_location_input_placeholder_to_airport,Where do you want to be picked up?,shuttle,,,FALSE
-andpoe.text_shuttle_addon_pickup_time_tray_footer,"You might want to consider the extra time in the airport (claiming baggage, etc.) before selecting a pick-up time.",shuttle,shuttle_booking_add_on,label_select_pick_up_time_tray_footer_from_airport,TRUE
-andpoe.text_shuttle_addon_pickup_time_tray_footer_to_airport,"Kindly consider the time needed for check-in (queueing, registering baggage, etc.) before selecting a pick-up time.",shuttle,shuttle_booking_add_on,label_select_pick_up_time_tray_footer_to_airport,TRUE
-andpoe.text_shuttle_addon_pickup_time_tray_important_note_description,Please note that the time selection below will be in the airport''s local time.,shuttle,shuttle_addon,pickup_time_tray_important_note_description,
-andpoe.text_shuttle_addon_pickup_time_tray_important_note_description_to_airport,Please note that the time selection below will be in the airport''s local time.,shuttle,shuttle_addon,pickup_time_tray_important_note_description_to_airport,
-andpoe.text_shuttle_addon_pickup_time_tray_important_note,Important Note,shuttle,shuttle_addon,pickup_time_tray_important_note,
-andpoe.text_shuttle_addon_pickup_time_tray_important_note_to_airport,Important Note,shuttle,shuttle_addon,pickup_time_tray_important_note_to_airport,
-andpoe.text_shuttle_addon_pickup_time_tray_pick_up_time,Pick-up date: {0},shuttle,shuttle_booking_add_on,label_select_pick_up_time_tray_pick_up_different_date,TRUE
+andpoe.text_shuttle_addon_pickup_time_tray_footer,"You might want to consider the extra time in the airport (claiming baggage, etc.) before selecting a pick-up time.",shuttle,shuttle_add_ons,booking_label_select_pick_up_time_tray_footer_from_airport,TRUE
+andpoe.text_shuttle_addon_pickup_time_tray_footer_to_airport,"Kindly consider the time needed for check-in (queueing, registering baggage, etc.) before selecting a pick-up time.",shuttle,shuttle_add_ons,booking_label_select_pick_up_time_tray_footer_to_airport,TRUE
+andpoe.text_shuttle_addon_pickup_time_tray_important_note_description,Please note that the time selection below will be in the airport''s local time.,shuttle,shuttle_add_ons,pickup_time_tray_important_note_description,
+andpoe.text_shuttle_addon_pickup_time_tray_important_note_description_to_airport,Please note that the time selection below will be in the airport''s local time.,shuttle,shuttle_add_ons,pickup_time_tray_important_note_description_to_airport,
+andpoe.text_shuttle_addon_pickup_time_tray_important_note,Important Note,shuttle,shuttle_add_ons,pickup_time_tray_important_note,
+andpoe.text_shuttle_addon_pickup_time_tray_important_note_to_airport,Important Note,shuttle,shuttle_add_ons,pickup_time_tray_important_note_to_airport,
+andpoe.text_shuttle_addon_pickup_time_tray_pick_up_time,Pick-up date: {0},shuttle,shuttle_add_ons,booking_label_select_pick_up_time_tray_different_date,TRUE
 andpoe.text_shuttle_adult_passenger_total,"{0, plural, one {{0} Adult} other {{0} Adult}}",shuttle,shuttle_adult,passenger_total,FALSE
 andpoe.text_shuttle_airline_autocomplete_error_body,Check your internet connection and make sure you have entered the right airline name.,shuttle,,,FALSE
 andpoe.text_shuttle_airline_autocomplete_error_title,"No results for ""{0}""",shuttle,shuttle_airline,autocomplete_error_title,
@@ -8183,7 +8183,7 @@ andpoe.text_shuttle_contact_number,Mobile Number,shuttle,shuttle_contact,number,
 andpoe.text_shuttle_copy_phone_number_success,Phone number successfully copied,shuttle,shuttle_copy,phone_number_success,FALSE
 andpoe.text_shuttle_crosssell_addon_adult_passenger_label,Adult,shuttle,shuttle_crosssell,addon_adult_passenger_label,FALSE
 andpoe.text_shuttle_crosssell_addon_child_passenger_label,Child,shuttle,shuttle_crosssell,addon_child_passenger_label,FALSE
-andpoe.text_shuttle_crosssell_addon_drop_off_label,Drop-off Point,shuttle,shuttle_add_on,label_title_drop_off_location,TRUE
+andpoe.text_shuttle_crosssell_addon_drop_off_label,Drop-off Point,shuttle,shuttle_add_ons,label_title_drop_off_location,TRUE
 andpoe.text_shuttle_crosssell_addon_error_cancel_label,Cancel Booking,shuttle,shuttle_sbf,button_cancel_airport_transfer,TRUE
 andpoe.text_shuttle_crosssell_addon_error_change_location_label,Change Drop-off Point,shuttle,shuttle_sbf,button_choose_other_location,TRUE
 andpoe.text_shuttle_crosssell_addon_error_description,There are no cars available for your selected drop-off point. You can change your drop-off point or cancel your booking.,shuttle,shuttle_sbf,label_description_no_inventory,TRUE
@@ -8191,14 +8191,14 @@ andpoe.text_shuttle_crosssell_addon_error_snackbar,Please select a drop-off poin
 andpoe.text_shuttle_crosssell_addon_error_title,No Cars Available,shuttle,shuttle_crosssell,addon_error_title,FALSE
 andpoe.text_shuttle_crosssell_addon_infant_passenger_label,Infant,shuttle,shuttle_crosssell,addon_infant_passenger_label,FALSE
 andpoe.text_shuttle_crosssell_addon_info_label,INFO,shuttle,shuttle_crosssell,addon_info_label,
-andpoe.text_shuttle_crosssell_addon_item_changed,The provider has been changed to serve your selected drop-off point.,shuttle,shuttle_booking_add_on,label_notification_info_supplier_changed,TRUE
-andpoe.text_shuttle_crosssell_addon_pick_up_info_label,Your pick-up time will be based on your flight’s arrival time.,shuttle,shuttle_add_on,label_selected_location_additional_info,TRUE
-andpoe.text_shuttle_crosssell_addon_price_change_warning,Price will change according to your selected drop-off point.,shuttle,shuttle_add_on,label_unselected_location_additional_info,TRUE
+andpoe.text_shuttle_crosssell_addon_item_changed,The provider has been changed to serve your selected drop-off point.,shuttle,shuttle_add_ons,booking_label_notification_info_supplier_changed,TRUE
+andpoe.text_shuttle_crosssell_addon_pick_up_info_label,Your pick-up time will be based on your flight’s arrival time.,shuttle,shuttle_add_ons,label_selected_location_additional_info,TRUE
+andpoe.text_shuttle_crosssell_addon_price_change_warning,Price will change according to your selected drop-off point.,shuttle,shuttle_add_ons,label_unselected_location_additional_info,TRUE
 andpoe.text_shuttle_crosssell_addon_price_to_label,Price to {0}:,shuttle,shuttle_crosssell,addon_price_to_label,FALSE
 andpoe.text_shuttle_crosssell_addon_product_changed_ok_label,OK,shuttle,shuttle_crosssell,addon_product_changed_ok_label,FALSE
 andpoe.text_shuttle_crosssell_addon_select_drop_off_location,Tap to select your drop-off point.,shuttle,shuttle_crosssell,addon_select_drop_off_location,TRUE
 andpoe.text_shuttle_crosssell_addon_selected_hotel_label,Your Selected Hotel,shuttle,shuttle_autocomplete,label_title_your_selected_hotel,TRUE
-andpoe.text_shuttle_crosssell_addon_tap_to_edit_drop_off_location,Tap to change your drop-off point.,shuttle,shuttle_add_on,label_title_edit_drop_off_location,TRUE
+andpoe.text_shuttle_crosssell_addon_tap_to_edit_drop_off_location,Tap to change your drop-off point.,shuttle,shuttle_add_ons,label_title_edit_drop_off_location,TRUE
 andpoe.text_shuttle_crosssell_addon_uncheck_confirmation_description,You’ll save yourself some hassle if you book Airport Transfer now. Cancel anyway?,shuttle,shuttle_sbf,label_description_unticked_confirmation_popup,TRUE
 andpoe.text_shuttle_crosssell_addon_uncheck_confirmation_no_label,No,shuttle,shuttle_sbf,button_primary_unticked_confirmation_popup,TRUE
 andpoe.text_shuttle_crosssell_addon_uncheck_confirmation_title,Cancel Airport Transfer?,shuttle,shuttle_sbf,label_title_unticked_confirmation_popup,TRUE
@@ -8246,21 +8246,21 @@ andpoe.text_shuttle_filter_seat_capacity_title,Seat capacity,shuttle,shuttle_fil
 andpoe.text_shuttle_filter_ticket_flexibility_label,Ticket Type,shuttle,shuttle_filter,ticket_flexibility_label,TRUE
 andpoe.text_shuttle_first_trip_label,Trip 1,shuttle,shuttle_search_form,label_trip_1,TRUE
 andpoe.text_shuttle_flexible_schedule,Flexible schedule,shuttle,,,FALSE
-andpoe.text_shuttle_flight_booking_addon_change,Change,shuttle,shuttle_booking_add_on,button_change_pick_up_time,TRUE
-andpoe.text_shuttle_flight_booking_addon_failed_warning_snackbar,"Sorry, we cannot find any providers that go to your drop-off location. If you’d like, please select another location.",shuttle,shuttle_booking_add_on,label_notification_warning_no_inventory,TRUE
+andpoe.text_shuttle_flight_booking_addon_change,Change,shuttle,shuttle_add_ons,booking_button_change_pick_up_time,TRUE
+andpoe.text_shuttle_flight_booking_addon_failed_warning_snackbar,"Sorry, we cannot find any providers that go to your drop-off location. If you’d like, please select another location.",shuttle,shuttle_add_ons,booking_label_notification_warning_no_inventory,TRUE
 andpoe.text_shuttle_flight_booking_addon_pick_up_time,Pick-up time: {0},shuttle,shuttle_flight,booking_addon_pick_up_time,TRUE
 andpoe.text_shuttle_flight_booking_addon_pick_up_time_with_date,Pick-up time: {0} ({1}),shuttle,shuttle_flight,booking_addon_pick_up_time_with_date,
 andpoe.text_shuttle_flight_booking_addon_remove_button,Remove,shuttle,shuttle_flight,booking_addon_remove_button,
 andpoe.text_shuttle_flight_booking_failed_not_found_snackbar_close,Close,shuttle,shuttle_flight,booking_failed_not_found_snackbar_close,FALSE
-andpoe.text_shuttle_flight_booking_failed_not_found_snackbar,"Sorry, none of our providers are available for you right now.",shuttle,shuttle_booking_add_on,label_notification_warning_failure,TRUE
+andpoe.text_shuttle_flight_booking_failed_not_found_snackbar,"Sorry, none of our providers are available for you right now.",shuttle,shuttle_add_ons,booking_label_notification_warning_failure,TRUE
 andpoe.text_shuttle_flight_booking_price_breakdown_airport_transport,Airport Transport,shuttle,,,
 andpoe.text_shuttle_flight_booking_removed_add_on_snackbar_close_from_airport,Close,shuttle,,,FALSE
 andpoe.text_shuttle_flight_booking_removed_add_on_snackbar_from_airport,You''ve successfully removed a pick-up point.,shuttle,,,FALSE
-andpoe.text_shuttle_flight_booking_removed_add_on_snackbar_undo_from_airport,Undo,shuttle,shuttle_booking_add_on,button_notification_info_route_removed_undo,TRUE
+andpoe.text_shuttle_flight_booking_removed_add_on_snackbar_undo_from_airport,Undo,shuttle,shuttle_add_ons,booking_button_notification_info_route_removed_undo,TRUE
 andpoe.text_shuttle_flight_booking_select_time_tray_cta,Select,shuttle,shuttle_flight,booking_select_time_tray_cta,
-andpoe.text_shuttle_flight_booking_select_time_tray_title,Select Time,shuttle,shuttle_booking_add_on,label_select_pick_up_time_tray_title,TRUE
+andpoe.text_shuttle_flight_booking_select_time_tray_title,Select Time,shuttle,shuttle_add_ons,booking_label_select_pick_up_time_tray_title,TRUE
 andpoe.text_shuttle_flight_booking_supplier_changed_snackbar_close,Close,shuttle,shuttle_flight,booking_supplier_changed_snackbar_close,FALSE
-andpoe.text_shuttle_flight_booking_supplier_changed_snackbar,"Due to availability, we’ve changed the provider. Kindly check the details and the price.",shuttle,shuttle_booking_add_on,label_notification_info_provider_changed,TRUE
+andpoe.text_shuttle_flight_booking_supplier_changed_snackbar,"Due to availability, we’ve changed the provider. Kindly check the details and the price.",shuttle,shuttle_add_ons,booking_label_notification_info_provider_changed,TRUE
 andpoe.text_shuttle_flight_info_arrival_time,Flight arrival: {0},shuttle,shuttle_flight,info_arrival_time,
 andpoe.text_shuttle_flight_info_arrival_time_error,Please make sure your pick-up time is the same as or later than your flight''s arrival.,shuttle,shuttle_flight,info_arrival_time_error,FALSE
 andpoe.text_shuttle_flight_info_booking_sub_title,Your upcoming flight(s) to {0} for pick-up on {1}.,shuttle,shuttle_flight,info_booking_sub_title,FALSE
@@ -10224,12 +10224,12 @@ iospoe.experience.ticket-list.title-date.today,Today,experience,experience_ticke
 iospoe.experience.ticket-list.title-date.tomorrow,Tomorrow,experience,experience_ticket_list,title_date_tomorrow,TRUE
 iospoe.experience.ticket-package-detail.button.select-package,Select,experience,experience_ticket,list_select_package_cta_button,TRUE
 iospoe.experience.ticket-seat-map.label.title,Venue Map,experience,experience_voucher,seat_map_title,TRUE
-iospoe.experience_add_ons_add_button_title,Add,experience,experience_add,ons_add_button_title,TRUE
-iospoe.experience_add_ons_multi_pax_item_count_copy,{0} item,experience,experience_add,ons_multi_pax_item_count_copy,TRUE
-iospoe.experience_add_ons_multi_pax_item_count_plural_copy,{0} items,experience,experience_add,ons_multi_pax_item_count_plural_copy,TRUE
-iospoe.experience_add_ons_section_title,Additional items to complete your trip,experience,experience_add,ons_section_title,TRUE
-iospoe.experience_add_ons_tray_button_remove,Remove,experience,experience_add_ons_tray,remove,TRUE
-iospoe.experience_add_ons_tray_button_save,Continue,experience,experience_add,ons_tray_button_save,TRUE
+iospoe.experience_add_ons_add_button_title,Add,experience,experience_add_ons,add_button_title,TRUE
+iospoe.experience_add_ons_multi_pax_item_count_copy,{0} item,experience,experience_add_ons,multi_pax_item_count_copy,TRUE
+iospoe.experience_add_ons_multi_pax_item_count_plural_copy,{0} items,experience,experience_add_ons,multi_pax_item_count_plural_copy,TRUE
+iospoe.experience_add_ons_section_title,Additional items to complete your trip,experience,experience_add_ons,section_title,TRUE
+iospoe.experience_add_ons_tray_button_remove,Remove,experience,experience_add_ons,tray_remove,TRUE
+iospoe.experience_add_ons_tray_button_save,Continue,experience,experience_add_ons,tray_button_save,TRUE
 iospoe.experience_adv_filter_btn_coachmark_desc,See more tailored results based on your preferences—from Xperience categories to special promotions and features.,experience,experience_adv,filter_btn_coachmark_desc,FALSE
 iospoe.experience_and_%@,and {0},experience,experience_text,and,FALSE
 iospoe.experience_any_group_preference,Anyone ({0}),experience,experience_any,group_preference,TRUE
@@ -15073,22 +15073,22 @@ iospoe.rentalWD.manage-booking.add-on.add,Add,,,,FALSE
 iospoe.rentalWD.manage-booking.add-on.button-continue-coachmark,Next,,,,FALSE
 iospoe.rentalWD.manage-booking.add-on.button-final-coachmark,"OK, Got It",,,,FALSE
 iospoe.rentalWD.manage-booking.add-on.cancel,Cancel,,,,FALSE
-iospoe.rentalWD.manage-booking.add-on.check-Area.button,Check Destination,rental,rental_manage_addons_check_destination,button,TRUE
-iospoe.rentalWD.manage-booking.add-on.check-Area.label,Not finding your destination? Check here instead.,rental,rental_manage_addons_check_destination,message,TRUE
-iospoe.rentalWD.manage-booking.add-on.date-tabbing-coachmark,Switch between dates to customize add-ons for each day.,rental,rental_manage_rental_addons_date_tab,coachmark_message,TRUE
+iospoe.rentalWD.manage-booking.add-on.check-Area.button,Check Destination,rental,rental_add_ons,manage_check_destination_button,TRUE
+iospoe.rentalWD.manage-booking.add-on.check-Area.label,Not finding your destination? Check here instead.,rental,rental_add_ons,manage_check_destination_message,TRUE
+iospoe.rentalWD.manage-booking.add-on.date-tabbing-coachmark,Switch between dates to customize add-ons for each day.,rental,rental_add_ons,manage_rental_date_tab_coachmark_message,TRUE
 iospoe.rentalWD.manage-booking.add-on.drop-off-location,Drop-off Location,,,,FALSE
 iospoe.rentalWD.manage-booking.add-on.pick-up-and-drop-off-location,Pick-up & Drop-off Location,rental,rental_rentalwd,manage_booking_add_on_pick_up_and_drop_off_location,
 iospoe.rentalWD.manage-booking.add-on.pick-up-location,Pick-up Location,,,,FALSE
 iospoe.rentalWD.manage-booking.add-on.price-includes-%@,Price Includes {0},,,,
-iospoe.rentalWD.manage-booking.add-on.select-date-title,Select add-ons:,rental,rental_manage_rental_manage_addons_date_tab,title,TRUE
-iospoe.rentalWD.manage-booking.add-on.subtier-coachmark,Add the fuel consumption based on your trip needs.,rental,rental_manage_rental_addons_sub_tier_coachmark,message,TRUE
-iospoe.rentalWD.manage-booking.add-on.tier-coachmark,Select the area where you plan to use the car.,rental,rental_manage_rental_addons_tier_coachmark,message,TRUE
+iospoe.rentalWD.manage-booking.add-on.select-date-title,Select add-ons:,rental,rental_add_ons,manage_rental_date_tab_title,TRUE
+iospoe.rentalWD.manage-booking.add-on.subtier-coachmark,Add the fuel consumption based on your trip needs.,rental,rental_add_ons,manage_rental_sub_tier_coachmark_message,TRUE
+iospoe.rentalWD.manage-booking.add-on.tier-coachmark,Select the area where you plan to use the car.,rental,rental_add_ons,manage_rental_tier_coachmark_message,TRUE
 iospoe.rentalWD.manage-booking.add-on.title,Rental Add-ons,rental,,,FALSE
 iospoe.rentalWD.manage-booking.add-ons.back,Pick-up & Drop-off Location,rental,rental_rentalwd,manage_booking_add_ons_back,FALSE
 iospoe.rentalWD.manage-booking.pop-up.driver-accommodation-max-%@-nights,Add driver’s accommodation for {0} night(s) to avoid additional charges.,hotel,accom_rentalwd,manage_booking_pop_up_driver_max_nights,FALSE
 iospoe.rentalWD.manage-booking.pop-up.driver-accommodation.night(s),night(s),rental,,,FALSE
-iospoe.rentalWD.manage-booking.pop-up.not-purchase-any-add-ons,Looks like you have not added fuel and driver’s meals to your rental. Would you like to add?,rental,rental_manage_rental_addon_reminder_no_addon,title,TRUE
-iospoe.rentalWD.manage-booking.pop-up.only-purchase-add-ons-in-day-one,Looking good for day 1. Add fuel and driver’s meals for the remaining days as well?,rental,rental_manage_rental_addon_reminder_only_first_day,title,TRUE
+iospoe.rentalWD.manage-booking.pop-up.not-purchase-any-add-ons,Looks like you have not added fuel and driver’s meals to your rental. Would you like to add?,rental,rental_add_ons,manage_rental_reminder_no_addon_title,TRUE
+iospoe.rentalWD.manage-booking.pop-up.only-purchase-add-ons-in-day-one,Looking good for day 1. Add fuel and driver’s meals for the remaining days as well?,rental,rental_add_ons,manage_rental_reminder_only_first_day_title,TRUE
 iospoe.rentalWD.manage-booking.pop-up.primary-action,"Yes, Add Now",rental,rental_rentalwd,manage_booking_pop_up_primary_action,FALSE
 iospoe.rentalWD.manage-booking.pop-up.secondary-action,"No, Thanks",,,,FALSE
 iospoe.rentalWD.manage-booking.price-breakdown.inclusive-of-taxes,Inclusive of taxes,,,,FALSE
@@ -15300,13 +15300,13 @@ iospoe.shuttle-voucher.label.trip-details,PICK-UP DETAILS,shuttle,shuttle_trip,d
 iospoe.shuttle-voucher.label.voucher,Airport Transfer Voucher,shuttle,,,FALSE
 iospoe.shuttle-voucher.label.web-view-title,Additional Information,shuttle,shuttle_voucher,label_web_view_title,FALSE
 iospoe.shuttle-voucher.passenger-view.label.%@ / Seat %@,{0} / Seat {1},shuttle,shuttle_voucher,passenger_view_seat,FALSE
-iospoe.shuttle.add-on.label.info-button,INFO,shuttle,shuttle_add,on_label_info_button,
-iospoe.shuttle.add-on.label.selected-location-additional-info,Your pick-up time will be based on your flight’s arrival time.,shuttle,shuttle_add_on,label_selected_location_additional_info,TRUE
-iospoe.shuttle.add-on.label.starting-from,From,shuttle,shuttle_add,on_starting_from,
-iospoe.shuttle.add-on.label.title-drop-off-location,Drop-off Point,shuttle,shuttle_add_on,label_title_drop_off_location,TRUE
-iospoe.shuttle.add-on.label.title-edit-drop-off-location,Tap to change your drop-off point.,shuttle,shuttle_add_on,label_title_edit_drop_off_location,TRUE
+iospoe.shuttle.add-on.label.info-button,INFO,shuttle,shuttle_add_ons,label_info_button,
+iospoe.shuttle.add-on.label.selected-location-additional-info,Your pick-up time will be based on your flight’s arrival time.,shuttle,shuttle_add_ons,label_selected_location_additional_info,TRUE
+iospoe.shuttle.add-on.label.starting-from,From,shuttle,shuttle_add_ons,starting_from,
+iospoe.shuttle.add-on.label.title-drop-off-location,Drop-off Point,shuttle,shuttle_add_ons,label_title_drop_off_location,TRUE
+iospoe.shuttle.add-on.label.title-edit-drop-off-location,Tap to change your drop-off point.,shuttle,shuttle_add_ons,label_title_edit_drop_off_location,TRUE
 iospoe.shuttle.add-on.label.title-select-drop-off-location,Tap to select your drop-off point.,shuttle,shuttle_crosssell,addon_select_drop_off_location,TRUE
-iospoe.shuttle.add-on.label.unselected-location-additional-info,Price will change according to your selected drop-off point.,shuttle,shuttle_add_on,label_unselected_location_additional_info,TRUE
+iospoe.shuttle.add-on.label.unselected-location-additional-info,Price will change according to your selected drop-off point.,shuttle,shuttle_add_ons,label_unselected_location_additional_info,TRUE
 iospoe.shuttle.auto-complete.button.current-location,Current address,shuttle,shuttle_auto,complete_current_location,FALSE
 iospoe.shuttle.auto-complete.button.nearby-airport,Nearby airport,shuttle,shuttle_auto_complete,button_nearby_airport,TRUE
 iospoe.shuttle.auto-complete.button.select-from-map,Select via map,shuttle,shuttle_auto,complete_select_from_map,FALSE
@@ -15318,8 +15318,8 @@ iospoe.shuttle.autocomplete.label.title-upcoming-hotel-non-agnostic,Booking for 
 iospoe.shuttle.autocomplete.label.title-your-selected-hotel,Your Selected Hotel,shuttle,shuttle_autocomplete,label_title_your_selected_hotel,TRUE
 iospoe.shuttle.autocomplete.upcoming-flight.label.arrives,Arrives,shuttle,shuttle_autocomplete,upcoming_flight_label_arrives,TRUE
 iospoe.shuttle.autocomplete.upcoming-flight.label.departs,Departs,shuttle,shuttle_autocomplete,upcoming_flight_label_departs,TRUE
-iospoe.shuttle.booking-add-on.button.change-pick-up-time,Change,shuttle,shuttle_booking_add_on,button_change_pick_up_time,TRUE
-iospoe.shuttle.booking-add-on.button.notification-info-route-removed-undo,Undo,shuttle,shuttle_booking_add_on,button_notification_info_route_removed_undo,TRUE
+iospoe.shuttle.booking-add-on.button.change-pick-up-time,Change,shuttle,shuttle_add_ons,booking_button_change_pick_up_time,TRUE
+iospoe.shuttle.booking-add-on.button.notification-info-route-removed-undo,Undo,shuttle,shuttle_add_ons,booking_button_notification_info_route_removed_undo,TRUE
 iospoe.shuttle.booking-add-on.button.remove-route,Remove,shuttle,shuttle_booking,add_on_remove_route,
 iospoe.shuttle.booking-add-on.button.select-pick-up-time-tray-select,Select,shuttle,shuttle_booking,add_on_select_pick_up_time_tray_select,
 iospoe.shuttle.booking-add-on.label.location-input-placeholder-from-airport,Where would you like to go?,shuttle,,,FALSE
@@ -15328,19 +15328,19 @@ iospoe.shuttle.booking-add-on.label.notification-error-drop-off-not-filled,Pleas
 iospoe.shuttle.booking-add-on.label.notification-error-select-location-from-airport,Please select a drop-off point first to continue.,shuttle,shuttle_booking,add_on_notification_error_select_location_from_airport,FALSE
 iospoe.shuttle.booking-add-on.label.notification-error-select-location-from-and-to-airports,Please select a drop-off and a pick-up point first to continue.,shuttle,shuttle_booking,add_on_notification_error_select_location_from_and_to_airports,FALSE
 iospoe.shuttle.booking-add-on.label.notification-error-select-location-to-airport,Please select a pick-up point first to continue.,shuttle,shuttle_booking,add_on_notification_error_select_location_to_airport,FALSE
-iospoe.shuttle.booking-add-on.label.notification-info-provider-changed,"Due to availability, we’ve changed the provider. Kindly check the details and the price.",shuttle,shuttle_booking_add_on,label_notification_info_provider_changed,TRUE
+iospoe.shuttle.booking-add-on.label.notification-info-provider-changed,"Due to availability, we’ve changed the provider. Kindly check the details and the price.",shuttle,shuttle_add_ons,booking_label_notification_info_provider_changed,TRUE
 iospoe.shuttle.booking-add-on.label.notification-info-route-removed,You''ve successfully removed a pick-up point. ,shuttle,shuttle_booking,add_on_notification_info_route_removed,FALSE
-iospoe.shuttle.booking-add-on.label.notification-info-supplier-changed,The provider has been changed to serve your selected drop-off point.,shuttle,shuttle_booking_add_on,label_notification_info_supplier_changed,TRUE
-iospoe.shuttle.booking-add-on.label.notification-warning-failure,"Sorry, none of our providers are available for you right now.",shuttle,shuttle_booking_add_on,label_notification_warning_failure,TRUE
-iospoe.shuttle.booking-add-on.label.notification-warning-no-inventory,"Sorry, we cannot find any providers that go to your drop-off location. If you’d like, please select another location.",shuttle,shuttle_booking_add_on,label_notification_warning_no_inventory,TRUE
+iospoe.shuttle.booking-add-on.label.notification-info-supplier-changed,The provider has been changed to serve your selected drop-off point.,shuttle,shuttle_add_ons,booking_label_notification_info_supplier_changed,TRUE
+iospoe.shuttle.booking-add-on.label.notification-warning-failure,"Sorry, none of our providers are available for you right now.",shuttle,shuttle_add_ons,booking_label_notification_warning_failure,TRUE
+iospoe.shuttle.booking-add-on.label.notification-warning-no-inventory,"Sorry, we cannot find any providers that go to your drop-off location. If you’d like, please select another location.",shuttle,shuttle_add_ons,booking_label_notification_warning_no_inventory,TRUE
 iospoe.shuttle.booking-add-on.label.pick-up-time-%@,Pick-up time: {0},shuttle,shuttle_flight,booking_addon_pick_up_time,TRUE
 iospoe.shuttle.booking-add-on.label.price-breakdown-label-aggregated,Airport Transfer,shuttle,shuttle_booking,add_on_label_price_breakdown_aggregated,
-iospoe.shuttle.booking-add-on.label.select-pick-up-time-tray-footer-from-airport,"You might want to consider the extra time in the airport (claiming baggage, etc.) before selecting a pick-up time.",shuttle,shuttle_booking_add_on,label_select_pick_up_time_tray_footer_from_airport,TRUE
-iospoe.shuttle.booking-add-on.label.select-pick-up-time-tray-footer-to-airport,"Kindly consider the time needed for check-in (queueing, registering baggage, etc.) before selecting a pick-up time.",shuttle,shuttle_booking_add_on,label_select_pick_up_time_tray_footer_to_airport,TRUE
+iospoe.shuttle.booking-add-on.label.select-pick-up-time-tray-footer-from-airport,"You might want to consider the extra time in the airport (claiming baggage, etc.) before selecting a pick-up time.",shuttle,shuttle_add_ons,booking_label_select_pick_up_time_tray_footer_from_airport,TRUE
+iospoe.shuttle.booking-add-on.label.select-pick-up-time-tray-footer-to-airport,"Kindly consider the time needed for check-in (queueing, registering baggage, etc.) before selecting a pick-up time.",shuttle,shuttle_add_ons,booking_label_select_pick_up_time_tray_footer_to_airport,TRUE
 iospoe.shuttle.booking-add-on.label.select-pick-up-time-tray-important-note-message,Please note that the time selection below will be in the airport''s local time.,shuttle,shuttle_booking,add_on_label_select_pick_up_time_tray_important_note_message,
 iospoe.shuttle.booking-add-on.label.select-pick-up-time-tray-important-note-title,Important Note,shuttle,shuttle_booking,add_on_label_select_pick_up_time_tray_important_note_title,
-iospoe.shuttle.booking-add-on.label.select-pick-up-time-tray-pick-up-different-date-%@,Pick-up date: {0},shuttle,shuttle_booking_add_on,label_select_pick_up_time_tray_pick_up_different_date,TRUE
-iospoe.shuttle.booking-add-on.label.select-pick-up-time-tray-title,Select Time,shuttle,shuttle_booking_add_on,label_select_pick_up_time_tray_title,TRUE
+iospoe.shuttle.booking-add-on.label.select-pick-up-time-tray-pick-up-different-date-%@,Pick-up date: {0},shuttle,shuttle_add_ons,booking_label_select_pick_up_time_tray_different_date,TRUE
+iospoe.shuttle.booking-add-on.label.select-pick-up-time-tray-title,Select Time,shuttle,shuttle_add_ons,booking_label_select_pick_up_time_tray_title,TRUE
 iospoe.shuttle.booking-form.label.lead-traveler-default-title,Passenger,shuttle,shuttle_booking_form,label_lead_traveler_default_title,TRUE
 iospoe.shuttle.booking-review.label.trip,Trip,shuttle,shuttle_booking,review_trip,FALSE
 iospoe.shuttle.cross-sell.label.%ld-pax,{0} pax,shuttle,shuttle_cross,sell_d_pax,FALSE
@@ -16571,7 +16571,7 @@ iospoe.vehicle-rental.addon.charging-type.day,day,rental,,,FALSE
 iospoe.vehicle-rental.addon.charging-type.hour,hour,rental,,,FALSE
 iospoe.vehicle-rental.addon.charging-type.night,night,rental,,,FALSE
 iospoe.vehicle-rental.addon.charging-type.one-night,night,rental,,,FALSE
-iospoe.vehicle-rental.addon.charging-type.one-time,one time,rental,rental_rental_addon,charging_type_one_time,TRUE
+iospoe.vehicle-rental.addon.charging-type.one-time,one time,rental,rental_add_ons,charging_type_one_time,TRUE
 iospoe.vehicle-rental.addon.special-request.button.title,Save,rental,rental_rental,addon_special_request_button_title,FALSE
 iospoe.vehicle-rental.addon.special-request.info-label,Special requests are subject to the availability of the car rental provider and may incur an additional fee.,rental,rental_rental,addon_special_request_info_label,
 iospoe.vehicle-rental.addon.special-request.placeholder,"Odd or even license plates, car charger, baby car seat, etc.",rental,rental_rental,addon_special_request_placeholder,

@@ -22,7 +22,8 @@
   th,td{text-align:left;padding:7px 9px;border-bottom:1px solid var(--border);vertical-align:top;word-break:break-word}
   th{position:sticky;top:0;background:var(--panel);font-size:11px;text-transform:uppercase;letter-spacing:.03em;color:var(--muted);cursor:pointer;user-select:none;white-space:nowrap}
   th:hover{color:var(--text)} th .arr{color:var(--accent);font-size:10px}
-  col.c-key{width:17%} col.c-val{width:19%} col.c-cur{width:8%} col.c-prop{width:9%} col.c-bucket{width:15%} col.c-kn{width:15%} col.c-conf{width:6%} col.c-why{width:12%}
+  col.c-key{width:16%} col.c-val{width:17%} col.c-cur{width:8%} col.c-prop{width:9%} col.c-bucket{width:14%} col.c-kn{width:14%} col.c-merged{width:6%} col.c-conf{width:6%} col.c-why{width:10%}
+  .badge.merged{color:#3fb950;font-weight:600} .badge.unmerged{opacity:.6}
   td.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:12px}
   td.key{color:var(--key)} td.val{white-space:pre-wrap}
   .arrow{color:var(--muted)} .prop{color:var(--accent);font-weight:600}
@@ -46,6 +47,7 @@
     <input id="q" type="search" placeholder="Search key / value / reason…" autocomplete="off">
     <select id="prop"><option value="__all">All proposed workspaces</option></select>
     <select id="conf"><option value="__all">All confidence</option><option value="high">high</option><option value="med">med</option></select>
+    <select id="mg"><option value="__all">All merged</option><option value="TRUE">TRUE</option><option value="FALSE">FALSE</option><option value="__blank">(blank)</option></select>
     <span class="count" id="count"></span>
   </div>
 </header>
@@ -53,7 +55,7 @@
   <div id="status" class="status">Loading proposal.csv…</div>
   <div class="tablewrap" hidden id="tw">
     <table>
-      <colgroup><col style="width:46px"><col class="c-key"><col class="c-val"><col class="c-cur"><col class="c-prop"><col class="c-bucket"><col class="c-kn"><col class="c-conf"><col class="c-why"></colgroup>
+      <colgroup><col style="width:46px"><col class="c-key"><col class="c-val"><col class="c-cur"><col class="c-prop"><col class="c-bucket"><col class="c-kn"><col class="c-merged"><col class="c-conf"><col class="c-why"></colgroup>
       <thead><tr id="head"></tr></thead>
       <tbody id="tbody"></tbody>
     </table>
@@ -71,7 +73,7 @@ const esc=s=>(s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]
 function hl(s,q){s=s||'';if(!q)return esc(s);const i=s.toLowerCase().indexOf(q);if(i<0)return esc(s);
   return esc(s.slice(0,i))+'<mark>'+esc(s.slice(i,i+q.length))+'</mark>'+esc(s.slice(i+q.length));}
 // columns: 0 key,1 value,2 current,3 proposed,4 bucket,5 keyname,6 merged,7 confidence,8 reason
-const COLS=[{l:'Initial key',f:0},{l:'Initial value',f:1},{l:'Current',f:2},{l:'→ Proposed ws',f:3},{l:'Proposed bucket',f:4},{l:'Proposed key',f:5},{l:'Conf',f:7},{l:'Reason',f:8}];
+const COLS=[{l:'Initial key',f:0},{l:'Initial value',f:1},{l:'Current',f:2},{l:'→ Proposed ws',f:3},{l:'Proposed bucket',f:4},{l:'Proposed key',f:5},{l:'Merged',f:6},{l:'Conf',f:7},{l:'Reason',f:8}];
 let all=[],filtered=[],page=0,sc=null,sd=1; const $=id=>document.getElementById(id);
 fetch('proposal.csv').then(r=>{if(!r.ok)throw new Error(r.status);return r.text();}).then(txt=>{
   const rows=parseCSV(txt);rows.shift();all=rows.filter(r=>r.length>=9);all.forEach((r,i)=>r._i=i);
@@ -81,8 +83,9 @@ fetch('proposal.csv').then(r=>{if(!r.ok)throw new Error(r.status);return r.text(
   COLS.forEach((c,i)=>$('head').children[i+1].onclick=()=>sortBy(i));
   $('status').hidden=true;$('tw').hidden=false;$('pager').hidden=false;apply();
 }).catch(e=>{$('status').textContent='Could not load proposal.csv ('+e.message+'). Serve via make serve.';});
-function apply(){const q=$('q').value.trim().toLowerCase(),pw=$('prop').value,cf=$('conf').value;
+function apply(){const q=$('q').value.trim().toLowerCase(),pw=$('prop').value,cf=$('conf').value,mg=$('mg').value;
   filtered=all.filter(r=>{if(pw!=='__all'&&r[3]!==pw)return false;if(cf!=='__all'&&r[7]!==cf)return false;
+    if(mg==='__blank'){if((r[6]||'')!=='')return false;}else if(mg!=='__all'&&r[6]!==mg)return false;
     if(!q)return true;return (r[0]+' '+r[1]+' '+r[4]+' '+r[5]+' '+r[8]).toLowerCase().includes(q);});
   if(sc!==null){const f=COLS[sc].f;filtered.sort((a,b)=>sd*(a[f]||'').localeCompare(b[f]||'',undefined,{numeric:true}));}
   page=0;render();}
@@ -91,6 +94,7 @@ function render(){const size=250,pages=Math.max(1,Math.ceil(filtered.length/size
   const q=$('q').value.trim().toLowerCase(),start=page*size,slice=filtered.slice(start,start+size);
   $('tbody').innerHTML=slice.map((r,i)=>{
     const conf=`<span class="badge ${r[7]}">${r[7]}</span>`;
+    const mgv=r[6]||''; const mg=`<span class="badge ${mgv==='TRUE'?'merged':'unmerged'}">${mgv||'—'}</span>`;
     return `<tr><td class="idx">${start+i+1}</td>`+
       `<td class="mono key">${hl(r[0],q)}</td>`+
       `<td class="val">${hl(r[1],q)}</td>`+
@@ -98,6 +102,7 @@ function render(){const size=250,pages=Math.max(1,Math.ceil(filtered.length/size
       `<td class="mono prop">${esc(r[3])}</td>`+
       `<td class="mono">${hl(r[4],q)}</td>`+
       `<td class="mono">${hl(r[5],q)}</td>`+
+      `<td>${mg}</td>`+
       `<td>${conf}</td>`+
       `<td>${hl(r[8],q)}</td></tr>`;}).join('');
   $('count').textContent=filtered.length.toLocaleString()+' / '+all.length.toLocaleString()+' proposed';
@@ -107,7 +112,7 @@ function render(){const size=250,pages=Math.max(1,Math.ceil(filtered.length/size
   const s=document.createElement('span');s.className='count';s.textContent=`Page ${page+1} of ${pages}`;P.append(s);
   P.append(mk('Next ›',page+1,page>=pages-1),mk('Last »',pages-1,page>=pages-1));}
 let t;$('q').addEventListener('input',()=>{clearTimeout(t);t=setTimeout(apply,150);});
-$('prop').onchange=apply;$('conf').onchange=apply;
+$('prop').onchange=apply;$('conf').onchange=apply;$('mg').onchange=apply;
 </script>
 </body>
 </html>
